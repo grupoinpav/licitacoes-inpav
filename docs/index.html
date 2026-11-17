@@ -46,6 +46,7 @@
   .org{font-size:13px;color:var(--muted)}
   .lado{grid-row:1/4;grid-column:2;text-align:right;min-width:170px;font-size:13px}
   .lado .valor{font-size:16px;font-weight:700}
+  .lado .extenso{color:var(--muted);font-size:12.5px}
   .lado .prazo{margin-top:6px}
   .lado .dias{display:inline-block;margin-top:4px;font-weight:700}
   .urg .dias{color:var(--warn)} .ok .dias{color:var(--ok)}
@@ -69,7 +70,7 @@
     <div class="stat"><b id="sAbertas">–</b><span>abertas</span></div>
     <div class="stat"><b id="sNovas">–</b><span>novas (48h)</span></div>
     <div class="stat"><b id="sUrg">–</b><span>encerram em 7 dias</span></div>
-    <div class="stat"><b id="sValor">–</b><span>valor estimado aberto</span></div>
+    <div class="stat"><b id="sValor">–</b><span>soma dos valores (abertas)</span></div>
   </div>
 </div></header>
 
@@ -102,8 +103,13 @@ e diários municipais via Querido Diário. Confira sempre o edital original.</fo
 const $ = id => document.getElementById(id);
 let TODAS = [];
 const AGORA = new Date();
-const brl = v => v == null ? "" : v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
-const curto = v => v>=1e6 ? "R$ "+(v/1e6).toLocaleString("pt-BR",{maximumFractionDigits:1})+" mi" : brl(v);
+const brl = v => v == null ? "" : v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:2,maximumFractionDigits:2});
+const num = (v,d) => v.toLocaleString("pt-BR",{maximumFractionDigits:d});
+const extenso = v => !v ? "" : v>=1e9 ? num(v/1e9,1)+(v<2e9?" bilhão":" bilhões")+" de reais"
+  : v>=1e6 ? num(v/1e6,1)+(v<2e6?" milhão":" milhões")+" de reais"
+  : v>=1e3 ? num(v/1e3,0)+" mil reais" : num(v,2).replace(".",",")+" reais";
+const curto = v => !v ? "R$ 0" : v>=1e9 ? "R$ "+num(v/1e9,1)+(v<2e9?" bilhão":" bilhões")
+  : v>=1e6 ? "R$ "+num(v/1e6,1)+(v<2e6?" milhão":" milhões") : brl(v);
 const data = s => { if(!s) return null; const d = new Date(s.length<=10 ? s+"T12:00:00" : s); return isNaN(d) ? null : d; };
 const fmt = s => { const d = data(s); return d ? d.toLocaleDateString("pt-BR") + (s && s.length>10 ? " " + d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"}) : "") : "—"; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -136,7 +142,7 @@ async function iniciar(){
   $("sAbertas").textContent = abertas.length;
   $("sNovas").textContent = TODAS.filter(nova).length;
   $("sUrg").textContent = abertas.filter(l => { const d = diasAte(l); return d !== null && d <= 7; }).length;
-  $("sValor").textContent = curto(abertas.reduce((s,l) => s + (l.valor||0), 0)) || "R$ 0";
+  $("sValor").textContent = curto(abertas.reduce((s,l) => s + (l.valor||0), 0));
 
   ["fBusca","fMun","fForma","fCat","fOrdem","fAbertas","fNovas","fFracas"].forEach(id => $(id).addEventListener("input", render));
   $("bCsv").addEventListener("click", baixarCsv);
@@ -179,6 +185,7 @@ function render(){
       <div class="org">${esc(x.orgao)}${x.numero ? " · Nº " + esc(x.numero) : ""}${x.situacao ? " · " + esc(x.situacao) : ""}</div>
       <div class="lado">
         <div class="valor">${x.valor ? brl(x.valor) : "<span style='color:var(--muted);font-weight:400'>valor não informado</span>"}</div>
+        ${x.valor >= 1000 ? `<div class="extenso">≈ ${extenso(x.valor)}</div>` : ""}
         <div class="prazo">Abertura: ${fmt(x.abertura)}<br>Encerramento: ${fmt(x.encerramento)}</div>
         ${txtDias ? `<span class="dias">${txtDias}</span>` : ""}
       </div>
@@ -196,7 +203,7 @@ function baixarCsv(){
     ["Valor estimado","valor"],["Abertura","abertura"],["Encerramento","encerramento"],["Áreas","categorias"],["Link","link"]];
   const cel = v => '"' + String(Array.isArray(v) ? v.join(", ") : v ?? "").replace(/"/g,'""') + '"';
   const linhas = [cols.map(c=>c[0]).join(";")].concat(filtradas().map(x => cols.map(([,k]) =>
-    cel(k==="abertura"||k==="encerramento" ? (x[k] ? fmt(x[k]) : "") : k==="valor" && x[k] ? x[k].toLocaleString("pt-BR") : x[k])).join(";")));
+    cel(k==="abertura"||k==="encerramento" ? (x[k] ? fmt(x[k]) : "") : k==="valor" && x[k] ? x[k].toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}) : x[k])).join(";")));
   const blob = new Blob(["﻿" + linhas.join("\n")], {type:"text/csv;charset=utf-8"});
   const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
   a.download = "licitacoes-mt-" + new Date().toISOString().slice(0,10) + ".csv"; a.click();

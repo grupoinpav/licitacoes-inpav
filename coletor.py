@@ -501,9 +501,15 @@ def salvar(lista, fontes):
     with open(DADOS / "licitacoes.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow([c for c, _ in colunas])
+        def cel(i, k):
+            v = valor(i, k)
+            if isinstance(v, datetime):
+                return v.strftime("%d/%m/%Y %H:%M")
+            if k == "valor" and isinstance(v, (int, float)):
+                return f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+            return v
         for i in lista:
-            w.writerow([valor(i, k).strftime("%d/%m/%Y %H:%M") if isinstance(valor(i, k), datetime)
-                        else valor(i, k) for _, k in colunas])
+            w.writerow([cel(i, k) for _, k in colunas])
 
     try:
         from openpyxl import Workbook
@@ -527,7 +533,7 @@ def salvar(lista, fontes):
         ws.column_dimensions[get_column_letter(n)].width = w
     for row in ws.iter_rows(min_row=2):
         row[2].alignment = Alignment(wrap_text=True, vertical="top")
-        row[5].number_format = '#,##0.00'
+        row[5].number_format = '"R$" #,##0.00'
         for idx in (6, 7, 8, 15):
             row[idx].number_format = "dd/mm/yyyy hh:mm"
         link = row[13].value
