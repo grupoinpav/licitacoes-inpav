@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-17T14:16:29",
+ "atualizado_em": "2026-11-17T14:28:40",
  "fontes": {
   "PNCP": 77,
   "Jornal Oficial AMM": 6,
@@ -70,7 +70,7 @@
     "sinalizacao viaria",
     "terraplenagem"
    ],
-   "visto_em": "2026-11-17T14:16:29"
+   "visto_em": "2026-11-17T14:28:40"
   },
   {
    "id": "03424272000107-1-000111/2026",
@@ -2453,37 +2453,6 @@
    "visto_em": "2026-11-17T14:03:02"
   },
   {
-   "id": "AMM-1942123",
-   "fonte": "Jornal AMM",
-   "municipio": "Vila Rica",
-   "orgao": "Prefeitura Municipal de Vila Rica",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br ) Objeto: Registro de preço para futura e eventual contratação de empresa especializada na prestação de serviços de hidrossemeadura, destinados à revegetação, estabilização e proteção das áreas de solo exposto geradas pelas obras de pavimentação da rodovia MT-431, no Município de Vila Rica/MT, compreendendo o",
-   "info": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br )",
-   "numero": "100/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-16",
-   "situacao": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAF",
-   "link": "https://amm.diariomunicipal.org/publicacao/1942123/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "pavimentacao",
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T14:03:02"
-  },
-  {
    "id": "AMM-1939663",
    "fonte": "Jornal AMM",
    "municipio": "Apiacás",
@@ -2545,7 +2514,7 @@
    "termos": [
     "terraplenagem"
    ],
-   "visto_em": "2026-11-17T14:16:29"
+   "visto_em": "2026-11-17T14:28:40"
   }
  ]
 }
