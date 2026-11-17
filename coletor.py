@@ -321,7 +321,9 @@ def _data_amm(txt):
 
 def _objeto(texto):
     t = re.sub(r"\s+", " ", texto)
-    m = re.search(r"(?i)objeto\s*[:\-–]?\s*(.{30,600}?)(?:\.\s|;\s| data | abertura| sess[aã]o| valor | local )", t)
+    fim = r"(?:\.\s|;\s| data | abertura| sess[aã]o| valor | local | cronograma)"
+    m = (re.search(r"(?i)objeto\s*(?:da licita[cç][aã]o)?\s*[:\-–]\s*(.{30,600}?)" + fim, t)
+         or re.search(r"(?i)\bobjeto\s+(?:[ée]\s+)?(?:a|o)?\s*((?:contrata|registro|aquisi|execu|presta).{30,600}?)" + fim, t))
     obj = (m.group(1) if m else t[:500]).strip(" :-–")
     return re.sub(r"(?i)^(é|e|sera|será)\s+(a|o)\s+", "", obj).strip()
 
@@ -425,6 +427,12 @@ def coletar_amm(cfg, filtro, pncp_itens):
             "valor": None, "abertura": ab, "encerramento": enc, "publicacao": c["data"],
             "situacao": c["titulo"][:120], "link": c["url"], "link_sistema": "",
             "categorias": r[0], "termos": r[1]})
+    # mesmo aviso publicado de novo (retificação/republicação): fica só o mais recente
+    unicos = {}
+    for it in sorted(saida, key=lambda x: x["publicacao"] or ""):
+        chave = (normalizar(it["municipio"]), it["numero"] or it["id"])
+        unicos[chave] = it
+    saida = list(unicos.values())
     log(f"AMM: {len(saida)} licitações relevantes (fora as que já estão no PNCP)")
     return saida
 
@@ -446,6 +454,12 @@ def mesclar(novos, cfg, filtro):
         if r:
             antigos[k]["categorias"], antigos[k]["termos"] = r
         else:
+            del antigos[k]
+    novas_chaves = {(normalizar(i["municipio"]), i["numero"]) for i in novos if i.get("fonte") == "Jornal AMM" and i.get("numero")}
+    for k in list(antigos):
+        a = antigos[k]
+        if a.get("fonte") == "Jornal AMM" and a.get("numero") and (normalizar(a["municipio"]), a["numero"]) in novas_chaves \
+                and k not in {i["id"] for i in novos}:
             del antigos[k]
     for it in novos:
         it["visto_em"] = antigos.get(it["id"], {}).get("visto_em", agora)
