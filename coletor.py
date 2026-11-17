@@ -439,6 +439,8 @@ def mesclar(novos, cfg, filtro):
     # reaplica o filtro atual ao histórico (se as palavras-chave mudarem, o painel acompanha)
     for k in list(antigos):
         r = filtro.avaliar(f"{antigos[k].get('objeto', '')} {antigos[k].get('info', '')}")
+        if antigos[k].get("fonte") == "Jornal AMM" and RE_TITULO_NAO.search(normalizar(antigos[k].get("info", ""))):
+            r = None
         if r:
             antigos[k]["categorias"], antigos[k]["termos"] = r
         else:
