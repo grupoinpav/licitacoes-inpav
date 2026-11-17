@@ -332,7 +332,7 @@ def _abertura(texto, chaves=("abertura", "sessao publica", "realizar-se-a", "rea
     for chave in chaves:
         i = t.find(chave)
         if i >= 0:
-            m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})(?:\D{1,15}(\d{1,2})[:h](\d{2}))?", t[i:i + 250])
+            m = re.search(r"(\d{1,2})\s*/\s*(\d{1,2})\s*/\s*(\d{4})(?:\D{1,20}(\d{1,2})\s*[:h]\s*(\d{2}))?", t[i:i + 300])
             if m:
                 try:
                     return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)),
@@ -384,12 +384,12 @@ def coletar_amm(cfg, filtro, pncp_itens):
                 entidade = _html_texto(ent.group(1)) if ent else ""
                 itens.append({"pid": pid, "titulo": titulo, "entidade": entidade,
                               "data": d.isoformat() if d else None, "url": AMM + href.group(1)})
-            nxt = re.search(r'href="\?([^"]*\bsa=[^"]*)"', h) or re.search(r'href="[^"]*publicacoes/\?([^"]*\bsa=[^"]*)"', h)
+            nxt = re.search(r'(?s)href="[^"]*?\?([^"]*)"[^>]*>\s*Pr[oó]xima', h)
             if antigo or not nxt:
                 break
             import html as _h
-            params = dict(p.split("=", 1) for p in _h.unescape(nxt.group(1)).split("&") if "=" in p)
-            params = {k: requests.utils.unquote(v) for k, v in params.items()}
+            from urllib.parse import parse_qsl
+            params = dict(parse_qsl(_h.unescape(nxt.group(1)), keep_blank_values=True))
             paginas += 1
             time.sleep(1.2)
         time.sleep(1)
