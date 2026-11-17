@@ -146,6 +146,7 @@ async function iniciar(){
 
   ["fBusca","fMun","fForma","fCat","fOrdem","fAbertas","fNovas","fFracas"].forEach(id => $(id).addEventListener("input", render));
   $("bCsv").addEventListener("click", baixarCsv);
+  if (new URLSearchParams(location.search).get("novas") === "1") $("fNovas").checked = true;
   render();
 }
 

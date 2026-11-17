@@ -1,0 +1,21 @@
+NOTIFICACOES DE LICITACOES INPAV NO WINDOWS
+
+Instalar (uma vez so, sem precisar de administrador):
+  1. Extraia esta pasta (botao direito no .zip > Extrair tudo).
+  2. De dois cliques em "instalar.bat".
+     Se o Windows mostrar "O Windows protegeu o computador", clique em
+     "Mais informacoes" > "Executar assim mesmo".
+  3. Devem aparecer 2 notificacoes no canto da tela. Pronto.
+
+Como funciona:
+  - De hora em hora o computador confere o painel
+    https://grupoinpav.github.io/licitacoes-inpav/
+  - Licitacao nova -> notificacao com municipio, objeto, valor e data.
+    Clique para abrir o edital ou o painel.
+  - Faltando 2 dias para encerrar -> lembrete de prazo (uma vez).
+  - Mais de 4 novas de uma vez -> um resumo so.
+  - So funciona com o computador ligado e voce logado.
+
+Desligar: de dois cliques em "desinstalar.bat".
+Historico dos avisos: %LOCALAPPDATA%\LicitacoesINPAV\log.txt
+Pode instalar em quantos computadores quiser.
