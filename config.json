@@ -175,6 +175,6 @@
     "engenharia eletrica",
     "iluminacao"
   ],
-  "dias_retroativos_amm": 10,
-  "max_paginas_amm": 12
+  "dias_retroativos_amm": 30,
+  "max_paginas_amm": 25
 }

@@ -275,7 +275,7 @@ TERMOS_AMM = ["pavimentação", "asfáltica", "recapeamento", "drenagem", "esgot
 RE_TITULO_SIM = re.compile(r"aviso|edital|pregao|concorrencia|licitacao|tomada de preco|dispensa|chamamento|convite|rdc")
 RE_TITULO_NAO = re.compile(r"resultado|homolog|adjudic|extrato|aditivo|ratific|contrato|anulac|revogac|julgamento|"
                            r"habilitac|ata de registro|ata da sessao|deserta|fracassad|impugnac|recurso|suspens|cancelament|"
-                           r"lei |decreto|portaria|resolucao")
+                           r"lei |decreto|portaria|resolucao|convocac|alteracao da data|errata")
 MESES = {m: i for i, m in enumerate(["janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto",
                                      "setembro", "outubro", "novembro", "dezembro"], 1)}
 
@@ -321,7 +321,8 @@ def _data_amm(txt):
 def _objeto(texto):
     t = re.sub(r"\s+", " ", texto)
     m = re.search(r"(?i)objeto\s*[:\-–]?\s*(.{30,600}?)(?:\.\s|;\s| data | abertura| sess[aã]o| valor | local )", t)
-    return (m.group(1) if m else t[:500]).strip(" :-–")
+    obj = (m.group(1) if m else t[:500]).strip(" :-–")
+    return re.sub(r"(?i)^(é|e|sera|será)\s+(a|o)\s+", "", obj).strip()
 
 
 def _abertura(texto, chaves=("abertura", "sessao publica", "realizar-se-a", "realizada no dia",
