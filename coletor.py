@@ -74,8 +74,10 @@ class Filtro:
         for nome, g in cfg["grupos"].items():
             padroes = []
             for termo in g["termos"]:
+                inteira = termo.endswith("!") or len(termo) <= 4
+                termo = termo.rstrip("!")
                 t = re.escape(normalizar(termo))
-                fim = r"\b" if len(termo) <= 4 else ""
+                fim = r"\b" if inteira else ""
                 padroes.append((termo, re.compile(r"\b" + t + fim)))
             self.grupos.append((nome, bool(g.get("fraco")), padroes))
         self.exclusoes = [re.compile(r"\b" + re.escape(normalizar(t))) for t in cfg.get("exclusoes", [])]
