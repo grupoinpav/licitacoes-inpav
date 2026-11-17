@@ -1,40 +1,11 @@
 {
- "atualizado_em": "2026-11-17T13:43:04",
+ "atualizado_em": "2026-11-17T13:45:09",
  "fontes": {
   "PNCP": 77,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 95,
+ "total": 77,
  "licitacoes": [
-  {
-   "id": "03408911000140-1-000084/2026",
-   "fonte": "PNCP",
-   "municipio": "Poxoréu",
-   "orgao": "MUNICIPIO DE POXOREO",
-   "unidade": "Unidade administrativa",
-   "esfera": "Municipal",
-   "objeto": "Contratação de empresa para fornecimento de materiais, equipamentos e mão de obra especializada na execução de piso em granilite/marmorite no Terminal Rodoviário Municipal de Poxoréu - MT, conforme Termo de Referência.",
-   "info": "",
-   "numero": "60/2026",
-   "processo": "132",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 105774.0,
-   "abertura": "2026-10-19T09:00:00",
-   "encerramento": "2026-11-05T08:59:00",
-   "publicacao": "2026-11-12T10:37:46",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03408911000140/2026/84",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
   {
    "id": "37499373000169-1-000028/2026",
    "fonte": "PNCP",
@@ -156,35 +127,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03788239000166-1-000263/2026",
-   "fonte": "PNCP",
-   "municipio": "Tangará da Serra",
-   "orgao": "MUNICIPIO DE TANGARA DA SERRA",
-   "unidade": "MUNICIPIO DE TANGARÁ DA SERRA/MT",
-   "esfera": "Municipal",
-   "objeto": "CONTRATAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS PARA A REALIZAÇÃO DE PROCEDIMENTOS CIRÚRGICOS OFTALMOLÓGICOS, POR MEIO DO CREDENCIAMENTO DE PRESTADORES DE SERVIÇOS DE SAÚDE, EM DECORRÊNCIA DA PROPOSTA",
-   "info": "CONTRATAÇÃO DE SERVIÇOS MÉDICOS ESPECIALIZADOS PARA A REALIZAÇÃO DE PROCEDIMENTOS CIRÚRGICOS OFTALMOLÓGICOS, POR MEIO DO CREDENCIAMENTO DE PRESTADORES DE SERVIÇOS DE SAÚDE, EM DECORRÊNCIA DA PROPOSTA DE INCREMENTO AO MAC Nº 36000696878202500, NO VALOR TOTAL DE R$ 500.000,00 (QUINHENTOS MIL REAIS), VISANDO À AMPLIAÇÃO DA OFERTA DE SERVIÇOS ESPECIALIZADOS, À REDUÇÃO DA DEMANDA REPRIMIDA E À MELHORIA DO ACESSO DA POPULAÇÃO AOS PROCEDIMENTOS OFTALMOLÓGICOS, NOS TERMOS DA TABELA ABAIXO, CONFORME CONDIÇÕES E EXIGÊNCIAS ESTABELECIDAS NESTE INSTRUMENTO.",
-   "numero": "6/2026",
-   "processo": "6",
-   "modalidade": "Credenciamento",
-   "modo_disputa": "Não se aplica",
-   "forma": "Não informado",
-   "valor": 500000.0,
-   "abertura": "2026-10-08T09:05:57",
-   "encerramento": "2026-11-18T07:59:00",
-   "publicacao": "2026-10-26T11:31:53",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03788239000166/2026/263",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "ampliacao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03370251000156-1-000092/2026",
    "fonte": "PNCP",
    "municipio": "Itiquira",
@@ -244,65 +186,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "15023922000191-1-000117/2026",
-   "fonte": "PNCP",
-   "municipio": "Canarana",
-   "orgao": "MUNICIPIO DE CANARANA",
-   "unidade": "MUNICÍPIO DE CANARANA/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - aquisição de madeira serrada destinada à manutenção e recuperação da ponte de madeira sobre o Rio Vanik, com aproximadamente 30 (trinta) metros de extensão, localizada na Rodovia Municipal RM-23, no Município de Canarana/MT.",
-   "info": "",
-   "numero": "019/2026",
-   "processo": "103/2026",
-   "modalidade": "Dispensa",
-   "modo_disputa": "Dispensa Com Disputa",
-   "forma": "Não informado",
-   "valor": 65480.87,
-   "abertura": "2026-11-12T12:20:05",
-   "encerramento": "2026-11-18T08:00:00",
-   "publicacao": "2026-11-12T12:20:08",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/15023922000191/2026/117",
-   "link_sistema": "https://licitanet.com.br/sessao/207829",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "ponte",
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "01614088000102-1-000086/2026",
-   "fonte": "PNCP",
-   "municipio": "Feliz Natal",
-   "orgao": "MUNICIPIO DE FELIZ NATAL",
-   "unidade": "MUNICÍPIO DE FELIZ NATAL - MT",
-   "esfera": "Municipal",
-   "objeto": "CREDENCIAMENTO DE EMPRESAS PARA FORNECIMENTO DE FORMA PARCELADA DE MATERIAIS DE CONSTRUÇÃO EM GERAL, MATERIAIS HIDRÁULICOS, MATERIAIS ELÉTRICOS, MATERIAIS PARA PINTURA, FERRAGENS E FERRAMENTAS EM GERAL, VISANDO ATENDER AS DEMANDAS DAS SECRETARIAS",
-   "info": "",
-   "numero": "74/2026",
-   "processo": "00002767/2026",
-   "modalidade": "Credenciamento",
-   "modo_disputa": "Não se aplica",
-   "forma": "Não informado",
-   "valor": 1520000.0,
-   "abertura": "2026-11-18T08:00:00",
-   "encerramento": "2026-11-18T08:00:00",
-   "publicacao": "2026-10-29T13:26:06",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/01614088000102/2026/86",
-   "link_sistema": "https://www.gp.srv.br/transparencia_feliznatal/servlet/licitacoes_v2?1",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03507563000169-1-000018/2026",
    "fonte": "PNCP",
    "municipio": "Barão de Melgaço",
@@ -328,35 +211,6 @@
    ],
    "termos": [
     "rede de esgoto"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "15023948000130-1-000062/2026",
-   "fonte": "PNCP",
-   "municipio": "Jauru",
-   "orgao": "MUNICIPIO DE JAURU",
-   "unidade": "MUNICÍPIO DE JAURU/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAIS DE CONSTRUÇÃO PARA ATENDIMENTO DAS DEMANDAS DAS SECRETARIAS DO MUNICÍPIO DE JAURU-MT",
-   "info": "",
-   "numero": "37/2026",
-   "processo": "000089/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 5666243.12,
-   "abertura": "2026-11-04T10:11:50",
-   "encerramento": "2026-11-18T09:00:00",
-   "publicacao": "2026-11-04T10:11:58",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/15023948000130/2026/62",
-   "link_sistema": "https://licitanet.com.br/sessao/206830",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -633,35 +487,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03507498000171-1-000141/2026",
-   "fonte": "PNCP",
-   "municipio": "Aripuanã",
-   "orgao": "MUNICIPIO DE ARIPUANA",
-   "unidade": "PREFEITURA MUNICIPAL DE ARIPUANÃ - MT",
-   "esfera": "Municipal",
-   "objeto": "Contratação de empresa para a Concessão de Uso Administrativa, a Título Oneroso, de bem imóvel Público Municipal, visando à gestão, administração, operação, manutenção, conservação e exploração comercial do complexo integrado do Terminal Rodoviário Municipal de Aripuanã/MT, localizado na Avenida Osmar Demeneck, conforme especificações, condições e exigências constantes neste instrumento e seus anexos.",
-   "info": "",
-   "numero": "19/2026",
-   "processo": "150",
-   "modalidade": "Concorrência - Presencial",
-   "modo_disputa": "Fechado-Aberto",
-   "forma": "Presencial",
-   "valor": 700999.2,
-   "abertura": "2026-11-23T08:00:00",
-   "encerramento": "2026-11-23T08:00:00",
-   "publicacao": "2026-10-22T17:50:39",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03507498000171/2026/141",
-   "link_sistema": "https://transparencia.agilicloud.com.br/aripuana/licitacoes/licitacao?id=8628",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03507571000105-1-000002/2026",
    "fonte": "PNCP",
    "municipio": "Acorizal",
@@ -749,35 +574,6 @@
     "estrada",
     "estradas",
     "pavimentacao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "24772162000106-1-000222/2026",
-   "fonte": "PNCP",
-   "municipio": "Nova Mutum",
-   "orgao": "MUNICIPIO DE NOVA MUTUM",
-   "unidade": "PREFEITURA MUNICIPAL DE NOVA MUTUM - MT",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE MADEIRAS, MADEIRAS PLÁSTICAS, MATERIAIS DE CONSTRUÇÃO E MATERIAIS ELÉTRICOS, PARA ATENDER AS NECESSIDADES DAS SECRETARIAS MUNICIPAIS.",
-   "info": "",
-   "numero": "209/2026",
-   "processo": "00001368/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto-Fechado",
-   "forma": "Eletrônica",
-   "valor": 2371182.11,
-   "abertura": "2026-11-23T08:00:00",
-   "encerramento": "2026-11-23T09:00:00",
-   "publicacao": "2026-11-06T14:26:21",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/24772162000106/2026/222",
-   "link_sistema": "https://www.gp.srv.br/transparencia_novamutum/servlet/licitacoes_v2?1",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -928,35 +724,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03347101000121-1-000229/2026",
-   "fonte": "PNCP",
-   "municipio": "Rondonópolis",
-   "orgao": "MUNICIPIO DE RONDONOPOLIS",
-   "unidade": "PREFEITURA MUNICIPAL DE RONDONÓPOLIS - MT",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAIS E INSUMOS DE CONSTRUÇÃO, MEDIANTE MAIOR PERCENTUAL DE DESCONTO A SER APLICADO SOBRE OS PREÇOS DOS INSUMOS ESTABELECIDOS NA TABELA SINAPI/MT, conforme condições, especificações e quantitativos estabelecidos no edital e seus anexos.",
-   "info": "",
-   "numero": "37/2026",
-   "processo": "283",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Fechado-Aberto",
-   "forma": "Eletrônica",
-   "valor": 7389267.62,
-   "abertura": "2026-11-10T16:00:00",
-   "encerramento": "2026-11-24T09:00:00",
-   "publicacao": "2026-10-29T10:49:10",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03347101000121/2026/229",
-   "link_sistema": "https://transparencia.rondonopolis.mt.gov.br/rondonopolis/licitacoes/licitacao?id=30147",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03755477000175-1-000105/2026",
    "fonte": "PNCP",
    "municipio": "Mirassol d'Oeste",
@@ -1036,35 +803,6 @@
    "situacao": "Divulgada no PNCP",
    "link": "https://pncp.gov.br/app/editais/37465002000166/2026/45",
    "link_sistema": "https://licitanet.com.br/sessao/207318",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "03702217000131-1-000054/2026",
-   "fonte": "PNCP",
-   "municipio": "Rondonópolis",
-   "orgao": "SANEAR - SERVICO DE SANEAMENTO AMBIENTAL DE RONDONOPOLIS TEREZINHA SILVA DE SOUZA",
-   "unidade": "SERVIÇO DE SANEAMENTO AMBIENTAL DE RONDONÓPOLIS - SANEAR - MT",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PRECOS PARA FUTURA E EVENTUAL AQUISICAO DE MATERIAIS DE CONSTRUCAO CIVIL, COM RECURSO PROPRIO",
-   "info": "",
-   "numero": "55/2026",
-   "processo": "00000250/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 2543819.0,
-   "abertura": "2026-11-24T17:00:00",
-   "encerramento": "2026-11-25T08:00:00",
-   "publicacao": "2026-11-06T10:24:11",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03702217000131/2026/54",
-   "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
    "categorias": [
     "Obras civis e Estradas"
    ],
@@ -1190,35 +928,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03238912000194-1-000037/2026",
-   "fonte": "PNCP",
-   "municipio": "Nova Canaã do Norte",
-   "orgao": "MUNICIPIO DE NOVA CANAA DO NORTE",
-   "unidade": "MUNICIPIO DE NOVA CANAA DO NORTE",
-   "esfera": "Municipal",
-   "objeto": "Registro de preço para futura e eventual aquisição de \r\nmateriais de construção para atender as demandas das diversas Secretarias do Município de \r\nNova Canaã do Norte/MT",
-   "info": "",
-   "numero": "033/2026",
-   "processo": "065/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 20379734.87,
-   "abertura": "2026-11-12T09:00:00",
-   "encerramento": "2026-11-26T08:29:00",
-   "publicacao": "2026-11-11T17:11:37",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03238912000194/2026/37",
-   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]QjSe0yg36T9ReCnw_/5YTcPdj7kv/WnfiiaOslifQ09/BK5b/_Dgq3Z5No/kI7APw0OlmMyGKBTTkTa/d7fz3aDrweBXN4bU4d9IPYkMzzo=",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03648532000128-1-000040/2026",
    "fonte": "PNCP",
    "municipio": "Alto Paraguai",
@@ -1277,35 +986,6 @@
    ],
    "termos": [
     "sistema de abastecimento"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "37465309000167-1-000090/2026",
-   "fonte": "PNCP",
-   "municipio": "Cotriguaçu",
-   "orgao": "MUNICIPIO DE COTRIGUACU",
-   "unidade": "Prefeitura Municipal de Cotriguaçu- MT",
-   "esfera": "Municipal",
-   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM FORNECIMENTO DE PASSAGENS RODOVIÁRIAS PARA ATENDER A DEMANDA DAS SECRETARIAS DO MUNICIPIO DE COTRIGUAÇU-MT",
-   "info": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM FORNECIMENTO DE PASSAGENS RODOVIÁRIAS PARA ATENDER A DEMANDA DAS SECRETARIAS DO MUNICIPIO DE COTRIGUAÇU-MT",
-   "numero": "18-2/2026",
-   "processo": "2027/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 3289860.27,
-   "abertura": "2026-11-16T09:00:00",
-   "encerramento": "2026-11-26T08:45:00",
-   "publicacao": "2026-11-12T13:08:05",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/37465309000167/2026/90",
-   "link_sistema": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49706",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "rodovia"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -1401,35 +1081,6 @@
    ],
    "termos": [
     "reservatorio"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "03507548000110-1-000047/2026",
-   "fonte": "PNCP",
-   "municipio": "Várzea Grande",
-   "orgao": "MUNICIPIO DE VARZEA GRANDE",
-   "unidade": "SECRETARIA MUNICIPAL DE VIACAO E OBRAS",
-   "esfera": "Municipal",
-   "objeto": "Registro de Preços para aquisição de insumos da construção civil da Tabela SINAPI (Sistema Nacional de Pesquisa de Custo e Índices da Construção Civil), em regime de maior desconto percentual unitário (desonerado), para atender à demanda da Secretaria Municipal de Viação e Obras, na condição de órgão gerenciador, e da Secretaria Municipal de Educação, Cultura, Esporte e Lazer, na condição de órgão participante, do Município de Várzea Grande – MT.",
-   "info": "",
-   "numero": "042.2026/2026",
-   "processo": "72844/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 51.07,
-   "abertura": "2026-11-16T15:00:00",
-   "encerramento": "2026-11-27T08:59:00",
-   "publicacao": "2026-11-16T12:08:05",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03507548000110/2026/47",
-   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]x_J5s/llRpri7/bF/i3_MlfBLRzmFy6V14u7d1mkVWm8PsgvwcKEtqxF2LcGwOD_LSTNdt4MwjGu_w2/p44W2sQHP5F65jzHZ2vMQJ6O2AQ=",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -1699,35 +1350,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03648540000174-1-000080/2026",
-   "fonte": "PNCP",
-   "municipio": "Diamantino",
-   "orgao": "MUNICIPIO DE DIAMANTINO",
-   "unidade": "PREFEITURA MUNICIPAL DE DIAMANTINO",
-   "esfera": "Municipal",
-   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA ELÉTRICA PARA EXECUÇÃO DA OBRA DE IMPLANTAÇÃO DE ILUMINAÇÃO PÚBLICA NO CANTEIRO CENTRAL DA RODOVIA MT-240 (RODOVIA SENADOR ROBERTO CAMPOS), BAIRRO NOVO DIAMANTINO – DIAMANTINO/MT, COM FORNECIMENTO DE MATE",
-   "info": "",
-   "numero": "110/2026",
-   "processo": "00003109/2026",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Aberto-Fechado",
-   "forma": "Eletrônica",
-   "valor": 497193.33,
-   "abertura": "2026-12-01T08:30:00",
-   "encerramento": "2026-12-01T09:00:00",
-   "publicacao": "2026-11-11T18:02:23",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03648540000174/2026/80",
-   "link_sistema": "https://www.gp.srv.br/transparencia_diamantino/servlet/licitacoes_v2?1",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "01614225000109-1-000344/2026",
    "fonte": "PNCP",
    "municipio": "Sapezal",
@@ -1753,93 +1375,6 @@
    ],
    "termos": [
     "asfalt"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "15023930000138-1-000134/2026",
-   "fonte": "PNCP",
-   "municipio": "Colíder",
-   "orgao": "MUNICIPIO DE COLIDER",
-   "unidade": "PREFEITURA MUNICIPAL DE COLIDER",
-   "esfera": "Municipal",
-   "objeto": "CREDENCIAMENTO DE EMPRESAS ESPECIALIZADA PARA A PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE ESTRUTURAS, EQUIPAMENTOS E MATERIAIS, INCLUINDO TRANSPORTE, CARGA E DESCARGA, MONTAGEM, INSTALAÇÃO, OPERAÇÃO, MANUTENÇÃO, ASSISTÊNCIA TÉCNICA E DESMONTAGEM, DESTINADOS À REALIZAÇÃO DE EVENTOS PROMOVIDOS E/OU APOIADOS PELA ADMINISTRAÇÃO PÚBLICA MUNICIPAL, ABRANGENDO, ENTRE OUTROS, TENDAS, BANHEIROS QUÍMICOS, PALCOS, CAMARINS, SISTEMAS DE SONORIZAÇÃO E ILUMINAÇÃO, TELÕES E EQUIPAMENTOS AUDIOVISUAIS, GERADORES DE ENERGIA, ESTRUTURAS TIPO GALPÃO, PISOS, GRADES DISCIPLINADORAS, FECHAMENTOS, MESAS, CADEIRAS, CAIXAS TÉRMICAS, BEM COMO O FORNECIMENTO DE GELO E DEMAIS ITENS NECESSÁRIOS AO ADEQUADO SUPORTE E À REALIZAÇÃO DOS EVENTOS PROMOVIDOS E/OU APOIADOS PELAS DIVERSAS SECRETARIAS DO MUNICÍPIO DE COLÍDER/MT",
-   "info": "",
-   "numero": "90/2026",
-   "processo": "00003112/2026",
-   "modalidade": "Credenciamento",
-   "modo_disputa": "Não se aplica",
-   "forma": "Não informado",
-   "valor": 8919216.29,
-   "abertura": "2026-11-16T08:00:00",
-   "encerramento": "2026-12-01T09:30:00",
-   "publicacao": "2026-11-16T17:39:54",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/15023930000138/2026/134",
-   "link_sistema": "https://www.gp.srv.br/transparencia_colider/servlet/licitacoes_v2?1",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "galpao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "03239076000162-1-000169/2026",
-   "fonte": "PNCP",
-   "municipio": "Sorriso",
-   "orgao": "MUNICIPIO DE SORRISO",
-   "unidade": "PREFEITURA MUNICIPAL DE SORRISO - MT",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE TRANSPORTE ESCOLAR RODOVIÁRIO, MEDIANTE DISPONIBILIZAÇÃO DE ÔNIBUS RODOVIÁRIOS, COM MOTORISTAS E MONITORES, PARA ATENDIMENTO DOS ALUNOS DA REDE PÚBLICA DE ENSINO DO MUNICÍPIO DE SORRISO – MT, INCLUINDO TODOS OS CUSTOS OPERACIONAIS NECESSÁRIOS À EXECUÇÃO DOS SERVIÇOS, CONFORME ROTAS, QUANTITATIVOS, ESPECIFICAÇÕES E CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA E SEUS ANEXOS.",
-   "info": "",
-   "numero": "54/2026",
-   "processo": "179",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Fechado-Aberto",
-   "forma": "Eletrônica",
-   "valor": 14689040.0,
-   "abertura": "2026-11-12T14:00:00",
-   "encerramento": "2026-12-01T09:59:00",
-   "publicacao": "2026-11-12T11:34:32",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03239076000162/2026/169",
-   "link_sistema": "sorriso/licitacoes/licitacao?id=6668",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "03507498000171-1-000150/2026",
-   "fonte": "PNCP",
-   "municipio": "Aripuanã",
-   "orgao": "MUNICIPIO DE ARIPUANA",
-   "unidade": "PREFEITURA MUNICIPAL DE ARIPUANÃ - MT",
-   "esfera": "Municipal",
-   "objeto": "Registro de preço para futura e eventual aquisição de madeiras em geral, destinadas para as demandas de construção, reparos e manutenção das estruturas, a fim de atender às necessidades das Secretárias Municipais de Aripuanã-MT, conforme exigências estabelecidas neste Edital e seus anexos.",
-   "info": "",
-   "numero": "44/2026",
-   "processo": "180",
-   "modalidade": "Pregão - Presencial",
-   "modo_disputa": "Fechado-Aberto",
-   "forma": "Presencial",
-   "valor": 9286162.69,
-   "abertura": "2026-12-02T08:00:00",
-   "encerramento": "2026-12-02T08:00:00",
-   "publicacao": "2026-11-16T16:55:14",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03507498000171/2026/150",
-   "link_sistema": "https://transparencia.agilicloud.com.br/aripuana/licitacoes/licitacao?id=8668",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -2660,36 +2195,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "01974088000105-1-000148/2026",
-   "fonte": "PNCP",
-   "municipio": "Primavera do Leste",
-   "orgao": "MUNICIPIO DE PRIMAVERA DO LESTE",
-   "unidade": "MUNICÍPIO DE PRIMAVERA DO LESTE/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A EXECUÇÃO DE SERVIÇOS DE ENGENHARIA ELÉTRICA, COMPREENDENDO A EXTENSÃO, ADEQUAÇÃO, CONSTRUÇÃO, REMOÇÃO E INSTALAÇÃO DE REDES DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA EM MÉDIA E BAIXA TENSÃO, INSTALAÇÃO DE POSTOS DE TRANSFORMAÇÃO, EXECUÇÃO DE ESTRUTURAS E SISTEMAS DE ATERRAMENTO, BEM COMO A IMPLANTAÇÃO, ADEQUAÇÃO E INSTALAÇÃO DE ILUMINAÇÃO PÚBLICA EM LED, INCLUINDO O FORNECIMENTO DE TODOS OS MATERIAIS, EQUIPAMENTOS, MÃO DE OBRA E DEMAIS SERVIÇOS NECESSÁRIOS À COMPLETA EXECUÇÃO DAS INTERVENÇÕES, CONFORME PROJETOS, ESPECIFICAÇÕES E DEMAIS DOCUMENTOS TÉCNICOS INTEGRANTES DA CONTRATAÇÃO, NO MUNICÍPIO DE PRIMAVERA DO LESTE – MT.",
-   "info": "",
-   "numero": "013/2026",
-   "processo": "169/2026",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 1377741.91,
-   "abertura": "2026-11-13T14:01:51",
-   "encerramento": "2026-12-22T08:30:00",
-   "publicacao": "2026-10-02T08:57:25",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/01974088000105/2026/148",
-   "link_sistema": "https://licitanet.com.br/sessao/203293",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao",
-    "servicos de engenharia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03214145000183-1-000104/2026",
    "fonte": "PNCP",
    "municipio": "Cáceres",
@@ -2720,35 +2225,6 @@
     "drenagem",
     "pavimentacao",
     "sinalizacao viaria"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "15023922000191-1-000119/2026",
-   "fonte": "PNCP",
-   "municipio": "Canarana",
-   "orgao": "MUNICIPIO DE CANARANA",
-   "unidade": "MUNICÍPIO DE CANARANA/MT",
-   "esfera": "Municipal",
-   "objeto": "Credenciamento de empresas especializadas no fornecimento parcelado e sob demanda de materiais de construção em geral, bem como materiais elétricos, hidráulicos, ferramentas, tintas, materiais de pintura e correlatos, destinados ao atendimento das demandas das Secretarias do Município de Canarana - MT.",
-   "info": "",
-   "numero": "006/2026",
-   "processo": "101",
-   "modalidade": "Credenciamento",
-   "modo_disputa": "Não se aplica",
-   "forma": "Não informado",
-   "valor": 7393948.57,
-   "abertura": "2026-11-12T13:55:06",
-   "encerramento": "2027-11-24T00:00:00",
-   "publicacao": "2026-11-12T13:55:16",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/15023922000191/2026/119",
-   "link_sistema": "http://www.licitacoescanarana.com.br",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
