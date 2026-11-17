@@ -269,9 +269,10 @@ def _modalidade_texto(t):
 
 # ------------------------------------------------- Jornal Oficial AMM-MT
 AMM = "https://amm.diariomunicipal.org"
-TERMOS_AMM = ["pavimentação", "asfáltica", "recapeamento", "drenagem", "esgotamento sanitário",
-              "estação elevatória", "adutora", "abastecimento de água", "captação de água",
-              "terraplenagem", "meio-fio", "obras de engenharia", "serviços de engenharia", "ponte"]
+TERMOS_AMM = ["pavimentação", "asfáltica", "asfalto", "recapeamento", "drenagem", "esgotamento sanitário",
+              "esgoto", "estação elevatória", "adutora", "abastecimento de água", "captação de água",
+              "terraplenagem", "meio-fio", "obra", "engenharia", "ponte", "estrada", "galeria"]
+PREFIXOS_AMM = ['"aviso de licitação"', '"aviso de edital"', '"edital de licitação"']
 RE_TITULO_SIM = re.compile(r"aviso|edital|pregao|concorrencia|licitacao|tomada de preco|dispensa|chamamento|convite|rdc")
 RE_TITULO_NAO = re.compile(r"resultado|homolog|adjudic|extrato|aditivo|ratific|contrato|anulac|revogac|julgamento|"
                            r"habilitac|ata de registro|ata da sessao|deserta|fracassad|impugnac|recurso|suspens|cancelament|"
@@ -349,7 +350,8 @@ def _num(txt):
 def coletar_amm(cfg, filtro, pncp_itens):
     limite = date.today() - timedelta(days=cfg.get("dias_retroativos_amm", 7))
     vistos, itens = set(), []
-    for termo in TERMOS_AMM:
+    consultas = [f"{p} {t}" for t in TERMOS_AMM for p in PREFIXOS_AMM]
+    for termo in consultas:
         params, paginas = {"q": termo}, 0
         while paginas < cfg.get("max_paginas_amm", 12):
             h = _get_html(f"{AMM}/publicacoes/", params)
