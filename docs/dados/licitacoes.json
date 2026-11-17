@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-17T14:38:50",
+ "atualizado_em": "2026-11-17T14:48:10",
  "fontes": {
   "PNCP": 77,
-  "Jornal Oficial AMM": 30,
+  "Jornal Oficial AMM": 42,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 110,
+ "total": 122,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -35,7 +35,7 @@
     "bueiro",
     "drenagem"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1927169",
@@ -66,7 +66,7 @@
     "pavimentacao",
     "tsd"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1927375",
@@ -97,7 +97,65 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1927039",
+   "fonte": "Jornal AMM",
+   "municipio": "Campos de Júlio",
+   "orgao": "Prefeitura Municipal de Campos de Júlio",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE LICITAÇÃO O Município de Campos de Júlio, Estado de Mato Grosso, torna público que está realizando licitação na modalidade CONCORRÊNCIA, na forma ELETRÔNICA, autuada sob o nº 17/2026, com o objetivo de selecionar proposta de empresa especializada em construção civil para execução de obra de construção de estufa agrícola no Horto Municipal. Valor estimado: R$ 431.074,52. Regime de execução: Empreitada por preço global. Critério de julgamento : Menor preço. Modo de disputa: Aberto. Local",
+   "info": "CONCORRÊNCIA ELETRÔNICA Nº 17/2026",
+   "numero": "17/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-04T09:00",
+   "encerramento": "2026-11-04T09:00",
+   "publicacao": "2026-10-19",
+   "situacao": "CONCORRÊNCIA ELETRÔNICA Nº 17/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1927039/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1927032",
+   "fonte": "Jornal AMM",
+   "municipio": "Vila Bela da Santíssima Trindade",
+   "orgao": "Prefeitura Municipal de Vila Bela da Santíssima Trindade",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "é CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DA OBRA DE CONSTRUÇÃO DA CENTRAL DE MANEJO DE RESÍDUOS SÓLIDOS, CONFORME TERMO DE COMPROMISSO MCIDADES 973932/2025- CAIXA ECONÔMICA",
+   "info": "AVISO DE LICITAÇÃO - CONCORRÊNCIA ELETRÔNICA Nº 005/2026",
+   "numero": "5/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-05T00:00",
+   "encerramento": "2026-11-05T00:00",
+   "publicacao": "2026-10-19",
+   "situacao": "AVISO DE LICITAÇÃO - CONCORRÊNCIA ELETRÔNICA Nº 005/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1927032/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1930332",
@@ -128,7 +186,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "37499373000169-1-000028/2026",
@@ -158,6 +216,35 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1932050",
+   "fonte": "Jornal AMM",
+   "municipio": "São José dos Quatro Marcos",
+   "orgao": "Prefeitura Municipal de São José dos Quatro Marcos",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "“ CONTRATAÇÃO DE EMPRESA ESPECIALIZADA DO RAMO DA CONSTRUÇÃO CIVIL PARA A EXECUÇÃO DA OBRA DE CONSTRUÇÃO DO MURO DO NOVO CEMITÉRIO MUNICIPAL DE SÃO JOSÉ DOS QUATRO MARCOS – MT ” Prazos para Recebimento e Julgamento das propostas: VIDE EDITAL",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-10T00:00",
+   "encerramento": "2026-11-10T00:00",
+   "publicacao": "2026-10-27",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1932050/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1928719",
@@ -225,6 +312,37 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "AMM-1934289",
+   "fonte": "Jornal AMM",
+   "municipio": "Itaúba",
+   "orgao": "Prefeitura Municipal de Itaúba",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Registro de preço para futura e eventual Aquisição de placas de sinalização viária de regulamentação, advertência e indicação, placas de identificação de logradouros públicos e postes metálicos galvanizados, destinados à implantação, manutenção e adequação da sinalização viária urbana, para atender às necessidades da Secretaria Municipal de Infraestrutura, Obras, Urbanismo e Saneamento Básico do Município de Itaúba/MT",
+   "info": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 025/2026 – SRP.",
+   "numero": "25/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-13T14:30",
+   "encerramento": "2026-11-13T14:30",
+   "publicacao": "2026-11-03",
+   "situacao": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 025/2026 – SRP.",
+   "link": "https://amm.diariomunicipal.org/publicacao/1934289/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "saneamento",
+    "sinalizacao viaria"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
    "id": "AMM-1933350",
    "fonte": "Jornal AMM",
    "municipio": "Juína",
@@ -256,7 +374,7 @@
     "pavimentacao",
     "servicos de engenharia"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "24977100000130-1-000046/2026",
@@ -495,7 +613,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03702217000131-1-000052/2026",
@@ -945,6 +1063,38 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1938548",
+   "fonte": "Jornal AMM",
+   "municipio": "Porto Alegre do Norte",
+   "orgao": "Prefeitura Municipal de Porto Alegre do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Registro de Preços para futura e eventual prestação de serviços com máquinas pesadas, caminhões e equipamentos operacionais, com fornecimento de mão de obra qualificada (operadores/motoristas) e combustível inclusos, destinados à execução das obras de pavimentação asfáltica da Rodovia MT-550, trecho: Rural de Porto Alegre do Norte – Entroncamento MT-412, subtrecho: para execução de saldo remanescente para conclusão da extensão dos 15 km, em estrita conformidade com o Projeto Básico, conforme especificações detalhadas no Termo de Referência (Anexo I)",
+   "info": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 27/2026",
+   "numero": "27/2026",
+   "processo": "",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": "2026-11-24T09:00",
+   "encerramento": "2026-11-24T09:00",
+   "publicacao": "2026-11-09",
+   "situacao": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 27/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1938548/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "pavimentacao",
+    "rodovia"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03755477000175-1-000105/2026",
@@ -1991,7 +2141,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "04219688000156-1-000043/2026",
@@ -2051,6 +2201,36 @@
     "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1933023",
+   "fonte": "Jornal AMM",
+   "municipio": "Guiratinga",
+   "orgao": "Prefeitura Municipal de Guiratinga",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "SERÁ EXECUTADO EM CONFORMIDADE COM O TERMO DE CONVÊNIO Nº 2112-2026, FIRMADO ENTRE O GOVERNO DO ESTADO DE MATO GROSSO E O MUNICÍPIO DE GUIRATINGA/MT, CONFORME INDICADO NA SOLICITAÇÃO DE COMPRAS QUE FUNDAMENTA A CONTRATAÇÃO",
+   "info": "AVISO DE LICITAÇÃO - CONCORRÊNCIA ELETRÔNICA 005-2026",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-07T09:30",
+   "encerramento": "2026-12-07T09:30",
+   "publicacao": "2026-10-28",
+   "situacao": "AVISO DE LICITAÇÃO - CONCORRÊNCIA ELETRÔNICA 005-2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1933023/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "obra de engenharia"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03347127000170-1-000095/2026",
@@ -2204,7 +2384,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03702217000131-1-000047/2026",
@@ -2264,7 +2444,7 @@
     "construcao",
     "drenagem"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03347127000170-1-000096/2026",
@@ -2507,7 +2687,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1937433",
@@ -2536,7 +2716,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -2600,7 +2780,7 @@
     "reforma",
     "servicos de engenharia"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "03347119000123-1-000015/2026",
@@ -2847,38 +3027,6 @@
    "visto_em": "2026-11-17T14:03:02"
   },
   {
-   "id": "AMM-1938548",
-   "fonte": "Jornal AMM",
-   "municipio": "Porto Alegre do Norte",
-   "orgao": "Prefeitura Municipal de Porto Alegre do Norte",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "Registro de Preços para futura e eventual prestação de serviços com máquinas pesadas, caminhões e equipamentos operacionais, com fornecimento de mão de obra qualificada (operadores/motoristas) e combustível inclusos, destinados à execução das obras de pavimentação asfáltica da Rodovia MT-550, trecho: Rural de Porto Alegre do Norte – Entroncamento MT-412, subtrecho: para execução de saldo remanescente para conclusão da extensão dos 15 km, em estrita conformidade com o Projeto Básico, conforme especificações detalhadas no Termo de Referência (Anexo I)",
-   "info": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 27/2026",
-   "numero": "27/2026",
-   "processo": "",
-   "modalidade": "Pregão - Presencial",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-09",
-   "situacao": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 27/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1938548/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "asfalt",
-    "pavimentacao",
-    "rodovia"
-   ],
-   "visto_em": "2026-11-17T14:38:50"
-  },
-  {
    "id": "AMM-1935349",
    "fonte": "Jornal AMM",
    "municipio": "Consórcio Intermunicipal de Desenvolvimento Econômico, Social e Ambiental do Araguaia - CIDESAA",
@@ -2914,7 +3062,7 @@
     "terraplanagem",
     "vicinais"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1934151",
@@ -2946,7 +3094,7 @@
     "tratamento superficial",
     "tsd"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1929367",
@@ -2982,7 +3130,7 @@
     "recuperacao de vias",
     "tubos de concreto"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1928681",
@@ -3014,7 +3162,7 @@
     "pavimentacao",
     "servico de engenharia"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1931313",
@@ -3048,7 +3196,7 @@
     "drenagem",
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1943561",
@@ -3077,7 +3225,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1943542",
@@ -3106,7 +3254,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1942236",
@@ -3135,7 +3283,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1940933",
@@ -3166,7 +3314,7 @@
     "construcao",
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1940931",
@@ -3195,7 +3343,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1940392",
@@ -3224,65 +3372,65 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
-   "id": "AMM-1938524",
+   "id": "AMM-1939630",
    "fonte": "Jornal AMM",
    "municipio": "Boa Esperança do Norte",
    "orgao": "Prefeitura Municipal de Boa Esperança do Norte",
    "unidade": "",
    "esfera": "Municipal",
-   "objeto": "CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 079/2026 O MUNICÍPIO DE BOA ESPERANÇA DO NORTE – MT, por intermédio da Prefeitura Municipal, torna público, para conhecimento dos interessados, a RETIFICAÇÃO do Aviso de Licitação da CONCORRÊNCIA PRESENCIAL Nº 004/2026, Processo Administrativo nº 079/2026, publicado no Jornal Oficial Eletrônico dos Municípios do Estado de Mato Grosso (AMM-MT), na edição de 06 de novembro de 2026, referente à contratação semi-integrada de empresa espe",
-   "info": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
-   "numero": "",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA LOCAÇÃO DE 02 (DOIS) CAMINHÕES EQUIPADOS COM COLETORES COMPACTADORES DE RESÍDUOS SÓLIDOS, COM CAPACIDADE MÍNIMA DE 15 M³, E 01 (UMA) CAMINHONETE, SEM FORNECIMENTO DE MOTORISTAS E COMBUSTÍVEL, PELO PERÍODO DE 12 (DOZE) MESES, PARA ATENDIMENTO DAS NECESSIDADES DA SECRETARIA MUNICIPAL DE OBRAS, TRANSPORTES, SERVIÇOS PÚBLICOS URBANOS E SANEAMENTO DO MUNICÍPIO DE BOA ESPERANÇA DO NORTE – MT, CONFORME ESPECIFICAÇÕES, QUANTITATIVOS E CONDIÇÕES ESTABELECIDOS NO EDITAL E SEUS ANEXOS",
+   "info": "AVISO DE LICITAÇÃO - MODALIDADE – PREGÃO ELETRÔNICO Nº 012/2026",
+   "numero": "12/2026",
    "processo": "",
-   "modalidade": "Concorrência - Presencial",
+   "modalidade": "Pregão - Eletrônico",
    "modo_disputa": "",
-   "forma": "Presencial",
+   "forma": "Eletrônica",
    "valor": null,
    "abertura": null,
    "encerramento": null,
-   "publicacao": "2026-11-09",
-   "situacao": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
-   "link": "https://amm.diariomunicipal.org/publicacao/1938524/",
+   "publicacao": "2026-11-10",
+   "situacao": "AVISO DE LICITAÇÃO - MODALIDADE – PREGÃO ELETRÔNICO Nº 012/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1939630/",
    "link_sistema": "",
    "categorias": [
-    "Obras civis e Estradas"
+    "Saneamento e Água"
    ],
    "termos": [
-    "construcao"
+    "saneamento"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
-   "id": "AMM-1938113",
+   "id": "AMM-1939380",
    "fonte": "Jornal AMM",
-   "municipio": "Novo São Joaquim",
-   "orgao": "Prefeitura Municipal de Novo São Joaquim",
+   "municipio": "Juscimeira",
+   "orgao": "Prefeitura Municipal de Juscimeira",
    "unidade": "",
    "esfera": "Municipal",
-   "objeto": "CONTRATAÇÃO DE EMPRESA DE ENGENHARIA – AREA CIVIL, PARA EXECUÇÃO DE CONSTRUÇÃO DO LAGO DA FAMÍLIA NA CIDADE DE NOVO SÃO JOAQUIM, CONFORME PROJETO BÁSICO, ATRAVÉS DO TERMO DE CONVÊNIO N° 0676/2026/SINFRA-MT",
-   "info": "AVISO DE LICITAÇÃO",
-   "numero": "",
+   "objeto": "é \" CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE MURO DE CONTENÇÃO E RECUPERAÇÃO DA VAZÃO DO LAGO MUNICIPAL DE JUSCIMEIRA/MT, COMPREENDENDO MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, ADMINISTRAÇÃO LOCAL, SEGURANÇA, LIMPEZA E DESTINAÇÃO DE RESÍDUOS, CONFORME PROJETOS APROVADOS, MEMORIAL DESCRITIVO, PLANILHA ORÇAMENTÁRIA E CRONOGRAMA FÍSICO-FINANCEIRO INTEGRANTES DA CONTRATAÇÃO\"",
+   "info": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
+   "numero": "65/2026",
    "processo": "",
-   "modalidade": "Concorrência - Presencial",
+   "modalidade": "Dispensa",
    "modo_disputa": "",
-   "forma": "Presencial",
+   "forma": "Não informado",
    "valor": null,
    "abertura": null,
    "encerramento": null,
-   "publicacao": "2026-11-09",
-   "situacao": "AVISO DE LICITAÇÃO",
-   "link": "https://amm.diariomunicipal.org/publicacao/1938113/",
+   "publicacao": "2026-11-10",
+   "situacao": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1939380/",
    "link_sistema": "",
    "categorias": [
     "Obras civis e Estradas"
    ],
    "termos": [
-    "construcao"
+    "contencao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1936693",
@@ -3311,7 +3459,210 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1934889",
+   "fonte": "Jornal AMM",
+   "municipio": "Barra do Garças",
+   "orgao": "Prefeitura Municipal de Barra do Garças",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "“Contratação de empresa especializada para execução da obra de reforma e adequação de acessibilidade da edificação onde funciona a Academia de Letras, Cultura e Artes do Centro-Oeste – ALCARTES, situada na Rua Simião Arraya, nº 354, Setor Cidade Velha, no Município de Barra do Garças/MT, com área construída de 405,41 m², incluindo o fornecimento de materiais, mão de obra, equipamentos, ferramentas e demais insumos necessários à completa execução do objeto.” DATA: 17/10/2026",
+   "info": "AVISO DE LICITAÇÃO/EDITAL",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-10-30",
+   "situacao": "AVISO DE LICITAÇÃO/EDITAL",
+   "link": "https://amm.diariomunicipal.org/publicacao/1934889/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1934886",
+   "fonte": "Jornal AMM",
+   "municipio": "Barra do Garças",
+   "orgao": "Prefeitura Municipal de Barra do Garças",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "“Contratação de empresa especializada para execução da obra de reforma e revitalização da Praça de Esportes Dr",
+   "info": "AVISO DE LICITAÇÃO/EDITAL",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-10-30",
+   "situacao": "AVISO DE LICITAÇÃO/EDITAL",
+   "link": "https://amm.diariomunicipal.org/publicacao/1934886/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1934281",
+   "fonte": "Jornal AMM",
+   "municipio": "Juruena",
+   "orgao": "Prefeitura Municipal de Juruena",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada para execução da obra de CONSTRUÇÃO DO HOSPITAL MUNICIPAL DE JURUENA – RENILDA DE FÁTIMA DE MORAES, localizado na Rua São Cristóvão, Quadra 23, Município de Juruena/MT, com área construída de 2.423,30 m², conforme projetos, especificações técnicas, planilhas orçamentárias, memoriais e demais anexos do Edital",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 184/2026",
+   "numero": "4/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-10-30",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 184/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1934281/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1930894",
+   "fonte": "Jornal AMM",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "Prefeitura Municipal de Santa Cruz do Xingu",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE PERFURAÇÃO DE POÇOS TUBULARES PROFUNDOS E TESTES DE BOMBEAMENTO, COM FORNECIMENTO DE MATERIAL E MÃO-DE-OBRA, NA ÁREA URBANA E RURAL DO MUNICÍPIO DE SANTA CRUZ DO XINGU - MT",
+   "info": "Aviso de Licitação Pregão Presencial n° 015/2026",
+   "numero": "15/2026",
+   "processo": "",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-10-26",
+   "situacao": "Aviso de Licitação Pregão Presencial n° 015/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1930894/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "pocos tubulares"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1938524",
+   "fonte": "Jornal AMM",
+   "municipio": "Boa Esperança do Norte",
+   "orgao": "Prefeitura Municipal de Boa Esperança do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 079/2026 O MUNICÍPIO DE BOA ESPERANÇA DO NORTE – MT, por intermédio da Prefeitura Municipal, torna público, para conhecimento dos interessados, a RETIFICAÇÃO do Aviso de Licitação da CONCORRÊNCIA PRESENCIAL Nº 004/2026, Processo Administrativo nº 079/2026, publicado no Jornal Oficial Eletrônico dos Municípios do Estado de Mato Grosso (AMM-MT), na edição de 06 de novembro de 2026, referente à contratação semi-integrada de empresa espe",
+   "info": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-09",
+   "situacao": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
+   "link": "https://amm.diariomunicipal.org/publicacao/1938524/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1938113",
+   "fonte": "Jornal AMM",
+   "municipio": "Novo São Joaquim",
+   "orgao": "Prefeitura Municipal de Novo São Joaquim",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA DE ENGENHARIA – AREA CIVIL, PARA EXECUÇÃO DE CONSTRUÇÃO DO LAGO DA FAMÍLIA NA CIDADE DE NOVO SÃO JOAQUIM, CONFORME PROJETO BÁSICO, ATRAVÉS DO TERMO DE CONVÊNIO N° 0676/2026/SINFRA-MT",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-09",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1938113/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "AMM-1935337",
+   "fonte": "Jornal AMM",
+   "municipio": "São Félix do Araguaia",
+   "orgao": "Prefeitura Municipal de São Félix do Araguaia",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "A Prefeitura Municipal de São Félix do Araguaia, Estado de Mato Grosso, TORNA PÚBLICO para conhecimento dos interessados que realizará sessão pública para julgamento do procedimento licitatório na Modalidade de CONCORRÊNCIA ELETRÔNICA Nº 009/2026: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA DE ENGENHARIA PARA A CONSTRUÇÃO DE PRAÇA ESPORTIVA NO MUNICÍPIO DE SÃO FÉLIX DO ARAGUAIA/MT, VINCULADA À PROPOSTA Nº 21950/2026 E INSTRUMENTO Nº 998923, NO ÂMBITO DO PROGRAMA SNEAELIS – PROGRAMA DE APOIO À IMPLANTAÇ",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 009/2026 PROCESSO ADMINISTRATIVO Nº 116/2026",
+   "numero": "9/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-03",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 009/2026 PROCESSO ADMINISTRATIVO Nº 116/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1935337/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T14:48:10"
   },
   {
    "id": "AMM-1931766",
@@ -3340,7 +3691,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-17T14:38:50"
+   "visto_em": "2026-11-17T14:48:10"
   }
  ]
 }
