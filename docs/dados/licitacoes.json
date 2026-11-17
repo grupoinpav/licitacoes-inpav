@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-17T14:03:02",
+ "atualizado_em": "2026-11-17T14:16:29",
  "fontes": {
   "PNCP": 77,
   "Jornal Oficial AMM": 6,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 83,
+ "total": 84,
  "licitacoes": [
   {
    "id": "37499373000169-1-000028/2026",
@@ -35,6 +35,42 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1928719",
+   "fonte": "Jornal AMM",
+   "municipio": "Novo Mundo",
+   "orgao": "Prefeitura Municipal de Novo Mundo",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO ASFÁLTICA, INCLUINDO TERRAPLENAGEM, DRENAGEM, TRATAMENTOS SUPERFICIAIS ASFÁLTICOS, OBRAS DE ARTE CORRENTES, SINALIZAÇÃO VIÁRIA E DEMAIS SERVIÇOS NECESSÁRIOS, NO TRECHO DE 7,51 KM QUE INTERLIGA A ZONA URBANA DO MUNICÍPIO DE NOVO MUNDO/MT À RODOVIA ESTADUAL MT-322, CONFORME ESPECIFICAÇÕES E CONDIÇÕES ESTABELECIDAS NO EDITAL E SEUS ANEXOS",
+   "info": "AVISO DE RETIFICAÇÃO E PRORROGAÇÃO DE LICITAÇÃO PROCESSO LICITATÓRIO Nº 77/2026 CONCORRÊNCIA ELETRÔNICA Nº 10/2026",
+   "numero": "77/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-10T08:30",
+   "encerramento": "2026-11-10T08:00",
+   "publicacao": "2026-10-21",
+   "situacao": "AVISO DE RETIFICAÇÃO E PRORROGAÇÃO DE LICITAÇÃO PROCESSO LICITATÓRIO Nº 77/2026 CONCORRÊNCIA ELETRÔNICA Nº 10/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1928719/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "drenagem",
+    "pavimentacao",
+    "rodovia",
+    "sinalizacao viaria",
+    "terraplenagem"
+   ],
+   "visto_em": "2026-11-17T14:16:29"
   },
   {
    "id": "03424272000107-1-000111/2026",
@@ -1386,7 +1422,7 @@
    "orgao": "Prefeitura Municipal de Novo Mundo",
    "unidade": "",
    "esfera": "Municipal",
-   "objeto": "é a CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO ASFÁLTICA, INCLUINDO TERRAPLENAGEM, DRENAGEM, TRATAMENTOS SUPERFICIAIS ASFÁLTICOS, OBRAS DE ARTE CORRENTES, SINALIZAÇÃO VIÁRIA E DEMAIS SERVIÇOS NECESSÁRIOS, NO TRECHO DE 7,51 KM QUE INTERLIGA A ZONA URBANA DO MUNICÍPIO DE NOVO MUNDO/MT À RODOVIA ESTADUAL MT-322, CONFORME ESPECIFICAÇÕES E CONDIÇÕES ESTABELECIDAS NO EDITAL E SEUS ANEXOS",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO ASFÁLTICA, INCLUINDO TERRAPLENAGEM, DRENAGEM, TRATAMENTOS SUPERFICIAIS ASFÁLTICOS, OBRAS DE ARTE CORRENTES, SINALIZAÇÃO VIÁRIA E DEMAIS SERVIÇOS NECESSÁRIOS, NO TRECHO DE 7,51 KM QUE INTERLIGA A ZONA URBANA DO MUNICÍPIO DE NOVO MUNDO/MT À RODOVIA ESTADUAL MT-322, CONFORME ESPECIFICAÇÕES E CONDIÇÕES ESTABELECIDAS NO EDITAL E SEUS ANEXOS",
    "info": "AVISO DE RETIFICAÇÃO E PRORROGAÇÃO DE LICITAÇÃO PROCESSO LICITATÓRIO Nº 77/2026 CONCORRÊNCIA ELETRÔNICA Nº 10/2026",
    "numero": "77/2026",
    "processo": "",
@@ -2483,33 +2519,33 @@
    "visto_em": "2026-11-17T14:03:02"
   },
   {
-   "id": "AMM-1943397",
+   "id": "AMM-1933090",
    "fonte": "Jornal AMM",
-   "municipio": "Cotriguaçu",
-   "orgao": "Prefeitura Municipal de Cotriguaçu",
+   "municipio": "Itanhangá",
+   "orgao": "Prefeitura Municipal de Itanhangá",
    "unidade": "",
    "esfera": "Municipal",
-   "objeto": "abaixo identificado, para que compareça junto à Administração Municipal, a fim de proceder à assinatura dos documentos necessários e à retirada da respectiva Ordem de Serviço",
-   "info": "EDITAL DE CONVOCAÇÃO Nº 001/2026 - CONVOCAÇÃO PARA ASSINATURA E RETIRADA DA ORDEM DE SERVIÇO",
-   "numero": "1/2026",
+   "objeto": "NOTIFICAÇÃO EXTRAJUDICIAL DE DÉBITOS DE ALVARÁ, CONTRIBUIÇÃO DE MELHORIA E ISSQN INSCRITOS EM DÍVIDA ATIVA A SECRETÁRIA MUNICIPAL DE ADMINISTRAÇÃO, FINANÇAS E PLANEJAMENTO DO MUNICÍPIO DE ITANHANGÁ, Estado de Mato Grosso, no uso das atribuições que lhe são conferidas pela Lei Orgânica do Município, pela Lei Complementar Municipal nº 107/2020, pela Lei Complementar Municipal nº 158/2025 (Código Tributário Municipal), especialmente pelo disposto no Capítulo II – Da Dívida Ativa, arts. 529 e seguin",
+   "info": "EDITAL Nº 006/2026",
+   "numero": "6/2026",
    "processo": "",
-   "modalidade": "Concorrência - Eletrônica",
+   "modalidade": "Aviso em diário oficial",
    "modo_disputa": "",
-   "forma": "Eletrônica",
+   "forma": "Não informado",
    "valor": null,
    "abertura": null,
    "encerramento": null,
-   "publicacao": "2026-11-17",
-   "situacao": "EDITAL DE CONVOCAÇÃO Nº 001/2026 - CONVOCAÇÃO PARA ASSINATURA E RETIRADA DA ORDEM DE SERVIÇO",
-   "link": "https://amm.diariomunicipal.org/publicacao/1943397/",
+   "publicacao": "2026-10-28",
+   "situacao": "EDITAL Nº 006/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1933090/",
    "link_sistema": "",
    "categorias": [
     "Obras civis e Estradas"
    ],
    "termos": [
-    "reforma"
+    "terraplenagem"
    ],
-   "visto_em": "2026-11-17T14:03:02"
+   "visto_em": "2026-11-17T14:16:29"
   }
  ]
 }
