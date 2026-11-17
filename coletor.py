@@ -258,7 +258,7 @@ def _modalidade_texto(t):
 
 
 # ------------------------------------------------------------ juntar e salvar
-def mesclar(novos, cfg):
+def mesclar(novos, cfg, filtro):
     agora = datetime.now().isoformat(timespec="seconds")
     antigos = {}
     if ARQ_JSON.exists():
@@ -266,6 +266,13 @@ def mesclar(novos, cfg):
             antigos = {i["id"]: i for i in json.loads(ARQ_JSON.read_text("utf-8")).get("licitacoes", [])}
         except Exception:
             pass
+    # reaplica o filtro atual ao histórico (se as palavras-chave mudarem, o painel acompanha)
+    for k in list(antigos):
+        r = filtro.avaliar(f"{antigos[k].get('objeto', '')} {antigos[k].get('info', '')}")
+        if r:
+            antigos[k]["categorias"], antigos[k]["termos"] = r
+        else:
+            del antigos[k]
     for it in novos:
         it["visto_em"] = antigos.get(it["id"], {}).get("visto_em", agora)
         antigos[it["id"]] = it
@@ -358,7 +365,7 @@ def main():
     fontes["Diário Oficial (Querido Diário)"] = len(qd)
     itens += qd
 
-    lista = mesclar(itens, cfg)
+    lista = mesclar(itens, cfg, filtro)
     salvar(lista, fontes)
     log(f"Pronto: {len(lista)} licitações no painel")
     return 0
