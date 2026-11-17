@@ -1,0 +1,40 @@
+name: Coletar licitações MT
+
+on:
+  schedule:
+    # Horários em UTC: 10:17 e 19:17 UTC = 06:17 e 15:17 em Cuiabá
+    - cron: "17 10 * * *"
+    - cron: "17 19 * * *"
+  workflow_dispatch: {}   # permite rodar na mão pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar coletor
+        run: python coletor.py
+
+      - name: Salvar resultados no repositório
+        run: |
+          git config user.name  "monitor-licitacoes"
+          git config user.email "monitor-licitacoes@users.noreply.github.com"
+          git add docs/dados
+          git diff --cached --quiet || git commit -m "Coleta $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push

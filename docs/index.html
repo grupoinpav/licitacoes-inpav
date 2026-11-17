@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Licitações MT · INPAV</title>
+<style>
+  :root{
+    --bg:#f4f5f2; --card:#fff; --ink:#1d2321; --muted:#66706b; --line:#dfe3df;
+    --brand:#23302c; --accent:#e8a317; --ok:#2f7d4f; --warn:#c2410c; --info:#2463a6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);font-size:15px}
+  header{background:var(--brand);color:#fff;padding:18px 20px 16px;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;
+    background:repeating-linear-gradient(90deg,var(--accent) 0 34px,transparent 34px 56px)}
+  .wrap{max-width:1180px;margin:0 auto}
+  h1{margin:0;font-size:21px;letter-spacing:.2px}
+  h1 small{font-weight:400;opacity:.7;font-size:14px;margin-left:6px}
+  .sub{opacity:.75;font-size:13px;margin-top:4px}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 0}
+  .stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:8px 14px;min-width:120px}
+  .stat b{display:block;font-size:22px}
+  .stat span{font-size:12px;opacity:.8}
+  main{padding:16px 20px 40px}
+  .filtros{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .filtros label{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);display:block;margin-bottom:4px}
+  input,select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:7px;font:inherit;background:#fff}
+  .linha2{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:12px 2px}
+  .linha2 label{font-size:14px;display:flex;gap:6px;align-items:center;cursor:pointer}
+  .linha2 input{width:auto}
+  .esp{flex:1}
+  .btn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 12px;font:inherit;font-size:14px;cursor:pointer;color:var(--ink);text-decoration:none}
+  .btn:hover{border-color:var(--brand)}
+  .contagem{color:var(--muted);font-size:13px;margin:0 2px 10px}
+  .lista{display:grid;gap:10px}
+  .card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--line);border-radius:10px;padding:13px 15px;display:grid;grid-template-columns:1fr auto;gap:6px 18px}
+  .card.urg{border-left-color:var(--warn)} .card.ok{border-left-color:var(--ok)} .card.fim{opacity:.6}
+  .topo{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+  .mun{font-weight:700;color:var(--ink);font-size:15px}
+  .tag{font-size:11.5px;padding:2px 8px;border-radius:20px;background:#eef0ec;color:#38423e;white-space:nowrap}
+  .tag.pres{background:#fdecd2;color:#8a4b00} .tag.elet{background:#dbe9f8;color:#174a80}
+  .tag.novo{background:var(--accent);color:#1d2321;font-weight:700}
+  .tag.cat{background:#e3efe7;color:#22593a}
+  .obj{grid-column:1/2;line-height:1.4}
+  .org{font-size:13px;color:var(--muted)}
+  .lado{grid-row:1/4;grid-column:2;text-align:right;min-width:170px;font-size:13px}
+  .lado .valor{font-size:16px;font-weight:700}
+  .lado .prazo{margin-top:6px}
+  .lado .dias{display:inline-block;margin-top:4px;font-weight:700}
+  .urg .dias{color:var(--warn)} .ok .dias{color:var(--ok)}
+  .links{grid-column:1/2;display:flex;gap:12px;font-size:13px}
+  .links a{color:var(--info)}
+  .vazio{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:30px;text-align:center;color:var(--muted)}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:10px 20px 30px}
+  @media (max-width:820px){
+    .filtros{grid-template-columns:1fr 1fr}
+    .filtros .busca{grid-column:1/3}
+    .card{grid-template-columns:1fr}
+    .lado{grid-row:auto;grid-column:1;text-align:left}
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Licitações · Prefeituras de MT <small>INPAV</small></h1>
+  <div class="sub" id="atualizado">Carregando…</div>
+  <div class="stats">
+    <div class="stat"><b id="sAbertas">–</b><span>abertas</span></div>
+    <div class="stat"><b id="sNovas">–</b><span>novas (48h)</span></div>
+    <div class="stat"><b id="sUrg">–</b><span>encerram em 7 dias</span></div>
+    <div class="stat"><b id="sValor">–</b><span>valor estimado aberto</span></div>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <div class="filtros">
+    <div class="busca"><label for="fBusca">Buscar</label><input id="fBusca" placeholder="objeto, município, órgão…"></div>
+    <div><label for="fMun">Município</label><select id="fMun"><option value="">Todos</option></select></div>
+    <div><label for="fForma">Forma</label><select id="fForma">
+      <option value="">Todas</option><option>Presencial</option><option>Eletrônica</option><option>Não informado</option></select></div>
+    <div><label for="fCat">Área</label><select id="fCat"><option value="">Todas</option></select></div>
+    <div><label for="fOrdem">Ordenar por</label><select id="fOrdem">
+      <option value="prazo">Prazo mais próximo</option><option value="novas">Mais recentes</option><option value="valor">Maior valor</option></select></div>
+  </div>
+  <div class="linha2">
+    <label><input type="checkbox" id="fAbertas" checked> Só abertas</label>
+    <label><input type="checkbox" id="fNovas"> Só novas (48h)</label>
+    <label><input type="checkbox" id="fFracas" checked> Incluir obras civis gerais</label>
+    <span class="esp"></span>
+    <button class="btn" id="bCsv">Baixar filtradas (CSV)</button>
+    <a class="btn" href="dados/licitacoes.xlsx" download>Planilha completa (Excel)</a>
+  </div>
+  <div class="contagem" id="contagem"></div>
+  <div class="lista" id="lista"></div>
+</main>
+<footer>Fontes: PNCP (Portal Nacional de Contratações Públicas) e diários oficiais municipais via Querido Diário.
+Prefeituras pequenas que ainda não publicam no PNCP podem aparecer só no
+<a href="https://www.diariomunicipal.org/mt/amm/" target="_blank" rel="noopener">Jornal Oficial da AMM</a>. Confira sempre o edital original.</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+let TODAS = [];
+const AGORA = new Date();
+const brl = v => v == null ? "" : v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
+const curto = v => v>=1e6 ? "R$ "+(v/1e6).toLocaleString("pt-BR",{maximumFractionDigits:1})+" mi" : brl(v);
+const data = s => { if(!s) return null; const d = new Date(s.length<=10 ? s+"T12:00:00" : s); return isNaN(d) ? null : d; };
+const fmt = s => { const d = data(s); return d ? d.toLocaleDateString("pt-BR") + (s && s.length>10 ? " " + d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"}) : "") : "—"; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+
+function prazo(l){ return data(l.encerramento) || data(l.abertura); }
+function diasAte(l){ const p = prazo(l); return p ? Math.ceil((p - AGORA)/864e5) : null; }
+function aberta(l){ const d = diasAte(l); return d === null ? true : d >= 0; }
+function nova(l){ const v = data(l.visto_em); return v && (AGORA - v) < 48*36e5; }
+const FRACA = "Obras civis e Estradas";
+
+async function iniciar(){
+  try{
+    const r = await fetch("dados/licitacoes.json?v=" + Date.now());
+    const j = await r.json();
+    TODAS = j.licitacoes || [];
+    const at = data(j.atualizado_em);
+    $("atualizado").textContent = "Atualizado em " + (at ? at.toLocaleString("pt-BR") : "—") +
+      " · " + Object.entries(j.fontes||{}).map(([k,v]) => k + ": " + v).join(" · ");
+  }catch(e){
+    $("atualizado").textContent = "Ainda não há dados. A primeira coleta roda automaticamente (ou rode o coletor manualmente).";
+  }
+  const muns = [...new Set(TODAS.map(l => l.municipio).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+  muns.forEach(m => $("fMun").add(new Option(m, m)));
+  const cats = [...new Set(TODAS.flatMap(l => l.categorias||[]))].sort();
+  cats.forEach(c => $("fCat").add(new Option(c, c)));
+
+  const abertas = TODAS.filter(aberta);
+  $("sAbertas").textContent = abertas.length;
+  $("sNovas").textContent = TODAS.filter(nova).length;
+  $("sUrg").textContent = abertas.filter(l => { const d = diasAte(l); return d !== null && d <= 7; }).length;
+  $("sValor").textContent = curto(abertas.reduce((s,l) => s + (l.valor||0), 0)) || "R$ 0";
+
+  ["fBusca","fMun","fForma","fCat","fOrdem","fAbertas","fNovas","fFracas"].forEach(id => $(id).addEventListener("input", render));
+  $("bCsv").addEventListener("click", baixarCsv);
+  render();
+}
+
+function filtradas(){
+  const q = norm($("fBusca").value).split(/\s+/).filter(Boolean);
+  const mun = $("fMun").value, forma = $("fForma").value, cat = $("fCat").value;
+  let l = TODAS.filter(x =>
+    (!$("fAbertas").checked || aberta(x)) &&
+    (!$("fNovas").checked || nova(x)) &&
+    ($("fFracas").checked || (x.categorias||[]).some(c => c !== FRACA)) &&
+    (!mun || x.municipio === mun) && (!forma || x.forma === forma) &&
+    (!cat || (x.categorias||[]).includes(cat)) &&
+    q.every(t => norm([x.objeto,x.municipio,x.orgao,x.modalidade,x.numero].join(" ")).includes(t)));
+  const o = $("fOrdem").value;
+  if(o === "prazo") l.sort((a,b) => (prazo(a)||8.64e15) - (prazo(b)||8.64e15));
+  if(o === "novas") l.sort((a,b) => (data(b.visto_em)||0) - (data(a.visto_em)||0));
+  if(o === "valor") l.sort((a,b) => (b.valor||0) - (a.valor||0));
+  return l;
+}
+
+function render(){
+  const l = filtradas();
+  $("contagem").textContent = l.length + " licitação(ões) encontrada(s)";
+  if(!l.length){ $("lista").innerHTML = '<div class="vazio">Nenhuma licitação com esses filtros.</div>'; return; }
+  $("lista").innerHTML = l.map(x => {
+    const d = diasAte(x);
+    const cls = d === null ? "" : d < 0 ? "fim" : d <= 7 ? "urg" : "ok";
+    const txtDias = d === null ? "" : d < 0 ? "encerrada" : d === 0 ? "encerra hoje" : d === 1 ? "falta 1 dia" : "faltam " + d + " dias";
+    const fcls = x.forma === "Presencial" ? "pres" : x.forma === "Eletrônica" ? "elet" : "";
+    return `<article class="card ${cls}">
+      <div class="topo"><span class="mun">${esc(x.municipio || "—")}</span>
+        <span class="tag ${fcls}">${esc(x.forma)}</span>
+        <span class="tag">${esc(x.modalidade)}</span>
+        ${(x.categorias||[]).map(c => `<span class="tag cat">${esc(c)}</span>`).join("")}
+        ${nova(x) ? '<span class="tag novo">NOVA</span>' : ""}</div>
+      <div class="obj">${esc(x.objeto)}</div>
+      <div class="org">${esc(x.orgao)}${x.numero ? " · Nº " + esc(x.numero) : ""}${x.situacao ? " · " + esc(x.situacao) : ""}</div>
+      <div class="lado">
+        <div class="valor">${x.valor ? brl(x.valor) : "<span style='color:var(--muted);font-weight:400'>valor não informado</span>"}</div>
+        <div class="prazo">Abertura: ${fmt(x.abertura)}<br>Encerramento: ${fmt(x.encerramento)}</div>
+        ${txtDias ? `<span class="dias">${txtDias}</span>` : ""}
+      </div>
+      <div class="links">
+        ${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">${x.fonte === "PNCP" ? "Ver no PNCP" : "Abrir diário oficial"}</a>` : ""}
+        ${x.link_sistema ? `<a href="${esc(x.link_sistema)}" target="_blank" rel="noopener">Sistema de disputa</a>` : ""}
+        <span style="color:var(--muted)">Fonte: ${esc(x.fonte)}</span>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function baixarCsv(){
+  const cols = [["Município","municipio"],["Órgão","orgao"],["Objeto","objeto"],["Modalidade","modalidade"],["Forma","forma"],
+    ["Valor estimado","valor"],["Abertura","abertura"],["Encerramento","encerramento"],["Áreas","categorias"],["Link","link"]];
+  const cel = v => '"' + String(Array.isArray(v) ? v.join(", ") : v ?? "").replace(/"/g,'""') + '"';
+  const linhas = [cols.map(c=>c[0]).join(";")].concat(filtradas().map(x => cols.map(([,k]) =>
+    cel(k==="abertura"||k==="encerramento" ? (x[k] ? fmt(x[k]) : "") : k==="valor" && x[k] ? x[k].toLocaleString("pt-BR") : x[k])).join(";")));
+  const blob = new Blob(["﻿" + linhas.join("\n")], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+  a.download = "licitacoes-mt-" + new Date().toISOString().slice(0,10) + ".csv"; a.click();
+}
+iniciar();
+</script>
+</body>
+</html>
