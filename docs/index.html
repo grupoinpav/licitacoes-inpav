@@ -110,8 +110,9 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;
 const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
 
 function prazo(l){ return data(l.encerramento) || data(l.abertura); }
-function diasAte(l){ const p = prazo(l); return p ? Math.ceil((p - AGORA)/864e5) : null; }
-function aberta(l){ const d = diasAte(l); return d === null ? true : d >= 0; }
+const dia0 = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+function diasAte(l){ const p = prazo(l); if(!p) return null; if(p < AGORA) return -1; return Math.round((dia0(p) - dia0(AGORA))/864e5); }
+function aberta(l){ const p = prazo(l); return p ? p >= AGORA : true; }
 function nova(l){ const v = data(l.visto_em); return v && (AGORA - v) < 48*36e5; }
 const FRACA = "Obras civis e Estradas";
 
