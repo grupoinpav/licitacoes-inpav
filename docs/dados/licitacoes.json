@@ -1,10 +1,11 @@
 {
- "atualizado_em": "2026-11-17T13:45:09",
+ "atualizado_em": "2026-11-17T14:03:02",
  "fontes": {
   "PNCP": 77,
+  "Jornal Oficial AMM": 6,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 77,
+ "total": 83,
  "licitacoes": [
   {
    "id": "37499373000169-1-000028/2026",
@@ -1379,6 +1380,42 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "AMM-1940910",
+   "fonte": "Jornal AMM",
+   "municipio": "Novo Mundo",
+   "orgao": "Prefeitura Municipal de Novo Mundo",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "é a CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO ASFÁLTICA, INCLUINDO TERRAPLENAGEM, DRENAGEM, TRATAMENTOS SUPERFICIAIS ASFÁLTICOS, OBRAS DE ARTE CORRENTES, SINALIZAÇÃO VIÁRIA E DEMAIS SERVIÇOS NECESSÁRIOS, NO TRECHO DE 7,51 KM QUE INTERLIGA A ZONA URBANA DO MUNICÍPIO DE NOVO MUNDO/MT À RODOVIA ESTADUAL MT-322, CONFORME ESPECIFICAÇÕES E CONDIÇÕES ESTABELECIDAS NO EDITAL E SEUS ANEXOS",
+   "info": "AVISO DE RETIFICAÇÃO E PRORROGAÇÃO DE LICITAÇÃO PROCESSO LICITATÓRIO Nº 77/2026 CONCORRÊNCIA ELETRÔNICA Nº 10/2026",
+   "numero": "77/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-02T08:30",
+   "encerramento": "2026-12-02T08:00",
+   "publicacao": "2026-11-12",
+   "situacao": "AVISO DE RETIFICAÇÃO E PRORROGAÇÃO DE LICITAÇÃO PROCESSO LICITATÓRIO Nº 77/2026 CONCORRÊNCIA ELETRÔNICA Nº 10/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1940910/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "drenagem",
+    "pavimentacao",
+    "rodovia",
+    "sinalizacao viaria",
+    "terraplenagem"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
+  },
+  {
    "id": "03648532000128-1-000038/2026",
    "fonte": "PNCP",
    "municipio": "Alto Paraguai",
@@ -1557,6 +1594,37 @@
     "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1943327",
+   "fonte": "Jornal AMM",
+   "municipio": "Nova Xavantina",
+   "orgao": "Prefeitura Municipal de Nova Xavantina",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE TUBOS E ADUELAS DE CONCRETO ARMADO PARA A MANUTENÇÃO E RECUPERAÇÃO DE SISTEMAS DE DRENAGEM, BUEIROS E TRAVESSIAS NO MUNICÍPIO DE NOVA XAVANTINA-MT",
+   "info": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº 020/2026.",
+   "numero": "20/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-03T12:00",
+   "encerramento": "2026-12-03T12:00",
+   "publicacao": "2026-11-17",
+   "situacao": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº 020/2026.",
+   "link": "https://amm.diariomunicipal.org/publicacao/1943327/",
+   "link_sistema": "",
+   "categorias": [
+    "Drenagem"
+   ],
+   "termos": [
+    "aduela",
+    "bueiro",
+    "drenagem"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
   },
   {
    "id": "01614521000100-1-000138/2026",
@@ -2316,6 +2384,132 @@
     "saneamento"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1942385",
+   "fonte": "Jornal AMM",
+   "municipio": "Reserva do Cabaçal",
+   "orgao": "Prefeitura Municipal de Reserva do Cabaçal",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "A Prefeitura Municipal de Reserva do Cabaçal-MT, com sede na Av. Mato Grosso, 221, Centro, CEP: 78.265-000, Reserva do Cabaçal-MT, torna público que realizará no dia 28/10/2026 as 08:00 HORAS, CONCORRENCIA PUBLICA PRESENCIAL para Contratação de empresa especializada para pavimentação asfáltica em TSD no perímetro urbano, nos trechos: Rua A T1-T2, Rua B T1-T2, Rua C T1-T2, Rua D, Rua dos Pioneiros, Rua Andaraí T1-T3, Rua E, Rua Princesa Isabel, Rua Projetada A1, Rua dos Bandeirantes, Rua Tiradent",
+   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL N° 01/2026",
+   "numero": "1/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-16",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL N° 01/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1942385/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt",
+    "pavimentacao",
+    "tsd"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
+  },
+  {
+   "id": "AMM-1942123",
+   "fonte": "Jornal AMM",
+   "municipio": "Vila Rica",
+   "orgao": "Prefeitura Municipal de Vila Rica",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br ) Objeto: Registro de preço para futura e eventual contratação de empresa especializada na prestação de serviços de hidrossemeadura, destinados à revegetação, estabilização e proteção das áreas de solo exposto geradas pelas obras de pavimentação da rodovia MT-431, no Município de Vila Rica/MT, compreendendo o",
+   "info": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br )",
+   "numero": "100/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-16",
+   "situacao": "AVISO DE ALTERAÇÃO DA DATA DE REALIZAÇÃO DA SESSÃO PROCESSO LICITATÓRIO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAF",
+   "link": "https://amm.diariomunicipal.org/publicacao/1942123/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "pavimentacao",
+    "rodovia"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
+  },
+  {
+   "id": "AMM-1939663",
+   "fonte": "Jornal AMM",
+   "municipio": "Apiacás",
+   "orgao": "Prefeitura Municipal de Apiacás",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE ENGENHARIA, COMPREENDENDO A REALIZAÇÃO DE SONDAGENS, LEVANTAMENTOS TOPOGRÁFICOS E SERVIÇOS DE CONTROLE TECNOLÓGICO/GEOTÉCNICO, DESTINADOS A SUBSIDIAR A ELABORAÇÃO, IMPLANTAÇÃO, ACOMPANHAMENTO E FISCALIZAÇÃO DE PROJETOS E OBRAS DE INFRAESTRUTURA URBANA E RURAL DO MUNICÍPIO DE APIACÁS-MT",
+   "info": "AVISO DE CREDENCIAMENTO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Aviso em diário oficial",
+   "modo_disputa": "",
+   "forma": "Não informado",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-10",
+   "situacao": "AVISO DE CREDENCIAMENTO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1939663/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "estrada",
+    "estradas",
+    "infraestrutura urbana",
+    "pavimentacao",
+    "terraplenagem"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
+  },
+  {
+   "id": "AMM-1943397",
+   "fonte": "Jornal AMM",
+   "municipio": "Cotriguaçu",
+   "orgao": "Prefeitura Municipal de Cotriguaçu",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "abaixo identificado, para que compareça junto à Administração Municipal, a fim de proceder à assinatura dos documentos necessários e à retirada da respectiva Ordem de Serviço",
+   "info": "EDITAL DE CONVOCAÇÃO Nº 001/2026 - CONVOCAÇÃO PARA ASSINATURA E RETIRADA DA ORDEM DE SERVIÇO",
+   "numero": "1/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-17",
+   "situacao": "EDITAL DE CONVOCAÇÃO Nº 001/2026 - CONVOCAÇÃO PARA ASSINATURA E RETIRADA DA ORDEM DE SERVIÇO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1943397/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-17T14:03:02"
   }
  ]
 }
