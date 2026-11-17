@@ -7,6 +7,18 @@ echo    Notificacoes de Licitacoes INPAV no Windows
 echo  ===============================================
 echo.
 
+if not exist "%~dp0notificador.ps1" (
+  echo  ATENCAO: parece que este arquivo foi aberto de dentro do .zip.
+  echo.
+  echo  Feche esta janela e faca assim:
+  echo    1. Clique com o botao direito no arquivo .zip
+  echo    2. Escolha "Extrair tudo..." e depois "Extrair"
+  echo    3. Na pasta que abrir, de dois cliques em instalar.bat
+  echo.
+  pause
+  exit /b 1
+)
+
 set "DEST=%LOCALAPPDATA%\LicitacoesINPAV"
 if not exist "%DEST%" mkdir "%DEST%"
 
