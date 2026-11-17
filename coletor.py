@@ -46,25 +46,34 @@ def normalizar(txt):
     return re.sub(r"\s+", " ", txt.lower())
 
 
-def get_json(url, params, tentativas=4):
-    """GET com novas tentativas. Retorna dict, ou None se não houver conteúdo."""
+def get_json(url, params, tentativas=8):
+    """GET com novas tentativas. Respeita o limite de consultas do PNCP (HTTP 429)."""
     for n in range(tentativas):
         try:
             r = SESSAO.get(url, params=params, timeout=60)
             if r.status_code == 204 or not r.content:
                 return None
-            if r.status_code in (429, 500, 502, 503, 504):
+            if r.status_code == 429:
+                espera = int(r.headers.get("Retry-After") or 0) or 10 * (n + 1)
+                log(f"  limite de consultas do PNCP; aguardando {espera}s")
+                time.sleep(min(espera, 120))
+                continue
+            if r.status_code in (500, 502, 503, 504):
                 raise requests.HTTPError(f"HTTP {r.status_code}")
             if r.status_code >= 400:
                 log(f"  aviso: HTTP {r.status_code} em {url} {params} -> {r.text[:200]}")
                 return None
             return r.json()
         except (requests.RequestException, ValueError) as e:
-            espera = 3 * (n + 1)
+            espera = 5 * (n + 1)
             log(f"  falha ({e}); tentando de novo em {espera}s")
             time.sleep(espera)
-    log(f"  desisti de {url} {params}")
+    log(f"  ERRO: desisti de {url} {params}")
+    FALHAS.append(f"{url} {params.get('codigoModalidadeContratacao', '')} p{params.get('pagina', '')}")
     return None
+
+
+FALHAS = []
 
 
 # ------------------------------------------------------- filtro por palavras
@@ -158,7 +167,7 @@ def paginar(endpoint, params):
         if pagina >= int(dados.get("totalPaginas") or 1):
             return
         pagina += 1
-        time.sleep(0.4)
+        time.sleep(1.0)
 
 
 def coletar_pncp(cfg, filtro):
@@ -255,6 +264,166 @@ def _modalidade_texto(t):
         if chave in t:
             return nome
     return "Aviso em diário oficial"
+
+
+
+# ------------------------------------------------- Jornal Oficial AMM-MT
+AMM = "https://amm.diariomunicipal.org"
+TERMOS_AMM = ["pavimentação", "asfáltica", "recapeamento", "drenagem", "esgotamento sanitário",
+              "estação elevatória", "adutora", "abastecimento de água", "captação de água",
+              "terraplenagem", "meio-fio", "obras de engenharia", "serviços de engenharia", "ponte"]
+RE_TITULO_SIM = re.compile(r"aviso|edital|pregao|concorrencia|licitacao|tomada de preco|dispensa|chamamento|convite|rdc")
+RE_TITULO_NAO = re.compile(r"resultado|homolog|adjudic|extrato|aditivo|ratific|contrato|anulac|revogac|julgamento|"
+                           r"habilitac|ata de registro|ata da sessao|deserta|fracassad|impugnac|recurso|suspens|cancelament|"
+                           r"lei |decreto|portaria|resolucao")
+MESES = {m: i for i, m in enumerate(["janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto",
+                                     "setembro", "outubro", "novembro", "dezembro"], 1)}
+
+
+def _html_texto(h):
+    h = re.sub(r"(?is)<(script|style).*?</\1>", " ", h)
+    h = re.sub(r"(?i)<br\s*/?>|</p>|</tr>|</li>|</div>", "\n", h)
+    h = re.sub(r"<[^>]+>", " ", h)
+    import html as _h
+    return re.sub(r"[ \t\r\f\v]+", " ", _h.unescape(h)).strip()
+
+
+def _get_html(url, params=None):
+    for n in range(4):
+        try:
+            r = SESSAO.get(url, params=params, timeout=45, headers={
+                "Accept": "text/html,application/xhtml+xml",
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"})
+            if r.status_code == 200:
+                return r.text
+            if r.status_code in (403, 503) and "cloudflare" in r.text.lower():
+                log(f"  AMM bloqueou o acesso automático (HTTP {r.status_code})")
+                return None
+            if r.status_code in (429, 500, 502, 503, 504):
+                time.sleep(8 * (n + 1))
+                continue
+            return None
+        except requests.RequestException:
+            time.sleep(5 * (n + 1))
+    return None
+
+
+def _data_amm(txt):
+    m = re.search(r"(\d{1,2}) de (\w+) de (\d{4})", normalizar(txt))
+    if m and m.group(2) in MESES:
+        return date(int(m.group(3)), MESES[m.group(2)], int(m.group(1)))
+    m = re.search(r"(\d{2})/(\d{2})/(\d{2})", txt)
+    if m:
+        return date(2000 + int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    return None
+
+
+def _objeto(texto):
+    t = re.sub(r"\s+", " ", texto)
+    m = re.search(r"(?i)objeto\s*[:\-–]?\s*(.{30,600}?)(?:\.\s|;\s| data | abertura| sess[aã]o| valor | local )", t)
+    return (m.group(1) if m else t[:500]).strip(" :-–")
+
+
+def _abertura(texto, chaves=("abertura", "sessao publica", "realizar-se-a", "realizada no dia",
+                              "data da disputa", "inicio da sessao", "inicio da disputa")):
+    t = normalizar(texto)
+    for chave in chaves:
+        i = t.find(chave)
+        if i >= 0:
+            m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})(?:\D{1,15}(\d{1,2})[:h](\d{2}))?", t[i:i + 250])
+            if m:
+                try:
+                    return datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)),
+                                    int(m.group(4) or 0), int(m.group(5) or 0)).isoformat(timespec="minutes")
+                except ValueError:
+                    pass
+    return None
+
+
+def _num(txt):
+    m = re.search(r"n[º°o.]*\s*0*(\d{1,5})\s*/\s*(\d{4})", normalizar(txt))
+    return (int(m.group(1)), m.group(2)) if m else None
+
+
+def coletar_amm(cfg, filtro, pncp_itens):
+    limite = date.today() - timedelta(days=cfg.get("dias_retroativos_amm", 7))
+    vistos, itens = set(), []
+    for termo in TERMOS_AMM:
+        params, paginas = {"q": termo}, 0
+        while paginas < cfg.get("max_paginas_amm", 12):
+            h = _get_html(f"{AMM}/publicacoes/", params)
+            if h is None:
+                if not itens and not vistos:
+                    log("AMM indisponível; pulando esta fonte")
+                    return []
+                break
+            blocos = re.findall(r'(?s)<li class="list-group-item.*?</li>', h)
+            if not blocos:
+                break
+            antigo = False
+            for b in blocos:
+                href = re.search(r"""href=['"](/publicacao/(\d+)/)['"]""", b)
+                tit = re.search(r'(?s)publication-title[^>]*>(.*?)</div>', b)
+                ent = re.search(r'(?s)entity-title[^>]*>(.*?)</div>', b)
+                dt = re.search(r'(?s)class="date[^"]*"[^>]*title="([^"]*)"', b) or re.search(r"(\d{2}/\d{2}/\d{2})", b)
+                if not (href and tit):
+                    continue
+                d = _data_amm(dt.group(1)) if dt else None
+                if d and d < limite:
+                    antigo = True
+                    continue
+                pid = href.group(2)
+                titulo = _html_texto(tit.group(1))
+                tn = normalizar(titulo)
+                if pid in vistos or not RE_TITULO_SIM.search(tn) or RE_TITULO_NAO.search(tn):
+                    continue
+                vistos.add(pid)
+                entidade = _html_texto(ent.group(1)) if ent else ""
+                itens.append({"pid": pid, "titulo": titulo, "entidade": entidade,
+                              "data": d.isoformat() if d else None, "url": AMM + href.group(1)})
+            nxt = re.search(r'href="\?([^"]*\bsa=[^"]*)"', h) or re.search(r'href="[^"]*publicacoes/\?([^"]*\bsa=[^"]*)"', h)
+            if antigo or not nxt:
+                break
+            import html as _h
+            params = dict(p.split("=", 1) for p in _h.unescape(nxt.group(1)).split("&") if "=" in p)
+            params = {k: requests.utils.unquote(v) for k, v in params.items()}
+            paginas += 1
+            time.sleep(1.2)
+        time.sleep(1)
+    log(f"AMM: {len(itens)} avisos de licitação candidatos")
+
+    # índice do PNCP para não duplicar (município + número/ano)
+    idx = {(normalizar(i["municipio"]), _num("nº " + i["numero"]))
+           for i in pncp_itens if i.get("numero")}
+    saida = []
+    for c in itens:
+        h = _get_html(c["url"])
+        time.sleep(1.0)
+        if not h:
+            continue
+        art = (re.search(r'(?s)<div[^>]*id="publication-text"[^>]*>(.*?)</div>\s*<div class="d-flex', h)
+               or re.search(r'(?s)<article[^>]*id="publication-info"[^>]*>(.*?)</article>', h))
+        texto = _html_texto(art.group(1) if art else h)[:6000]
+        r = filtro.avaliar(f"{c['titulo']} {texto[:3000]}")
+        if not r:
+            continue
+        mun = re.sub(r"(?i)^(pref(eitura)?\.?\s*(municipal)?\s*de\s*|c[aâ]mara municipal de\s*)", "", c["entidade"]).strip()
+        if (normalizar(mun), _num(c["titulo"])) in idx:
+            continue  # já veio do PNCP
+        ab = _abertura(texto)
+        enc = _abertura(texto, ("encerramento das propostas", "encerramento do recebimento", "limite para")) or ab
+        saida.append({
+            "id": f"AMM-{c['pid']}", "fonte": "Jornal AMM",
+            "municipio": mun.title() if mun.isupper() else mun, "orgao": c["entidade"], "unidade": "",
+            "esfera": "Municipal", "objeto": _objeto(texto), "info": c["titulo"],
+            "numero": "%d/%s" % _num(c["titulo"]) if _num(c["titulo"]) else "", "processo": "",
+            "modalidade": _modalidade_texto(c["titulo"] + " " + texto[:800]), "modo_disputa": "",
+            "forma": forma_disputa(c["titulo"] + " " + texto[:1500], ""),
+            "valor": None, "abertura": ab, "encerramento": enc, "publicacao": c["data"],
+            "situacao": c["titulo"][:120], "link": c["url"], "link_sistema": "",
+            "categorias": r[0], "termos": r[1]})
+    log(f"AMM: {len(saida)} licitações relevantes (fora as que já estão no PNCP)")
+    return saida
 
 
 # ------------------------------------------------------------ juntar e salvar
@@ -360,6 +529,14 @@ def main():
     pncp = coletar_pncp(cfg, filtro)
     fontes["PNCP"] = len(pncp)
     itens += pncp
+
+    try:
+        amm = coletar_amm(cfg, filtro, pncp)
+    except Exception as e:  # fonte complementar: nunca derruba a coleta
+        log(f"AMM: erro inesperado ({e})")
+        amm = []
+    fontes["Jornal Oficial AMM"] = len(amm)
+    itens += amm
 
     qd = coletar_querido_diario(cfg, filtro)
     fontes["Diário Oficial (Querido Diário)"] = len(qd)

@@ -94,9 +94,9 @@
   <div class="contagem" id="contagem"></div>
   <div class="lista" id="lista"></div>
 </main>
-<footer>Fontes: PNCP (Portal Nacional de Contratações Públicas) e diários oficiais municipais via Querido Diário.
-Prefeituras pequenas que ainda não publicam no PNCP podem aparecer só no
-<a href="https://www.diariomunicipal.org/mt/amm/" target="_blank" rel="noopener">Jornal Oficial da AMM</a>. Confira sempre o edital original.</footer>
+<footer>Fontes: PNCP (Portal Nacional de Contratações Públicas), Jornal Oficial da AMM-MT
+(<a href="https://amm.diariomunicipal.org/publicacoes/" target="_blank" rel="noopener">amm.diariomunicipal.org</a>)
+e diários municipais via Querido Diário. Confira sempre o edital original.</footer>
 
 <script>
 const $ = id => document.getElementById(id);
@@ -183,7 +183,7 @@ function render(){
         ${txtDias ? `<span class="dias">${txtDias}</span>` : ""}
       </div>
       <div class="links">
-        ${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">${x.fonte === "PNCP" ? "Ver no PNCP" : "Abrir diário oficial"}</a>` : ""}
+        ${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">${x.fonte === "PNCP" ? "Ver no PNCP" : x.fonte === "Jornal AMM" ? "Ver no Jornal da AMM" : "Abrir diário oficial"}</a>` : ""}
         ${x.link_sistema ? `<a href="${esc(x.link_sistema)}" target="_blank" rel="noopener">Sistema de disputa</a>` : ""}
         <span style="color:var(--muted)">Fonte: ${esc(x.fonte)}</span>
       </div>

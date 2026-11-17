@@ -174,5 +174,7 @@
     "locacao de estruturas",
     "engenharia eletrica",
     "iluminacao"
-  ]
+  ],
+  "dias_retroativos_amm": 10,
+  "max_paginas_amm": 12
 }
