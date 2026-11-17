@@ -1,7 +1,7 @@
 {
- "atualizado_em": "2026-11-17T13:33:14",
+ "atualizado_em": "2026-11-17T13:43:04",
  "fontes": {
-  "PNCP": 95,
+  "PNCP": 77,
   "Diário Oficial (Querido Diário)": 0
  },
  "total": 95,
@@ -235,13 +235,11 @@
    "link": "https://pncp.gov.br/app/editais/03702217000131/2026/48",
    "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
    "categorias": [
-    "Saneamento e Água",
-    "Obras civis e Estradas"
+    "Saneamento e Água"
    ],
    "termos": [
     "abastecimento de agua",
-    "adutora",
-    "rodovia"
+    "adutora"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
