@@ -6,6 +6,12 @@ on:
     - cron: "17 10 * * *"
     - cron: "17 19 * * *"
   workflow_dispatch: {}   # permite rodar na mão pelo botão "Run workflow"
+  push:                   # roda também quando o código ou as palavras-chave mudam
+    branches: [main]
+    paths:
+      - "coletor.py"
+      - "config.json"
+      - ".github/workflows/coletar.yml"
 
 permissions:
   contents: write
