@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-17T20:27:34",
+ "atualizado_em": "2026-11-18T11:26:20",
  "fontes": {
-  "PNCP": 77,
-  "Jornal Oficial AMM": 40,
+  "PNCP": 78,
+  "Jornal Oficial AMM": 44,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 122,
+ "total": 130,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -1723,6 +1723,35 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "01614225000109-1-000349/2026",
+   "fonte": "PNCP",
+   "municipio": "Sapezal",
+   "orgao": "MUNICIPIO DE SAPEZAL",
+   "unidade": "MUNICÍPIO DE SAPEZAL/MT",
+   "esfera": "Municipal",
+   "objeto": "FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE SERVIÇOS COMUNS DE SERRALHERIA, JARDINAGEM, PEDREIRO, AJUDANTE DE PEDREIRO, OPERADOR DE PAVIMENTADORA, RASTELEIRO DE ASFALTO, MONITOR DE ÔNIBUS ESCOLAR RURAL E AUXILIAR DE SERVIÇOS GERAIS, em atendimento às secretarias do município de Sapezal-MT.",
+   "info": "",
+   "numero": "PE 13112/2026",
+   "processo": "13112/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 12699360.97,
+   "abertura": "2026-11-16T08:00:00",
+   "encerramento": "2026-12-01T08:59:00",
+   "publicacao": "2026-11-17T14:16:20",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01614225000109/2026/349",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
+  },
+  {
    "id": "01614225000109-1-000344/2026",
    "fonte": "PNCP",
    "municipio": "Sapezal",
@@ -1968,6 +1997,36 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "24950495000188-1-000170/2026",
+   "fonte": "PNCP",
+   "municipio": "Campo Verde",
+   "orgao": "MUNICIPIO DE CAMPO VERDE",
+   "unidade": "MUNICÍPIO DE CAMPO VERDE/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRAS DE ENGENHARIA DESTINADAS À CONSTRUÇÃO DA UNIDADE “SER FAMÍLIA CRIANÇA”, A SER IMPLANTADO NA RUA JOSÉ AUGUSTO DA SILVA, QUADRA 05, BAIRRO SANTO ROSA, NO MUNICÍPIO DE CAMPO VERDE – MT. A SOLUÇÃO COMPREENDE A EXECUÇÃO INTEGRAL DA OBRA, EM CONFORMIDADE COM O PROJETO EXECUTIVO DE ENGENHARIA, INCLUINDO, DE FORMA INTEGRADA E COMPATÍVEL, OS PROJETOS ARQUITETÔNICOS, DE ACESSIBILIDADE, ESTRUTURAL, HIDROSSANITÁRIO, ELÉTRICO, SISTEMA DE PROTEÇÃO CONTRA DESCARGAS ATMOSFÉRICAS (SPDA), PREVENÇÃO E COMBATE A INCÊNDIO E SISTEMA DE GÁS, BEM COMO TODOS OS SERVIÇOS, FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS, MÃO DE OBRA E DEMAIS INSUMOS NECESSÁRIOS À PERFEITA EXECUÇÃO DO OBJETO",
+   "info": "",
+   "numero": "04/2026",
+   "processo": "2476",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 8381274.6,
+   "abertura": "2026-11-17T16:54:10",
+   "encerramento": "2026-12-03T08:30:00",
+   "publicacao": "2026-11-17T16:54:14",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/24950495000188/2026/170",
+   "link_sistema": "https://licitanet.com.br/sessao/208426",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "obras de engenharia"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
+  },
+  {
    "id": "AMM-1943327",
    "fonte": "Jornal AMM",
    "municipio": "Nova Xavantina",
@@ -2113,6 +2172,70 @@
     "ponte"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "03238888000193-1-000037/2026",
+   "fonte": "PNCP",
+   "municipio": "Novo Horizonte do Norte",
+   "orgao": "MUNICIPIO DE NOVO HORIZONTE DO NORTE",
+   "unidade": "Departamento de Licitações",
+   "esfera": "Municipal",
+   "objeto": "[Portal de Compras Públicas] - Contratação de empresa especializada em engenharia para execução da obra de construção da Escola Municipal Ulisses Guimarães, compreendendo bloco escolar com passarela, refeitório, abrigo de GLP, pórtico de entrada, quadra poliesportiva coberta com arquibancada, base de reservatório elevado de 20.000 litros, estacionamento e muro de fechamento e contenção, totalizando 3.252,96 m² de área construída, em atendimento ao Termo de Compromisso FMTE nº 020/2026, Processo nº SEDUC-PRO-2025/185113, conforme especificado no Projeto Básico/Executivo, Termo de Referência e demais documentos que integram o Edital e seus anexos.",
+   "info": "",
+   "numero": "005/2026",
+   "processo": "029/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 10329330.37,
+   "abertura": "2026-11-18T09:00:00",
+   "encerramento": "2026-12-07T08:30:00",
+   "publicacao": "2026-11-17T18:18:50",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03238888000193/2026/37",
+   "link_sistema": "https://www.portaldecompraspublicas.com.br/processos/MT/Prefeitura-Municipal-de-Novo-Horizonte-do-Norte-827/CPMP-005-2026-2026-525808",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "contencao",
+    "reservatorio"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
+  },
+  {
+   "id": "AMM-1944028",
+   "fonte": "Jornal AMM",
+   "municipio": "Novo Horizonte do Norte",
+   "orgao": "Prefeitura Municipal de Novo Horizonte do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "contratação de empresa especializada em engenharia para execução da obra de construção da Escola Municipal Ulisses Guimarães, compreendendo bloco escolar com passarela, refeitório, abrigo de GLP, pórtico de entrada, quadra poliesportiva coberta com arquibancada, base de reservatório elevado de 20.000 litros, estacionamento e muro de fechamento e contenção, totalizando 3.252,96 m² de área construída, em atendimento ao Termo de Compromisso FMTE nº 020/2026, Processo nº SEDUC-PRO-2025/185113 , conforme especificado no Projeto Básico/Executivo, Termo de Referência e demais anexos do edital",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA 005/2026 Processo Administrativo 029/2026",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-07T09:00",
+   "encerramento": "2026-12-07T09:00",
+   "publicacao": "2026-11-18",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA 005/2026 Processo Administrativo 029/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944028/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "contencao",
+    "reservatorio"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "04219688000156-1-000043/2026",
@@ -2262,6 +2385,36 @@
     "servicos de engenharia"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "03648532000128-1-000042/2026",
+   "fonte": "PNCP",
+   "municipio": "Alto Paraguai",
+   "orgao": "MUNICIPIO DE ALTO PARAGUAI",
+   "unidade": "PREFEITURA MUNICIPAL DE ALTO PARAGUAI - MT",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO PARCELADA DE EMULSÕES ASFÁLTICAS DOS TIPOS EAI E RR-2C, DESTINADAS À EXECUÇÃO DE OBRAS, SERVIÇOS DE PAVIMENTAÇÃO ASFÁLTICA, MANUTENÇÃO E CONSERVAÇÃO DE VIAS PÚBLICAS, PARA ATENDIMENTO DAS NECESSIDADES DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA DE ALTO PARAGUAI – MT, CONFORME ESPECIFICAÇÕES TÉCNICAS, QUANTITATIVOS E EXIGÊNCIAS ESTABELECIDAS NO ANEXO I – TERMO DE REFERÊNCIA DO EDITAL DO PREGÃO ELETRÔNICO.",
+   "info": "",
+   "numero": "17/2026",
+   "processo": "033",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 4245798.0,
+   "abertura": "2026-11-18T08:30:00",
+   "encerramento": "2026-12-08T08:30:00",
+   "publicacao": "2026-11-17T17:13:24",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03648532000128/2026/42",
+   "link_sistema": "https://transparencia.agilicloud.com.br/altoparaguai/licitacoes/licitacao?id=1062",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt",
+    "pavimentacao"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "03507498000171-1-000133/2026",
@@ -2687,7 +2840,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T20:27:34"
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -2847,6 +3000,37 @@
     "sinalizacao viaria"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1944400",
+   "fonte": "Jornal AMM",
+   "municipio": "Guarantã do Norte",
+   "orgao": "Prefeitura Municipal de Guarantã do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA HABILITADA EM PRESTAÇÃO DE OBRAS E ENGENHARIA PARA A “EXECUÇÃO DOS SERVIÇOS REMANESCENTES DA REFORMA E DA CONSTRUÇÃO DO REFEITÓRIO E CALÇADA DA ESCOLA ESTADUAL ALBERT EINSTEIN, NO MUNICÍPIO DE GUARANTÃ DO NORTE -MT”",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 06/2026",
+   "numero": "6/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-28T09:00",
+   "encerramento": "2026-12-28T09:00",
+   "publicacao": "2026-11-18",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 06/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944400/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "calcada",
+    "construcao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "03347101000121-1-000240/2026",
@@ -3608,7 +3792,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T20:27:34"
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "AMM-1938524",
@@ -3637,7 +3821,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-17T20:27:34"
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "AMM-1939380",
@@ -3666,7 +3850,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-17T20:27:34"
+   "visto_em": "2026-11-18T11:26:20"
   },
   {
    "id": "AMM-1940392",
@@ -3695,7 +3879,68 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-17T20:27:34"
+   "visto_em": "2026-11-18T11:26:20"
+  },
+  {
+   "id": "AMM-1944189",
+   "fonte": "Jornal AMM",
+   "municipio": "Brasnorte",
+   "orgao": "Prefeitura Municipal de Brasnorte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "“ Registro de preços para futura e eventual aquisição de conjuntos motobombas submersíveis tipo caneta, destinados à substituição e à manutenção dos equipamentos dos poços tubulares de abastecimento de água do departamento de água e esgoto – DAE do município de Brasnorte/MT, referentes aos itens que resultaram fracassados no pregão eletrônico nº 008/2025 ”",
+   "info": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO Nº 022/2026 Processo Administrativo nº 090/2026",
+   "numero": "22/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-18",
+   "situacao": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO Nº 022/2026 Processo Administrativo nº 090/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944189/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "pocos tubulares"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
+  },
+  {
+   "id": "AMM-1944363",
+   "fonte": "Jornal AMM",
+   "municipio": "Boa Esperança do Norte",
+   "orgao": "Prefeitura Municipal de Boa Esperança do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "PREFEITURA MUNICIPAL DE BOA ESPERANÇA DO NORTE - ESTADO DE MATO GROSSO PROCESSO ADMINISTRATIVO Nº 085/2026 (CONFORME LEI Nº 14.133/2021) Objeto: AQUISIÇÃO DE 01 (UMA) ESCAVADEIRA HIDRÁULICA SOBRE ESTEIRAS, NOVA, ZERO HORA, COM ANO DE FABRICAÇÃO CORRESPONDENTE AO ANO DA ENTREGA E MODELO DO MESMO ANO OU POSTERIOR, DESTINADA AO APOIO À PRODUÇÃO AGROPECUÁRIA, INCLUINDO A MANUTENÇÃO E RECUPERAÇÃO DE ESTRADAS VICINAIS E A EXECUÇÃO DE SERVIÇOS DE INFRAESTRUTURA RURAL VOLTADOS AO ESCOAMENTO DA PRODUÇÃO",
+   "info": "AVISO DE LICITAÇÃO - MODALIDADE – PREGÃO ELETRÔNICO Nº 010/2026",
+   "numero": "10/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-18",
+   "situacao": "AVISO DE LICITAÇÃO - MODALIDADE – PREGÃO ELETRÔNICO Nº 010/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944363/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "estrada",
+    "estradas",
+    "vicinais"
+   ],
+   "visto_em": "2026-11-18T11:26:20"
   }
  ]
 }
