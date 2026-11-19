@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-18T20:22:53",
+ "atualizado_em": "2026-11-19T11:24:54",
  "fontes": {
-  "PNCP": 77,
-  "Jornal Oficial AMM": 44,
+  "PNCP": 83,
+  "Jornal Oficial AMM": 47,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 132,
+ "total": 148,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -527,6 +527,35 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "24772162000106-1-000230/2026",
+   "fonte": "PNCP",
+   "municipio": "Nova Mutum",
+   "orgao": "MUNICIPIO DE NOVA MUTUM",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVA MUTUM - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE LIMPEZA E IMPERMEABILIZAÇÃO DE PISO, A FIM DE ATENDER A DEMANDA DECORRENTE DA REFORMA INTERNA NA ALA DO PAÇO MUNICIPAL QUE ALOCA A PROCURADORIA GERAL MUNICIPAL E AS SECRETARIAS DE ADMINIST",
+   "info": "",
+   "numero": "218/2026",
+   "processo": "00001410/2026",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Dispensa Com Disputa",
+   "forma": "Não informado",
+   "valor": 14210.0,
+   "abertura": "2026-11-18T09:00:00",
+   "encerramento": "2026-11-18T09:00:00",
+   "publicacao": "2026-11-18T15:39:03",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/24772162000106/2026/230",
+   "link_sistema": "https://www.gp.srv.br/transparencia_novamutum/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
    "id": "15023922000191-1-000111/2026",
    "fonte": "PNCP",
    "municipio": "Canarana",
@@ -706,36 +735,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "37464161000146-1-000005/2026",
-   "fonte": "PNCP",
-   "municipio": "Santo Afonso",
-   "orgao": "MUNICIPIO DE SANTO AFONSO",
-   "unidade": "MUNICÍPIO DE SANTO AFONSO/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS E SERVIÇOS DE ENGENHARIA PARA A EXECUÇÃO DA CONSTRUÇÃO DO PONTO DE APOIO EM SAÚDE 'PADRE SHINAIDER', LOCALIZADO NO DISTRITO BOA ESPERANÇA, S/Nº, ZONA RURAL, MUNICÍPIO DE SANTO AFONSO – MT, COMPREENDENDO A EXECUÇÃO INTEGRAL DA OBRA, INCLUINDO O FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, FERRAMENTAS, TRANSPORTE, INSUMOS E DEMAIS RECURSOS NECESSÁRIOS À SUA PERFEITA EXECUÇÃO E CONCLUSÃO, EM CONFORMIDADE COM OS PROJETOS, MEMORIAIS DESCRITIVOS, ESPECIFICAÇÕES TÉCNICAS, PLANILHA ORÇAMENTÁRIA, CRONOGRAMA FÍSICO-FINANCEIRO E DEMAIS DOCUMENTOS QUE INTEGRAM O PROCESSO LICITATÓRIO E DE ACORDO COM O TERMO DE COMPROMISSO DE Nº 549/2026.",
-   "info": "",
-   "numero": "3/2026",
-   "processo": "3/2026",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Aberto-Fechado",
-   "forma": "Eletrônica",
-   "valor": 1074935.43,
-   "abertura": "2026-10-23T12:21:42",
-   "encerramento": "2026-11-19T09:00:00",
-   "publicacao": "2026-10-23T12:22:10",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/37464161000146/2026/5",
-   "link_sistema": "https://licitanet.com.br/sessao/205836",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao",
-    "servicos de engenharia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "03347135000116-1-000080/2026",
    "fonte": "PNCP",
    "municipio": "Jaciara",
@@ -824,6 +823,36 @@
    "termos": [
     "ampliacao",
     "reforma"
+   ],
+   "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "37464161000146-1-000005/2026",
+   "fonte": "PNCP",
+   "municipio": "Santo Afonso",
+   "orgao": "MUNICIPIO DE SANTO AFONSO",
+   "unidade": "MUNICÍPIO DE SANTO AFONSO/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS E SERVIÇOS DE ENGENHARIA PARA A EXECUÇÃO DA CONSTRUÇÃO DO PONTO DE APOIO EM SAÚDE 'PADRE SHINAIDER', LOCALIZADO NO DISTRITO BOA ESPERANÇA, S/Nº, ZONA RURAL, MUNICÍPIO DE SANTO AFONSO – MT, COMPREENDENDO A EXECUÇÃO INTEGRAL DA OBRA, INCLUINDO O FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, FERRAMENTAS, TRANSPORTE, INSUMOS E DEMAIS RECURSOS NECESSÁRIOS À SUA PERFEITA EXECUÇÃO E CONCLUSÃO, EM CONFORMIDADE COM OS PROJETOS, MEMORIAIS DESCRITIVOS, ESPECIFICAÇÕES TÉCNICAS, PLANILHA ORÇAMENTÁRIA, CRONOGRAMA FÍSICO-FINANCEIRO E DEMAIS DOCUMENTOS QUE INTEGRAM O PROCESSO LICITATÓRIO E DE ACORDO COM O TERMO DE COMPROMISSO DE Nº 549/2026.",
+   "info": "",
+   "numero": "3/2026",
+   "processo": "3/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 1074935.43,
+   "abertura": "2026-11-18T22:15:52",
+   "encerramento": "2026-11-23T09:00:00",
+   "publicacao": "2026-10-23T12:22:10",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37464161000146/2026/5",
+   "link_sistema": "https://licitanet.com.br/sessao/205836",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "servicos de engenharia"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -1063,6 +1092,35 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "15023906000107-1-000165/2026",
+   "fonte": "PNCP",
+   "municipio": "Alta Floresta",
+   "orgao": "MUNICIPIO DE ALTA FLORESTA",
+   "unidade": "PREFEITURA MUNICIPAL DE ALTA FLORESTA - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REALIZAÇÃO DE REFORMA DE ESTUFA AGRÍCOLA PARA PRODUÇÃO DE MUDAS, COM FORNECIMENTO DE MATERIAIS, TRANSPORTE, MÃO DE OBRA, MONTAGEM E INSTALAÇÃO DA ESTRUTURA DA COBERTURA.",
+   "info": "",
+   "numero": "181/2026",
+   "processo": "00002398/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 55070.71,
+   "abertura": "2026-11-24T08:30:00",
+   "encerramento": "2026-11-24T08:30:00",
+   "publicacao": "2026-11-18T10:42:29",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15023906000107/2026/165",
+   "link_sistema": "https://www.gp.srv.br/transparencia_altafloresta/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "AMM-1938548",
@@ -1723,6 +1781,36 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "03702217000131-1-000057/2026",
+   "fonte": "PNCP",
+   "municipio": "Rondonópolis",
+   "orgao": "SANEAR - SERVICO DE SANEAMENTO AMBIENTAL DE RONDONOPOLIS TEREZINHA SILVA DE SOUZA",
+   "unidade": "SERVIÇO DE SANEAMENTO AMBIENTAL DE RONDONÓPOLIS - SANEAR - MT",
+   "esfera": "Municipal",
+   "objeto": "AQUISIÇÃO DE MATERIAIS PARA OBRAS DE INFRAESTRUTURA DE SANEAMENTO PARA EXECUÇÃO DO COLETOR DOM WUNIBALDO, EMISSÁRIO NOVA CANAÃ E EMISSÁRIO CANIVETE, NO MUNICÍPIO DE RONDONÓPOLIS/MT, COM RECURSOS PROVENIENTES DO NOVO PAC TERMO DE COMPROMISSO Nº 968724/2024",
+   "info": "",
+   "numero": "58/2026",
+   "processo": "00000258/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 6632568.55,
+   "abertura": "2026-11-30T17:00:00",
+   "encerramento": "2026-12-01T08:00:00",
+   "publicacao": "2026-11-18T11:15:46",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03702217000131/2026/57",
+   "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "emissario",
+    "saneamento"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
    "id": "01614225000109-1-000349/2026",
    "fonte": "PNCP",
    "municipio": "Sapezal",
@@ -1968,6 +2056,40 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "AMM-1944694",
+   "fonte": "Jornal AMM",
+   "municipio": "Nova Canaã do Norte",
+   "orgao": "Prefeitura Municipal de Nova Canaã do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Aquisição de materiais destinados à execução dos serviços de pavimentação asfáltica em Tratamento Superficial Duplo (TSD) e de sinalização viária em diversas vias públicas do Distrito Colorado do Norte, município de Nova Canaã do Norte/MT, conforme Convênio nº 1049/2026/SINFRA, conforme exigências constantes no Anexo I (Termo de Referência)",
+   "info": "AVISO DE LICITAÇÃO – PREGÃO PRESENCIAL Nº 034/2026",
+   "numero": "34/2026",
+   "processo": "",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": "2026-12-03T08:00",
+   "encerramento": "2026-12-03T08:00",
+   "publicacao": "2026-11-19",
+   "situacao": "AVISO DE LICITAÇÃO – PREGÃO PRESENCIAL Nº 034/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944694/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "pavimentacao",
+    "sinalizacao viaria",
+    "tratamento superficial",
+    "tsd"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
    "id": "01974088000105-1-000158/2026",
    "fonte": "PNCP",
    "municipio": "Primavera do Leste",
@@ -2174,6 +2296,64 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "15023922000191-1-000126/2026",
+   "fonte": "PNCP",
+   "municipio": "Canarana",
+   "orgao": "MUNICIPIO DE CANARANA",
+   "unidade": "MUNICÍPIO DE CANARANA/MT",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa para a construção Unidade de Atenção Especializada em Saúde – CAPS, conforme proposta nº 13978186000126037 junto ao Ministério da Saúde, conforme edital e anexos.",
+   "info": "",
+   "numero": "012/2026",
+   "processo": "098/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 2759597.11,
+   "abertura": "2026-11-18T16:00:00",
+   "encerramento": "2026-12-04T23:59:00",
+   "publicacao": "2026-11-18T13:49:50",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15023922000191/2026/126",
+   "link_sistema": "http://www.licitacoescanarana.com.br",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "37465283000157-1-000128/2026",
+   "fonte": "PNCP",
+   "municipio": "Santa Carmem",
+   "orgao": "MUNICIPIO DE SANTA CARMEM",
+   "unidade": "Comissão Permanente de Licitação",
+   "esfera": "Municipal",
+   "objeto": "[Portal de Compras Públicas] - Contratação de empresa especializada em engenharia para execução da obra de construção de passeio público e acessibilidade universal, em ruas e avenidas do município de Santa Carmem.",
+   "info": "",
+   "numero": "13/2026",
+   "processo": "295/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1495946.75,
+   "abertura": "2026-11-19T08:30:00",
+   "encerramento": "2026-12-07T08:20:00",
+   "publicacao": "2026-11-19T08:03:57",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37465283000157/2026/128",
+   "link_sistema": "https://www.portaldecompraspublicas.com.br/processos/MT/Prefeitura-Municipal-de-Santa-Carmem-696/CPMP-13-2026-2026-526301",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
    "id": "03238888000193-1-000037/2026",
    "fonte": "PNCP",
    "municipio": "Novo Horizonte do Norte",
@@ -2297,6 +2477,65 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "24772162000106-1-000229/2026",
+   "fonte": "PNCP",
+   "municipio": "Nova Mutum",
+   "orgao": "MUNICIPIO DE NOVA MUTUM",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVA MUTUM - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REFORMA E AMPLIAÇÃO DA PRAÇA DOS MIGRANTES, LOCALIZADO NO BAIRRO JARDIM, NA AVENIDA DAS EMAS, NO MUNICÍPIO DE NOVA MUTUM/MT, CONFORME PLANILHA ORÇAMENTÁRIA, CRONOGRAMA FÍSICO FINANCEIRO E MEMORIAL DESCRITIVO QUE C",
+   "info": "",
+   "numero": "216/2026",
+   "processo": "00001405/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 1329127.66,
+   "abertura": "2026-12-07T08:00:00",
+   "encerramento": "2026-12-07T09:00:00",
+   "publicacao": "2026-11-18T10:17:59",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/24772162000106/2026/229",
+   "link_sistema": "https://www.gp.srv.br/transparencia_novamutum/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "01310499000104-1-000143/2026",
+   "fonte": "PNCP",
+   "municipio": "Cláudia",
+   "orgao": "MUNICIPIO DE CLAUDIA",
+   "unidade": "MUNICÍPIO DE CLÁUDIA/MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE CONSTRUÇÃO DE PISTA DE CAMINHADA, COM FORNECIMENTO DE MATERIAIS E MÃO DE OBRA, CONFORME PROJETOS E DEMAIS DOCUMENTOS TÉCNICOS DO CONVÊNIO Nº 2523-2025 – SINFRA/MT, NO MUNICÍPIO DE CLÁUDIA-MT.",
+   "info": "",
+   "numero": "5/2026",
+   "processo": "00001637/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 3904605.95,
+   "abertura": "2026-11-23T09:00:00",
+   "encerramento": "2026-12-07T09:00:00",
+   "publicacao": "2026-11-18T13:42:47",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01310499000104/2026/143",
+   "link_sistema": "https://www.gp.srv.br/transparencia_claudia/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
    "id": "AMM-1933023",
    "fonte": "Jornal AMM",
    "municipio": "Guiratinga",
@@ -2355,6 +2594,36 @@
     "obra de engenharia"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "24772162000106-1-000231/2026",
+   "fonte": "PNCP",
+   "municipio": "Nova Mutum",
+   "orgao": "MUNICIPIO DE NOVA MUTUM",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVA MUTUM - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REFORMA E AMPLIAÇÃO DA PRAÇA LOCALIZADA NO BAIRRO JARDIM II, NA AVENIDA DAS ARARAS, NO MUNICÍPIO DE NOVA MUTUM/MT, CONFORME PLANILHA ORÇAMENTÁRIA, CRONOGRAMA FÍSICO FINANCEIRO E MEMORIAL DESCRITIVO QUE COMPÕE O PR",
+   "info": "",
+   "numero": "217/2026",
+   "processo": "00001409/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 1895007.77,
+   "abertura": "2026-12-07T13:30:00",
+   "encerramento": "2026-12-07T14:30:00",
+   "publicacao": "2026-11-18T15:40:27",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/24772162000106/2026/231",
+   "link_sistema": "https://www.gp.srv.br/transparencia_novamutum/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "03773942000109-1-000051/2026",
@@ -2445,6 +2714,35 @@
     "esgotamento sanitario"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "03702217000131-1-000058/2026",
+   "fonte": "PNCP",
+   "municipio": "Rondonópolis",
+   "orgao": "SANEAR - SERVICO DE SANEAMENTO AMBIENTAL DE RONDONOPOLIS TEREZINHA SILVA DE SOUZA",
+   "unidade": "SERVIÇO DE SANEAMENTO AMBIENTAL DE RONDONÓPOLIS - SANEAR - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE TRAVESSIA DE ADUTORA PELO METODO NAO DESTRUTIVO (MND) – BR-364, KM 207 – RONDONOPOLIS/MT, COM RECURSOS PROVENIENTES DO NOVO PAC – AGUA PARA TODOS, TERMO DE COMPROMISSO Nº 968607/2024 – OPERAÇÃO Nº 1098",
+   "info": "",
+   "numero": "59/2026",
+   "processo": "00000260/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 432400.0,
+   "abertura": "2026-12-08T17:00:00",
+   "encerramento": "2026-12-09T08:00:00",
+   "publicacao": "2026-11-18T11:16:09",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03702217000131/2026/58",
+   "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "adutora"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "15024029000180-1-000119/2026",
@@ -2538,6 +2836,35 @@
     "ampliacao"
    ],
    "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "03507498000171-1-000126/2026",
+   "fonte": "PNCP",
+   "municipio": "Aripuanã",
+   "orgao": "MUNICIPIO DE ARIPUANA",
+   "unidade": "PREFEITURA MUNICIPAL DE ARIPUANÃ - MT",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada em engenharia civil para a execução, sob o regime de empreitada por preço global (com fornecimento de material e mão de obra), das obras de construção de uma quadra de futsal com área total de 1.125,00 m², localizada na Avenida Força Aérea Brasileira (Avenida da FAB), no município de Aripuanã - MT, conforme especificações técnicas, memorial descritivo, projetos e planilhas orçamentárias constantes nos anexos deste instrumento.",
+   "info": "",
+   "numero": "16/2026",
+   "processo": "151",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Presencial",
+   "valor": 264896.29,
+   "abertura": "2026-11-03T08:00:00",
+   "encerramento": "2026-12-11T08:00:00",
+   "publicacao": "2026-10-05T11:45:55",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03507498000171/2026/126",
+   "link_sistema": "https://transparencia.agilicloud.com.br/aripuana/licitacoes/licitacao?id=8609",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "03702217000131-1-000047/2026",
@@ -2840,7 +3167,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-18T20:22:53"
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -3062,6 +3389,35 @@
     "reforma"
    ],
    "visto_em": "2026-11-18T20:22:53"
+  },
+  {
+   "id": "AMM-1945345",
+   "fonte": "Jornal AMM",
+   "municipio": "Guarantã do Norte",
+   "orgao": "Prefeitura Municipal de Guarantã do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA HABILITADA EM PRESTAÇÃO DE OBRAS E ENGENHARIA PARA “CONSTRUÇÃO DE UMA PISCINA SEMIOLÍMPICA COM VESTIÁRIO PARA A ESCOLA MUNICIPAL PROFESSORA SUELI OLMIRA PEREIRA NO MUNICÍPIO DE GUARANTÃ DO NORTE-MT”",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 07/2026",
+   "numero": "7/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-29T09:00",
+   "encerramento": "2026-12-29T09:00",
+   "publicacao": "2026-11-19",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 07/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1945345/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "03347101000121-1-000240/2026",
@@ -3914,7 +4270,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-18T20:22:53"
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "AMM-1938524",
@@ -3943,7 +4299,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-18T20:22:53"
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "AMM-1939380",
@@ -3972,7 +4328,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-18T20:22:53"
+   "visto_em": "2026-11-19T11:24:54"
   },
   {
    "id": "AMM-1940392",
@@ -4001,7 +4357,123 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-18T20:22:53"
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "AMM-1941997",
+   "fonte": "Jornal AMM",
+   "municipio": "Nobres",
+   "orgao": "Prefeitura Municipal de Nobres",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA, SOB O REGIME DE EMPREITADA COM MATERIAL E MÃO-DE-OBRA, PARA SERVIÇOS/OBRAS DE PERFURAÇÃO DE POÇOS TUBULARES PROFUNDOS PARA USO DE ÁGUA SUBTERRÂNEA, PARA ATENDER ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE OBRAS DE NOBRES/MT",
+   "info": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO SRP n° 46/2026",
+   "numero": "46/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-13",
+   "situacao": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO SRP n° 46/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1941997/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "pocos tubulares"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "AMM-1944972",
+   "fonte": "Jornal AMM",
+   "municipio": "Nova Bandeirantes",
+   "orgao": "Prefeitura Municipal de Nova Bandeirantes",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O Município de Nova Bandeirantes, Estado de Mato Grosso, através da Pregoeira Oficial, comunica aos interessados que será aberta licitação na modalidade. MODALIDADE: PREGÃO ELETRÔNICO Nº. 085/2026 PROCESSO LICITATÓRIO Nº.: 140/2026 TIPO: MENOR PREÇO POR LOTE DATA DE ABERTURA/HORA : Dia 03 (três) de dezembro de 2026 às 09:00 horas. (Horário de Brasília). Este pregão será regido pela plataforma da BLL (www.bll.org.br) com aplicação subsidiária da Lei nº. 14.133/21, suas alterações e demais disposi",
+   "info": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
+   "numero": "85/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19",
+   "situacao": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944972/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "AMM-1945094",
+   "fonte": "Jornal AMM",
+   "municipio": "Ponte Branca",
+   "orgao": "Prefeitura Municipal de Ponte Branca",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 10/2026 PROCESSO LICITATÓRIO Nº 65/2026 A Prefeitura Municipal de Ponte Branca – MT torna público que, com fundamento na Lei Federal nº 14.133/2021 e no Decreto Municipal nº 72/2023, realizará licitação na modalidade PREGÃO PRESENCIAL, do tipo MENOR PREÇO POR ITEM , objetivando a AQUISIÇÃO DE 01 (UM) IMPLEMENTO COMBINADO DE HIDROJATEAMENTO DE ALTA PRESSÃO E SUCÇÃO A VÁCUO, NOVO, COM CAPACIDADE NOMINAL DE 15.000 LITROS, INCLUINDO FORNECIMENTO, MONTAGEM E IN",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1945094/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ponte"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "AMM-1944556",
+   "fonte": "Jornal AMM",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "Prefeitura Municipal de Santa Cruz do Xingu",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA PARA A CONSTRUÇÃO DA CAPELA MORTUÁRIA MUNICIPAL DE SANTA CRUZ DO XINGU - MT, LOCALIZADA NA RUA MARIA DE LOURDES MORAIS, Nº 110, BAIRRO CENTRO, CONFORME PROJETOS, ESPECIFICAÇÕES TÉCNICAS E",
+   "info": "Aviso de Licitação Concorrência Eletrônica n° 008/2026",
+   "numero": "8/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19",
+   "situacao": "Aviso de Licitação Concorrência Eletrônica n° 008/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944556/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-19T11:24:54"
   }
  ]
 }
