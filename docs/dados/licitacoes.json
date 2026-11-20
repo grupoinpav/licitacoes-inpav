@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-19T20:26:53",
+ "atualizado_em": "2026-11-20T11:28:28",
  "fontes": {
-  "PNCP": 81,
-  "Jornal Oficial AMM": 49,
+  "PNCP": 101,
+  "Jornal Oficial AMM": 47,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 152,
+ "total": 164,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -857,35 +857,6 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
-   "id": "03507571000105-1-000002/2026",
-   "fonte": "PNCP",
-   "municipio": "Acorizal",
-   "orgao": "MUNICIPIO DE ACORIZAL",
-   "unidade": "MUNICIPIO DE ACORIZAL/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE OPERAÇÃO DE ATIVIDADE DE ATERRO SANITÁRIO PARA A DESTINAÇÃO FINAL DE RESÍDUOS SÓLIDOS DOMICILIARES E COMERCIAIS (CLASSIFICADOS SEGUNDO NBR 10.0004 COMO CLASSE IIA E IIB) PARA ATENDER O MUNICIPIO DE ACORIZAL/MT",
-   "info": "",
-   "numero": "003/2026",
-   "processo": "010/2026",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 492318.0,
-   "abertura": "2026-11-03T13:41:40",
-   "encerramento": "2026-11-23T09:00:00",
-   "publicacao": "2026-10-21T12:30:56",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03507571000105/2026/2",
-   "link_sistema": "https://licitanet.com.br/sessao/205482",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "aterro"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "04217362000190-1-000017/2026",
    "fonte": "PNCP",
    "municipio": "Santo Antônio do Leste",
@@ -1033,6 +1004,39 @@
     "ampliacao"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "01614517000133-1-000072/2026",
+   "fonte": "PNCP",
+   "municipio": "Novo Mundo",
+   "orgao": "MUNICIPIO DE NOVO MUNDO",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVO MUNDO - MT",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE CONCRETO E MATERIAIS ASFÁLTICOS, DESTINADOS À EXECUÇÃO, MANUTENÇÃO, RECUPERAÇÃO E CONSERVAÇÃO DE CALÇADAS, VIAS PÚBLICAS, PAVIMENTOS E DEMAIS SERVIÇOS DE INFRAESTRUTURA DO MUNICÍPIO DE NOVO MUNDO – MT, ATENDENDO ÀS NECESSIDADES DA SECRETARIA MUNICIPAL DE TRANSPORTE E OBRAS PÚBLICAS.",
+   "info": "",
+   "numero": "22/2026",
+   "processo": "84",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 4228448.53,
+   "abertura": "2026-10-05T08:00:00",
+   "encerramento": "2026-11-24T08:00:00",
+   "publicacao": "2026-10-09T17:48:34",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01614517000133/2026/72",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefnovomundo-mt/licitacoes/licitacao?id=1639",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "calcada",
+    "calcadas",
+    "pavimento"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "03773942000109-1-000059/2026",
@@ -2149,6 +2153,36 @@
    "visto_em": "2026-11-18T11:26:20"
   },
   {
+   "id": "01375138000138-1-000030/2026",
+   "fonte": "PNCP",
+   "municipio": "Brasnorte",
+   "orgao": "MUNICIPIO DE BRASNORTE",
+   "unidade": "MUNICIPIO DE BRASNORTE/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE CONJUNTOS MOTOBOMBAS SUBMERSÍVEIS TIPO CANETA, DESTINADOS À SUBSTITUIÇÃO E À MANUTENÇÃO DOS EQUIPAMENTOS DOS POÇOS TUBULARES DE ABASTECIMENTO DE ÁGUA DO DEPARTAMENTO DE ÁGUA E ESGOTO – DAE DO MUNICÍPIO DE BRASNORTE/MT, REFERENTES AOS ITENS QUE RESULTARAM FRACASSADOS NO PREGÃO ELETRÔNICO Nº 008/2025.",
+   "info": "",
+   "numero": "022/2026",
+   "processo": "090",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 54811.96,
+   "abertura": "2026-11-19T12:26:15",
+   "encerramento": "2026-12-03T09:00:00",
+   "publicacao": "2026-11-19T12:26:20",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01375138000138/2026/30",
+   "link_sistema": "https://licitanet.com.br/sessao/208685",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "pocos tubulares"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
    "id": "AMM-1943327",
    "fonte": "Jornal AMM",
    "municipio": "Nova Xavantina",
@@ -2386,6 +2420,38 @@
    "visto_em": "2026-11-18T11:26:20"
   },
   {
+   "id": "01362680000156-1-000141/2026",
+   "fonte": "PNCP",
+   "municipio": "Alto Taquari",
+   "orgao": "MUNICIPIO DE ALTO TAQUARI",
+   "unidade": "MUNICIPIO DE ALTO TAQUARI/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - REGISTRO DE PREÇO PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA PARA AQUISIÇÃO DE MATERIAIS PARA PAVIMENTAÇÃO ASFÁLTICA E DRENAGEM DO MUNICIPIO DE ALTO TAQUARI – MT",
+   "info": "",
+   "numero": "043/2026",
+   "processo": "3637",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 4448983.04,
+   "abertura": "2026-11-19T10:59:32",
+   "encerramento": "2026-12-07T08:30:00",
+   "publicacao": "2026-11-19T10:59:38",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01362680000156/2026/141",
+   "link_sistema": "https://licitanet.com.br/sessao/208669",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem"
+   ],
+   "termos": [
+    "asfalt",
+    "drenagem",
+    "pavimentacao"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
    "id": "AMM-1944028",
    "fonte": "Jornal AMM",
    "municipio": "Novo Horizonte do Norte",
@@ -2416,6 +2482,35 @@
     "reservatorio"
    ],
    "visto_em": "2026-11-18T11:26:20"
+  },
+  {
+   "id": "03507571000105-1-000002/2026",
+   "fonte": "PNCP",
+   "municipio": "Acorizal",
+   "orgao": "MUNICIPIO DE ACORIZAL",
+   "unidade": "MUNICIPIO DE ACORIZAL/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS DE OPERAÇÃO DE ATIVIDADE DE ATERRO SANITÁRIO PARA A DESTINAÇÃO FINAL DE RESÍDUOS SÓLIDOS DOMICILIARES E COMERCIAIS (CLASSIFICADOS SEGUNDO NBR 10.0004 COMO CLASSE IIA E IIB) PARA ATENDER O MUNICIPIO DE ACORIZAL/MT",
+   "info": "",
+   "numero": "003/2026",
+   "processo": "010/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 492318.0,
+   "abertura": "2026-11-19T12:16:28",
+   "encerramento": "2026-12-07T09:00:00",
+   "publicacao": "2026-10-21T12:30:56",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03507571000105/2026/2",
+   "link_sistema": "https://licitanet.com.br/sessao/205482",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "aterro"
+   ],
+   "visto_em": "2026-11-17T13:33:14"
   },
   {
    "id": "04219688000156-1-000043/2026",
@@ -2594,6 +2689,64 @@
     "obra de engenharia"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "01614088000102-1-000091/2026",
+   "fonte": "PNCP",
+   "municipio": "Feliz Natal",
+   "orgao": "MUNICIPIO DE FELIZ NATAL",
+   "unidade": "MUNICÍPIO DE FELIZ NATAL - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE PROJETO DE AMPLIAÇÃO DA CRECHE MUNICIPAL, LOCALIZADO NA AVENIDA DANTE MARTINS DE OLIVEIRA, NO MUNICÍPIO DE FELIZ NATAL – MT.",
+   "info": "",
+   "numero": "0000008/2026",
+   "processo": "0000080/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 433783.58,
+   "abertura": "2026-11-23T08:00:00",
+   "encerramento": "2026-12-07T13:00:00",
+   "publicacao": "2026-11-19T12:27:41",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01614088000102/2026/91",
+   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]SzkzLa2NF0jXMoahdqR_eJbjm4hGv8ypiOcCFIJXYaVqKvDzLUxRIZrZBZ2bbOdaZgOAA_fz/z8u9lnVu0gXpSQz8lZD_oWQ0A96pooPm3Y=",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "00965152000129-1-000072/2026",
+   "fonte": "PNCP",
+   "municipio": "Campinápolis",
+   "orgao": "MUNICIPIO DE CAMPINAPOLIS",
+   "unidade": "MUNICIPIO DE CAMPINÁPOLIS/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA PARA EXECUÇÃO DE OBRA DE CONSTRUÇÃO E INTERVENÇÃO EM EDIFICAÇÃO PÚBLICA, DESTINADA À IMPLANTAÇÃO DA ESCOLA EM TEMPO INTEGRAL JOSÉ GUILHERME DA SILVA, NO MUNICÍPIO DE CAMPINÁPOLIS-MT",
+   "info": "",
+   "numero": "9/2026",
+   "processo": "10563/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 6791322.38,
+   "abertura": "2026-11-19T17:05:00",
+   "encerramento": "2026-12-07T13:30:00",
+   "publicacao": "2026-11-19T17:05:04",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/00965152000129/2026/72",
+   "link_sistema": "https://licitanet.com.br/sessao/208772",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "24772162000106-1-000231/2026",
@@ -2896,6 +3049,38 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "04178518000170-1-000027/2026",
+   "fonte": "PNCP",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "MUNICIPIO DE SANTA CRUZ DO XINGU",
+   "unidade": "PREFEITURA MUNICIPAL SANTA CRUZ DO XINGU - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA PARA A EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA EM TRATAMENTO SUPERFICIAL DUPLO (TSD) NAS AGROVILAS DOS PROJETOS DE ASSENTAMENTOS BRASIPAIVA E SANTA CLARA, NO MUNICÍPIO DE SANTA CRUZ DO XINGU-MT.",
+   "info": "",
+   "numero": "17/2026",
+   "processo": "75",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 2211229.42,
+   "abertura": "2026-11-23T09:00:00",
+   "encerramento": "2026-12-14T09:00:00",
+   "publicacao": "2026-11-19T14:40:52",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/04178518000170/2026/27",
+   "link_sistema": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=98109403000172026",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt",
+    "pavimentacao",
+    "tratamento superficial",
+    "tsd"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
    "id": "AMM-1936848",
    "fonte": "Jornal AMM",
    "municipio": "Guiratinga",
@@ -3015,6 +3200,47 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "04178518000170-1-000028/2026",
+   "fonte": "PNCP",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "MUNICIPIO DE SANTA CRUZ DO XINGU",
+   "unidade": "PREFEITURA MUNICIPAL SANTA CRUZ DO XINGU - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRAS DE INFRAESTRUTURA URBANA NO LOTEAMENTO DESTINADO ÀS 50 (CINQUENTA) UNIDADES HABITACIONAIS DO PROGRAMA SER FAMÍLIA HABITAÇÃO, COMPREENDENDO A EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA EM TRATAMENTO SUPERFICIAL DUPLO (TSD), DRENAGEM PROFUNDA DE ÁGUAS PLUVIAIS, CONSTRUÇÃO DE GUIAS DE MEIO-FIO E SARJETAS, IMPLANTAÇÃO DE SINALIZAÇÃO VIÁRIA HORIZONTAL E VERTICAL, EXECUÇÃO DE PASSEIOS PÚBLICOS COM ACESSIBILIDADE UNIVERSAL, ALÉM DOS SERVIÇOS PRELIMINA",
+   "info": "",
+   "numero": "18/2026",
+   "processo": "052/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 1705996.34,
+   "abertura": "2026-11-19T15:00:00",
+   "encerramento": "2026-12-15T09:00:00",
+   "publicacao": "2026-11-19T14:50:49",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/04178518000170/2026/28",
+   "link_sistema": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=98109403000182026",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "aguas pluviais",
+    "asfalt",
+    "construcao",
+    "drenagem",
+    "infraestrutura urbana",
+    "meio-fio",
+    "pavimentacao",
+    "sarjeta",
+    "sinalizacao viaria",
+    "tratamento superficial",
+    "tsd"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "22794608000178-1-000014/2026",
@@ -3167,7 +3393,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -3454,6 +3680,42 @@
     "sinalizacao viaria"
    ],
    "visto_em": "2026-11-19T20:26:53"
+  },
+  {
+   "id": "15024003000132-1-000216/2026",
+   "fonte": "PNCP",
+   "municipio": "Sinop",
+   "orgao": "MUNICIPIO DE SINOP",
+   "unidade": "Prefeitura Municipal de Sinop",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO PARA EXECUÇÃO DAS OBRAS DE IMPLANTAÇÃO DE PAVIMENTAÇÃO ASFÁLTICA, DRENAGEM DE ÁGUAS PLUVIAIS E SINALIZAÇÃO VIÁRIA NA ESTRADA ADALGISA, TRECHO ENTRE A MT-140 E A RUA PEDRO OSSIPI, NO MUNICÍPIO DE SINOP/MT, CONVÊNIO Nº 0390-2026/SINFRA.",
+   "info": "",
+   "numero": "178/2026",
+   "processo": "00006210/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 9321731.3,
+   "abertura": "2027-01-06T09:00:00",
+   "encerramento": "2027-01-06T09:00:00",
+   "publicacao": "2026-11-19T14:16:49",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15024003000132/2026/216",
+   "link_sistema": "https://www.gp.srv.br/transparencia_sinop/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "aguas pluviais",
+    "asfalt",
+    "drenagem",
+    "estrada",
+    "pavimentacao",
+    "sinalizacao viaria"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "03347101000121-1-000240/2026",
@@ -4433,6 +4695,124 @@
    "visto_em": "2026-11-19T20:26:53"
   },
   {
+   "id": "00965152000129-1-000014/2026",
+   "fonte": "PNCP",
+   "municipio": "Campinápolis",
+   "orgao": "MUNICIPIO DE CAMPINAPOLIS",
+   "unidade": "MUNICIPIO DE CAMPINÁPOLIS/MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS ESPECIALIZADOS DE TERRAPLANAGEM E ESCAVAÇÃO PARA LIMPEZA DA REPRESA DE CAPTAÇÃO DE AGUA DO DAE DO MUNICIPIO DE CAMPINAPOLIS-MT.",
+   "info": "",
+   "numero": "4/2026",
+   "processo": "338",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 20064.0,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19T15:01:31",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/00965152000129/2026/14",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefcampinapolismt/licitacoes/licitacao?id=25429",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "captacao de agua",
+    "terraplanagem"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "00965152000129-1-000020/2026",
+   "fonte": "PNCP",
+   "municipio": "Campinápolis",
+   "orgao": "MUNICIPIO DE CAMPINAPOLIS",
+   "unidade": "MUNICIPIO DE CAMPINÁPOLIS/MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA EM PRESTACAO DE SERVICOS COM CALHAS E FORN ECIMENTO DE MATERIAIS PARA ATENDER AS REFORMAS DAS ESCOLAS DO MUNICIPIO DE CAMPINAPOLIS-MT",
+   "info": "",
+   "numero": "8/2026",
+   "processo": "692",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 61899.0,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19T15:19:15",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/00965152000129/2026/20",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefcampinapolismt/licitacoes/licitacao?id=25435",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "00965152000129-1-000062/2026",
+   "fonte": "PNCP",
+   "municipio": "Campinápolis",
+   "orgao": "MUNICIPIO DE CAMPINAPOLIS",
+   "unidade": "MUNICIPIO DE CAMPINÁPOLIS/MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO DE LAUDO DE AVALIAÇÃO MERCADOLÓGICA DE IMÓVEL, INCLUINDO TERRENO E EVENTUAIS BENFEITORIAS, DESTINADO A SUBSIDIAR O MUNICÍPIO NA DEFINIÇÃO DO VALOR DE MERCADO E DA INDENIZAÇÃO PARA FINS DE DESAPROPRIAÇÃO POR INTERESSE PÚBLICO, VISANDO À IMPLANTAÇÃO E CONSTRUÇÃO DO LAGO MUNICIPAL.",
+   "info": "",
+   "numero": "61/2026",
+   "processo": "7379",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 18000.0,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19T16:05:45",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/00965152000129/2026/62",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefcampinapolismt/licitacoes/licitacao?id=25497",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "00309037000104-1-000008/2026",
+   "fonte": "PNCP",
+   "municipio": "Campo Verde",
+   "orgao": "FUNDO MUNICIPAL DE PREVIDENCIA SOCIAL DOS SERVIDORES DE CAMPO VERDE",
+   "unidade": "MMT-FUNDO MUN. DE PREV. SOCIAL CAMPO VERDE",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE PREST DE SERV TÉCNICOS ESPECIALIZADOS PARA ELABORAÇÃO DE PROJETO DE LEI, VISANDO A REFORMA DA PREVIDÊNCIA MUNICIPAL CONFORME DIRETRIZES DA EC Nº 103/2019 E REESTRUT. DA LEI MUNICIPAL VIGENTE, COM REUNIÃO ONLINE COM A COMISSÃO E EXECUTIVO",
+   "info": "",
+   "numero": "5/2026",
+   "processo": "00000086/2026",
+   "modalidade": "Inexigibilidade",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 18712.5,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19T16:54:52",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/00309037000104/2026/8",
+   "link_sistema": "https://www.gp.srv.br/transparencia_campoverde/servlet/licitacoes_v2?3",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-20T11:28:28"
+  },
+  {
    "id": "AMM-1936693",
    "fonte": "Jornal AMM",
    "municipio": "Arenápolis",
@@ -4459,7 +4839,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "AMM-1937685",
@@ -4490,7 +4870,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "AMM-1938524",
@@ -4519,7 +4899,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "AMM-1939380",
@@ -4548,7 +4928,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "AMM-1940392",
@@ -4577,7 +4957,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   },
   {
    "id": "AMM-1944972",
@@ -4606,7 +4986,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-19T20:26:53"
+   "visto_em": "2026-11-20T11:28:28"
   }
  ]
 }
