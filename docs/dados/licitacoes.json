@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-20T20:20:59",
+ "atualizado_em": "2026-11-21T11:11:31",
  "fontes": {
   "PNCP": 101,
-  "Jornal Oficial AMM": 47,
+  "Jornal Oficial AMM": 45,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 164,
+ "total": 163,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -3393,7 +3393,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -3969,38 +3969,6 @@
     "pavimentacao",
     "recuperacao de vias",
     "tubos de concreto"
-   ],
-   "visto_em": "2026-11-17T14:48:10"
-  },
-  {
-   "id": "AMM-1928681",
-   "fonte": "Jornal AMM",
-   "municipio": "Itiquira",
-   "orgao": "Prefeitura Municipal de Itiquira",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "PROCESSO ADMINISTRATIVO Nº 067/2026 CONCORRÊNCIA ELETRÔNICA Nº 008/2026 AVISO DE LICITAÇÃO A PREFEITURA MUNICIPAL DE ITIQUIRA, por meio de sua Agente de Contratação, torna público que realizará licitação tendo por objeto SERVIÇO DE ENGENHARIA PARA ELABORAÇÃO DE PROJETOS DE PAVIMENTAÇÃO ASFÁLTICA , por meio de CONCORRÊNCIA , sob a forma ELETRÔNICA , ante o critério de julgamento CRITÉRIO DE TÉCNICA E PREÇO . Especificações detalhadas encontram-se no edital e seus anexos disponíveis nos endereços",
-   "info": "AVISO DE LICITAÇÃO",
-   "numero": "",
-   "processo": "",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-10-21",
-   "situacao": "AVISO DE LICITAÇÃO",
-   "link": "https://amm.diariomunicipal.org/publicacao/1928681/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "asfalt",
-    "pavimentacao",
-    "servico de engenharia"
    ],
    "visto_em": "2026-11-17T14:48:10"
   },
@@ -4839,7 +4807,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "AMM-1937685",
@@ -4870,7 +4838,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "AMM-1938524",
@@ -4899,7 +4867,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "AMM-1939380",
@@ -4928,7 +4896,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "AMM-1940392",
@@ -4957,7 +4925,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   },
   {
    "id": "AMM-1944972",
@@ -4986,7 +4954,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-20T20:20:59"
+   "visto_em": "2026-11-21T11:11:31"
   }
  ]
 }
