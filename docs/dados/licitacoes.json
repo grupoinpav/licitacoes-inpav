@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-21T20:05:59",
+ "atualizado_em": "2026-11-22T11:09:43",
  "fontes": {
-  "PNCP": 101,
-  "Jornal Oficial AMM": 45,
+  "PNCP": 99,
+  "Jornal Oficial AMM": 44,
   "Diário Oficial (Querido Diário)": 0
  },
  "total": 163,
@@ -2452,6 +2452,38 @@
    "visto_em": "2026-11-20T11:28:28"
   },
   {
+   "id": "03238888000193-1-000038/2026",
+   "fonte": "PNCP",
+   "municipio": "Novo Horizonte do Norte",
+   "orgao": "MUNICIPIO DE NOVO HORIZONTE DO NORTE",
+   "unidade": "MUNICÍPIO DE NOVO HORIZONTE DO NORTE/MT",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada em engenharia para execução da obra de construção da Escola Municipal Ulisses Guimarães, compreendendo bloco escolar com passarela, refeitório, abrigo de GLP, pórtico de entrada, quadra poliesportiva coberta com arquibancada, base de reservatório elevado de 20.000 litros, estacionamento e muro de fechamento e contenção, totalizando 3.252,96 m² de área construída, em atendimento ao Termo de Compromisso FMTE nº 020/2026, Processo nº SEDUC-PRO-2025/185113, conforme especificado no Projeto Básico/Executivo, Termo de Referência e demais anexos do edital.",
+   "info": "",
+   "numero": "5/2026",
+   "processo": "029",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "Fechado",
+   "forma": "Presencial",
+   "valor": 10329330.37,
+   "abertura": "2026-11-18T09:00:00",
+   "encerramento": "2026-12-07T08:30:00",
+   "publicacao": "2026-11-21T17:15:33",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03238888000193/2026/38",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefnovohorizontenorte-mt/licitacoes/licitacao?id=1639",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "contencao",
+    "reservatorio"
+   ],
+   "visto_em": "2026-11-22T11:09:43"
+  },
+  {
    "id": "AMM-1944028",
    "fonte": "Jornal AMM",
    "municipio": "Novo Horizonte do Norte",
@@ -3393,7 +3425,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -3933,42 +3965,6 @@
     "pavimentacao",
     "tratamento superficial",
     "tsd"
-   ],
-   "visto_em": "2026-11-17T14:48:10"
-  },
-  {
-   "id": "AMM-1929367",
-   "fonte": "Jornal AMM",
-   "municipio": "Dom Aquino",
-   "orgao": "Prefeitura Municipal de Dom Aquino",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE CONCRETO USINADO E TUBOS DE CONCRETO ARMADO (MANILHAS), DESTINADOS À EXECUÇÃO DE SERVIÇOS DE INFRAESTRUTURA URBANA E RURAL, INCLUINDO PAVIMENTAÇÃO, MANUTENÇÃO E RECUPERAÇÃO DE VIAS PÚBLICAS, EXECUÇÃO DE ESTRUTURAS EM CONCRETO, IMPLANTAÇÃO E MANUTENÇÃO DE SISTEMAS DE DRENAGEM DE ÁGUAS PLUVIAIS E DEMAIS SERVIÇOS DE INFRAESTRUTURA DE RESPONSABILIDADE DA SECRETARIA MUNICIPAL DE OBRAS PÚBLICAS E URBANISMO DO MUNICÍPIO DE DOM AQUINO/MT, CONFORME ESPECIFICAÇÕES TÉCNICAS, QUANTIDADES E PRAZOS CONSTANTES NO TERMO DE REFERÊNCIA E SEUS ANEXOS",
-   "info": "AVISO DE LICITAÇÃO MODALIDADE PREGÃO ELETRÔNICO Nº 014/2026",
-   "numero": "14/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-10-22",
-   "situacao": "AVISO DE LICITAÇÃO MODALIDADE PREGÃO ELETRÔNICO Nº 014/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1929367/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação",
-    "Drenagem",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "aguas pluviais",
-    "drenagem",
-    "infraestrutura urbana",
-    "pavimentacao",
-    "recuperacao de vias",
-    "tubos de concreto"
    ],
    "visto_em": "2026-11-17T14:48:10"
   },
@@ -4807,7 +4803,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "AMM-1937685",
@@ -4838,7 +4834,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "AMM-1938524",
@@ -4867,7 +4863,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "AMM-1939380",
@@ -4896,7 +4892,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "AMM-1940392",
@@ -4925,7 +4921,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   },
   {
    "id": "AMM-1944972",
@@ -4954,7 +4950,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-21T20:05:59"
+   "visto_em": "2026-11-22T11:09:43"
   }
  ]
 }
