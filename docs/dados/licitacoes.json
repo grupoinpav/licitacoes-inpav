@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-23T11:29:01",
+ "atualizado_em": "2026-11-23T20:26:09",
  "fontes": {
-  "PNCP": 98,
-  "Jornal Oficial AMM": 49,
+  "PNCP": 96,
+  "Jornal Oficial AMM": 48,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 169,
+ "total": 172,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -584,6 +584,36 @@
     "estradas"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1931032",
+   "fonte": "Jornal AMM",
+   "municipio": "Santo Afonso",
+   "orgao": "Prefeitura Municipal de Santo Afonso",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM OBRAS E SERVIÇOS DE ENGENHARIA PARA A EXECUÇÃO DA CONSTRUÇÃO DO PONTO DE APOIO EM SAÚDE “PADRE SHINAIDER”, LOCALIZADO NO DISTRITO BOA ESPERANÇA, S/Nº, ZONA RURAL, MUNICÍPIO DE SANTO AFONSO – MT, COMPREENDENDO A EXECUÇÃO INTEGRAL DA OBRA, INCLUINDO O FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, FERRAMENTAS, TRANSPORTE, INSUMOS E DEMAIS RECURSOS NECESSÁRIOS À SUA PERFEITA EXECUÇÃO E CONCLUSÃO, EM CONFORMIDADE COM OS PROJETOS, MEMORIAIS DESCRITIVOS, ESPECIFICAÇÕES TÉCNICAS, PLANILHA ORÇAMENTÁRIA,",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 003/2026",
+   "numero": "3/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-19T00:00",
+   "encerramento": "2026-11-19T00:00",
+   "publicacao": "2026-10-26",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 003/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1931032/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "servicos de engenharia"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
   },
   {
    "id": "04709778000125-1-000028/2026",
@@ -2094,6 +2124,37 @@
    "visto_em": "2026-11-19T11:24:54"
   },
   {
+   "id": "37465283000157-1-000130/2026",
+   "fonte": "PNCP",
+   "municipio": "Santa Carmem",
+   "orgao": "MUNICIPIO DE SANTA CARMEM",
+   "unidade": "Comissão Permanente de Licitação",
+   "esfera": "Municipal",
+   "objeto": "[Portal de Compras Públicas] - REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE TUBOS DE CONCRETO ARMADO, DE DIFERENTES DIÂMETROS, DESTINADOS À MANUTENÇÃO, CONSERVAÇÃO, IMPLANTAÇÃO E RECUPERAÇÃO DOS SISTEMAS DE DRENAGEM DE ÁGUAS PLUVIAIS EM RUAS, AVENIDAS E DEMAIS VIAS PÚBLICAS DO MUNICÍPIO DE SANTA CARMEM – MT",
+   "info": "",
+   "numero": "41/2026",
+   "processo": "298/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1873159.0,
+   "abertura": "2026-11-23T08:30:00",
+   "encerramento": "2026-12-03T08:20:00",
+   "publicacao": "2026-11-23T08:31:09",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37465283000157/2026/130",
+   "link_sistema": "https://www.portaldecompraspublicas.com.br/processos/MT/Prefeitura-Municipal-de-Santa-Carmem-696/RPE-41-2026-2026-526750",
+   "categorias": [
+    "Drenagem"
+   ],
+   "termos": [
+    "aguas pluviais",
+    "drenagem",
+    "tubos de concreto"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
    "id": "01974088000105-1-000158/2026",
    "fonte": "PNCP",
    "municipio": "Primavera do Leste",
@@ -2357,6 +2418,35 @@
     "construcao"
    ],
    "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "03507498000171-1-000155/2026",
+   "fonte": "PNCP",
+   "municipio": "Aripuanã",
+   "orgao": "MUNICIPIO DE ARIPUANA",
+   "unidade": "PREFEITURA MUNICIPAL DE ARIPUANÃ - MT",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada em engenharia para a execução das obras de ampliação do depósito da Secretaria Municipal de Turismo, Esporte e Cultura (SETEC) do Município de Aripuanã/MT, com área total de 139,30 m², conforme especificações técnicas, quantitativos e condições constantes do Projeto Básico, Projeto Executivo e demais anexos deste instrumento.",
+   "info": "",
+   "numero": "23/2026",
+   "processo": "201",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Presencial",
+   "valor": 384657.67,
+   "abertura": "2026-11-12T08:00:00",
+   "encerramento": "2026-12-07T07:59:00",
+   "publicacao": "2026-11-23T08:53:46",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03507498000171/2026/155",
+   "link_sistema": "https://transparencia.agilicloud.com.br/aripuana/licitacoes/licitacao?id=8650",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
   },
   {
    "id": "37465283000157-1-000128/2026",
@@ -3425,7 +3515,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-23T11:29:01"
+   "visto_em": "2026-11-23T20:26:08"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -4777,212 +4867,6 @@
    "visto_em": "2026-11-20T11:28:28"
   },
   {
-   "id": "AMM-1936693",
-   "fonte": "Jornal AMM",
-   "municipio": "Arenápolis",
-   "orgao": "Prefeitura Municipal de Arenápolis",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "O MUNICÍPIO DE ARENÁPOLIS , Estado de Mato Grosso, através da Agente de Contratação e Equipe de apoio, torna público aos interessados que fará realizar, no dia 23 DE NOVEMBRO DE 2026, às 09h00min (Horário Oficial de Mato Grosso), na sala de Licitações da Prefeitura Municipal, situada à Rua Presidente Costa e Silva nº 105/E, esquina com a Rua Castelo Branco, Vila Nova, neste Município de Arenápolis-MT, a CONCORRÊNCIA PUBLICA PRESENCIAL Nº 011/2026, Menor Preço global, com a finalidade de CONTRATA",
-   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 011/2026",
-   "numero": "11/2026",
-   "processo": "",
-   "modalidade": "Concorrência",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-05",
-   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 011/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1936693/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1937685",
-   "fonte": "Jornal AMM",
-   "municipio": "Vila Rica",
-   "orgao": "Prefeitura Municipal de Vila Rica",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "AVISO DE LICITAÇÃO PROCESSO DE LICITAÇÃO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br ) A Pregoeira oficial Cristina Magalhaes Castro, designada pela Portaria nº. 012/2015 comunica aos interessados que será aberta licitação na modalidade de Pregão Eletrônico que será regida pela Lei 14.133, de 1º de abril de 2021 e pelo Decreto n° 11.462/2023 suas alterações e demais disposições aplicáveis. OBJETO: Registro de preço para fut",
-   "info": "AVISO DE LICITAÇÃO",
-   "numero": "",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-06",
-   "situacao": "AVISO DE LICITAÇÃO",
-   "link": "https://amm.diariomunicipal.org/publicacao/1937685/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "pavimentacao",
-    "rodovia"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1937826",
-   "fonte": "Jornal AMM",
-   "municipio": "União do Sul",
-   "orgao": "Prefeitura Municipal de União do Sul",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "A PREFEITURA MUNICIPAL DE UNIÃO DO SUL - MT, através da Equipe de Contratação, designada pela Portaria Municipal nº 036/2025 de 02 de janeiro de 2025, em cumprimento aos termos da Lei federal nº. 14.133, de 01 de abril de 2021, Lei Complementar federal 123/2006 bem como os Decretos Municipais de Regulamentação, torna público que encontra-se aberta licitação na modalidade de CONCORRÊNCIA ELETRÔNICA sob Nº 006/2026, relativo ao Processo de Licitação de Nº 030/2026, cujo objeto refere-se a Contrata",
-   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
-   "numero": "6/2026",
-   "processo": "",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-06",
-   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1937826/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "ampliacao",
-    "reforma"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1938524",
-   "fonte": "Jornal AMM",
-   "municipio": "Boa Esperança do Norte",
-   "orgao": "Prefeitura Municipal de Boa Esperança do Norte",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 079/2026 O MUNICÍPIO DE BOA ESPERANÇA DO NORTE – MT, por intermédio da Prefeitura Municipal, torna público, para conhecimento dos interessados, a RETIFICAÇÃO do Aviso de Licitação da CONCORRÊNCIA PRESENCIAL Nº 004/2026, Processo Administrativo nº 079/2026, publicado no Jornal Oficial Eletrônico dos Municípios do Estado de Mato Grosso (AMM-MT), na edição de 06 de novembro de 2026, referente à contratação semi-integrada de empresa espe",
-   "info": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
-   "numero": "",
-   "processo": "",
-   "modalidade": "Concorrência - Presencial",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-09",
-   "situacao": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
-   "link": "https://amm.diariomunicipal.org/publicacao/1938524/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1939380",
-   "fonte": "Jornal AMM",
-   "municipio": "Juscimeira",
-   "orgao": "Prefeitura Municipal de Juscimeira",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "PROCESSO LICITATÓRIO MODALIDADE DISPENSA Nº 017/2026 A PREFEITURA MUNICIPAL DE JUSCIMEIRA, situada a Avenida Joaquim Miguel Dos Santos, nº 210 – Bairro dos Cajus – JUSCIMEIRA – MT, através do Agente de Contratações, torna publico para conhecimento dos interessados, conforme Lei nº 14.133/21 e Edital Dispensa nº 014/2026, que realizará às 08h:00m/MATO GROSSO DO DIA 13 DE NOVEMBRO 2026 , na Prefeitura Municipal de Juscimeira-MT, tipo “MENOR PREÇO, cujo objeto é \" CONTRATAÇÃO DE EMPRESA ESPECIALIZA",
-   "info": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
-   "numero": "65/2026",
-   "processo": "",
-   "modalidade": "Dispensa",
-   "modo_disputa": "",
-   "forma": "Não informado",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-10",
-   "situacao": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1939380/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "contencao"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1940392",
-   "fonte": "Jornal AMM",
-   "municipio": "Juscimeira",
-   "orgao": "Prefeitura Municipal de Juscimeira",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "AVISO DE LICITAÇÃO A Prefeitura Municipal de Juscimeira/MT, localizada a Avenida Joaquim Miguel dos Santos, nº 210 – Bairro Cajus, Juscimeira-MT através de seu Pregoeiro Oficial, nomeada pela Portaria nº 087/2025, TORNA PÚBLICO que realizará às 08:00 HORAS/MATO GROSSO DO DIA 30 DE NOVEMBRO 2026 na sede da Prefeitura Municipal, no endereço acima citado, sessão pública para realização de licitação na modalidade CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026 , do tipo MENOR PREÇO GLOBAL , tendo por ob",
-   "info": "PROCESSO ADMINISTRATIVO Nº 042/2026 - CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026",
-   "numero": "42/2026",
-   "processo": "",
-   "modalidade": "Concorrência",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-11",
-   "situacao": "PROCESSO ADMINISTRATIVO Nº 042/2026 - CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1940392/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "ampliacao"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1944972",
-   "fonte": "Jornal AMM",
-   "municipio": "Nova Bandeirantes",
-   "orgao": "Prefeitura Municipal de Nova Bandeirantes",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "O Município de Nova Bandeirantes, Estado de Mato Grosso, através da Pregoeira Oficial, comunica aos interessados que será aberta licitação na modalidade. MODALIDADE: PREGÃO ELETRÔNICO Nº. 085/2026 PROCESSO LICITATÓRIO Nº.: 140/2026 TIPO: MENOR PREÇO POR LOTE DATA DE ABERTURA/HORA : Dia 03 (três) de dezembro de 2026 às 09:00 horas. (Horário de Brasília). Este pregão será regido pela plataforma da BLL (www.bll.org.br) com aplicação subsidiária da Lei nº. 14.133/21, suas alterações e demais disposi",
-   "info": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
-   "numero": "85/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-19",
-   "situacao": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1944972/",
-   "link_sistema": "",
-   "categorias": [
-    "Pavimentação"
-   ],
-   "termos": [
-    "asfalt"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
    "id": "AMM-1946102",
    "fonte": "Jornal AMM",
    "municipio": "Santa Cruz do Xingu",
@@ -5086,38 +4970,7 @@
     "Drenagem"
    ],
    "termos": [
-    "aguas pluviais",
-    "drenagem",
     "tubos de concreto"
-   ],
-   "visto_em": "2026-11-23T11:29:01"
-  },
-  {
-   "id": "AMM-1946060",
-   "fonte": "Jornal AMM",
-   "municipio": "Arenápolis",
-   "orgao": "Prefeitura Municipal de Arenápolis",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "O MUNICÍPIO DE ARENÁPOLIS , Estado de Mato Grosso, através da Agente de Contratação e Equipe de apoio, torna público aos interessados que fará realizar, no dia 08 DE DEZEMBRO DE 2026, às 09h00min (Horário Oficial de Mato Grosso), na sala de Licitações da Prefeitura Municipal, situada à Rua Presidente Costa e Silva nº 105/E, esquina com a Rua Castelo Branco, Vila Nova, neste Município de Arenápolis-MT, a CONCORRÊNCIA PUBLICA PRESENCIAL Nº 012/2026, Menor Preço global, com a finalidade de CONTRATA",
-   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
-   "numero": "12/2026",
-   "processo": "",
-   "modalidade": "Concorrência",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-23",
-   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1946060/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-23T11:29:01"
   },
@@ -5149,6 +5002,241 @@
     "servicos de engenharia"
    ],
    "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1936693",
+   "fonte": "Jornal AMM",
+   "municipio": "Arenápolis",
+   "orgao": "Prefeitura Municipal de Arenápolis",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O MUNICÍPIO DE ARENÁPOLIS , Estado de Mato Grosso, através da Agente de Contratação e Equipe de apoio, torna público aos interessados que fará realizar, no dia 23 DE NOVEMBRO DE 2026, às 09h00min (Horário Oficial de Mato Grosso), na sala de Licitações da Prefeitura Municipal, situada à Rua Presidente Costa e Silva nº 105/E, esquina com a Rua Castelo Branco, Vila Nova, neste Município de Arenápolis-MT, a CONCORRÊNCIA PUBLICA PRESENCIAL Nº 011/2026, Menor Preço global, com a finalidade de CONTRATA",
+   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 011/2026",
+   "numero": "11/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-05",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 011/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1936693/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1937685",
+   "fonte": "Jornal AMM",
+   "municipio": "Vila Rica",
+   "orgao": "Prefeitura Municipal de Vila Rica",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE LICITAÇÃO PROCESSO DE LICITAÇÃO Nº 100/2026 PREGÃO ELETRÔNICO Nº 043/2026 PLATAFORMA: Portal do Bolsa de Licitações e Leilões – BLL ( www.bll.org.br ) A Pregoeira oficial Cristina Magalhaes Castro, designada pela Portaria nº. 012/2015 comunica aos interessados que será aberta licitação na modalidade de Pregão Eletrônico que será regida pela Lei 14.133, de 1º de abril de 2021 e pelo Decreto n° 11.462/2023 suas alterações e demais disposições aplicáveis. OBJETO: Registro de preço para fut",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-06",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1937685/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "pavimentacao",
+    "rodovia"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1937826",
+   "fonte": "Jornal AMM",
+   "municipio": "União do Sul",
+   "orgao": "Prefeitura Municipal de União do Sul",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "A PREFEITURA MUNICIPAL DE UNIÃO DO SUL - MT, através da Equipe de Contratação, designada pela Portaria Municipal nº 036/2025 de 02 de janeiro de 2025, em cumprimento aos termos da Lei federal nº. 14.133, de 01 de abril de 2021, Lei Complementar federal 123/2006 bem como os Decretos Municipais de Regulamentação, torna público que encontra-se aberta licitação na modalidade de CONCORRÊNCIA ELETRÔNICA sob Nº 006/2026, relativo ao Processo de Licitação de Nº 030/2026, cujo objeto refere-se a Contrata",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
+   "numero": "6/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-06",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1937826/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1938524",
+   "fonte": "Jornal AMM",
+   "municipio": "Boa Esperança do Norte",
+   "orgao": "Prefeitura Municipal de Boa Esperança do Norte",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONCORRÊNCIA PRESENCIAL Nº 004/2026 PROCESSO ADMINISTRATIVO Nº 079/2026 O MUNICÍPIO DE BOA ESPERANÇA DO NORTE – MT, por intermédio da Prefeitura Municipal, torna público, para conhecimento dos interessados, a RETIFICAÇÃO do Aviso de Licitação da CONCORRÊNCIA PRESENCIAL Nº 004/2026, Processo Administrativo nº 079/2026, publicado no Jornal Oficial Eletrônico dos Municípios do Estado de Mato Grosso (AMM-MT), na edição de 06 de novembro de 2026, referente à contratação semi-integrada de empresa espe",
+   "info": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-09",
+   "situacao": "AVISO DE RETIFICAÇÃO – ADIAMENTO DA SESSÃO PÚBLICA",
+   "link": "https://amm.diariomunicipal.org/publicacao/1938524/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1939380",
+   "fonte": "Jornal AMM",
+   "municipio": "Juscimeira",
+   "orgao": "Prefeitura Municipal de Juscimeira",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "PROCESSO LICITATÓRIO MODALIDADE DISPENSA Nº 017/2026 A PREFEITURA MUNICIPAL DE JUSCIMEIRA, situada a Avenida Joaquim Miguel Dos Santos, nº 210 – Bairro dos Cajus – JUSCIMEIRA – MT, através do Agente de Contratações, torna publico para conhecimento dos interessados, conforme Lei nº 14.133/21 e Edital Dispensa nº 014/2026, que realizará às 08h:00m/MATO GROSSO DO DIA 13 DE NOVEMBRO 2026 , na Prefeitura Municipal de Juscimeira-MT, tipo “MENOR PREÇO, cujo objeto é \" CONTRATAÇÃO DE EMPRESA ESPECIALIZA",
+   "info": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
+   "numero": "65/2026",
+   "processo": "",
+   "modalidade": "Dispensa",
+   "modo_disputa": "",
+   "forma": "Não informado",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-10",
+   "situacao": "AVISO DE LICITAÇÃO - PROCESSO ADMINISTRATIVO Nº 065/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1939380/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "contencao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1940392",
+   "fonte": "Jornal AMM",
+   "municipio": "Juscimeira",
+   "orgao": "Prefeitura Municipal de Juscimeira",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE LICITAÇÃO A Prefeitura Municipal de Juscimeira/MT, localizada a Avenida Joaquim Miguel dos Santos, nº 210 – Bairro Cajus, Juscimeira-MT através de seu Pregoeiro Oficial, nomeada pela Portaria nº 087/2025, TORNA PÚBLICO que realizará às 08:00 HORAS/MATO GROSSO DO DIA 30 DE NOVEMBRO 2026 na sede da Prefeitura Municipal, no endereço acima citado, sessão pública para realização de licitação na modalidade CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026 , do tipo MENOR PREÇO GLOBAL , tendo por ob",
+   "info": "PROCESSO ADMINISTRATIVO Nº 042/2026 - CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026",
+   "numero": "42/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-11",
+   "situacao": "PROCESSO ADMINISTRATIVO Nº 042/2026 - CONCORRENCIA PÚBLICA PRESENCIAL Nº 002/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1940392/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1944972",
+   "fonte": "Jornal AMM",
+   "municipio": "Nova Bandeirantes",
+   "orgao": "Prefeitura Municipal de Nova Bandeirantes",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O Município de Nova Bandeirantes, Estado de Mato Grosso, através da Pregoeira Oficial, comunica aos interessados que será aberta licitação na modalidade. MODALIDADE: PREGÃO ELETRÔNICO Nº. 085/2026 PROCESSO LICITATÓRIO Nº.: 140/2026 TIPO: MENOR PREÇO POR LOTE DATA DE ABERTURA/HORA : Dia 03 (três) de dezembro de 2026 às 09:00 horas. (Horário de Brasília). Este pregão será regido pela plataforma da BLL (www.bll.org.br) com aplicação subsidiária da Lei nº. 14.133/21, suas alterações e demais disposi",
+   "info": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
+   "numero": "85/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-19",
+   "situacao": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 085/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1944972/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação"
+   ],
+   "termos": [
+    "asfalt"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
+  },
+  {
+   "id": "AMM-1946060",
+   "fonte": "Jornal AMM",
+   "municipio": "Arenápolis",
+   "orgao": "Prefeitura Municipal de Arenápolis",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O MUNICÍPIO DE ARENÁPOLIS , Estado de Mato Grosso, através da Agente de Contratação e Equipe de apoio, torna público aos interessados que fará realizar, no dia 08 DE DEZEMBRO DE 2026, às 09h00min (Horário Oficial de Mato Grosso), na sala de Licitações da Prefeitura Municipal, situada à Rua Presidente Costa e Silva nº 105/E, esquina com a Rua Castelo Branco, Vila Nova, neste Município de Arenápolis-MT, a CONCORRÊNCIA PUBLICA PRESENCIAL Nº 012/2026, Menor Preço global, com a finalidade de CONTRATA",
+   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
+   "numero": "12/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1946060/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-23T20:26:08"
   }
  ]
 }
