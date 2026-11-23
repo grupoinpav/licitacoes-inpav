@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-22T20:08:24",
+ "atualizado_em": "2026-11-23T11:29:01",
  "fontes": {
-  "PNCP": 99,
-  "Jornal Oficial AMM": 44,
+  "PNCP": 98,
+  "Jornal Oficial AMM": 49,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 163,
+ "total": 169,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -3425,7 +3425,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -4803,7 +4803,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "AMM-1937685",
@@ -4834,7 +4834,37 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1937826",
+   "fonte": "Jornal AMM",
+   "municipio": "União do Sul",
+   "orgao": "Prefeitura Municipal de União do Sul",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "A PREFEITURA MUNICIPAL DE UNIÃO DO SUL - MT, através da Equipe de Contratação, designada pela Portaria Municipal nº 036/2025 de 02 de janeiro de 2025, em cumprimento aos termos da Lei federal nº. 14.133, de 01 de abril de 2021, Lei Complementar federal 123/2006 bem como os Decretos Municipais de Regulamentação, torna público que encontra-se aberta licitação na modalidade de CONCORRÊNCIA ELETRÔNICA sob Nº 006/2026, relativo ao Processo de Licitação de Nº 030/2026, cujo objeto refere-se a Contrata",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
+   "numero": "6/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-06",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 006/2026 PROCESSO DE LICITAÇÃO Nº 030/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1937826/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "AMM-1938524",
@@ -4863,7 +4893,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "AMM-1939380",
@@ -4892,7 +4922,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "AMM-1940392",
@@ -4921,7 +4951,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
   },
   {
    "id": "AMM-1944972",
@@ -4950,7 +4980,175 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-22T20:08:24"
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1946102",
+   "fonte": "Jornal AMM",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "Prefeitura Municipal de Santa Cruz do Xingu",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "MUNICÍPIO DE SANTA CRUZ DO XINGU - MT Processo licitatório nº 052/2026 Objeto: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRAS DE INFRAESTRUTURA URBANA NO LOTEAMENTO DESTINADO ÀS 50 (CINQUENTA) UNIDADES HABITACIONAIS DO PROGRAMA SER FAMÍLIA HABITAÇÃO, COMPREENDENDO A EXECUÇÃO DE PAVIMENTAÇÃO ASFÁLTICA EM TRATAMENTO SUPERFICIAL DUPLO (TSD), DRENAGEM PROFUNDA DE ÁGUAS PLUVIAIS, CONSTRUÇÃO DE GUIAS DE MEIO-FIO E SARJETAS, IMPLANTAÇÃO DE SINALIZAÇÃO VIÁRIA HORIZONTAL E VERTICAL, EXECUÇÃO",
+   "info": "Aviso de Licitação Concorrência eletrônica n° 011/2026",
+   "numero": "11/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "Aviso de Licitação Concorrência eletrônica n° 011/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1946102/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "aguas pluviais",
+    "asfalt",
+    "construcao",
+    "drenagem",
+    "infraestrutura urbana",
+    "meio-fio",
+    "pavimentacao",
+    "sarjeta",
+    "sinalizacao viaria",
+    "terraplenagem",
+    "tratamento superficial",
+    "tsd"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1945957",
+   "fonte": "Jornal AMM",
+   "municipio": "Santa Cruz do Xingu",
+   "orgao": "Prefeitura Municipal de Santa Cruz do Xingu",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE PAVIMENTAÇÃO ASFÁLTICA EM TRATAMENTO SUPERFICIAL DUPLO (TSD) DAS VIAS INTERNAS DOS ASSENTAMENTOS BRASIPAIVA E SANTA CLARA, COMPREENDENDO FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, ADMINISTRAÇÃO LOCAL, CANTEIRO DE OBRA, SERVIÇOS PRELIMINARES, MOBILIZAÇÃO/DESMOBILIZAÇÃO, TERRAPLANAGEM, TRANSPORTE DE MATERIAIS, PAVIMENTAÇÃO, DRENAGEM SUPERFICIAL E SINALIZAÇÃO VIÁRIA, CONFORME PROJETOS BÁSICOS, ESPECIFICAÇÕES TÉCNICAS, MEMORIAL DESCRITIVO E PLANILHA ORÇAMENTÁRIA QUE INTEGRAM ESTE INSTRUMENTO",
+   "info": "Aviso de Licitação Concorrência eletrônica n° 010/2026",
+   "numero": "10/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "Aviso de Licitação Concorrência eletrônica n° 010/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1945957/",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Drenagem",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "drenagem",
+    "pavimentacao",
+    "sinalizacao viaria",
+    "terraplanagem",
+    "tratamento superficial",
+    "tsd"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1945857",
+   "fonte": "Jornal AMM",
+   "municipio": "Santa Carmem",
+   "orgao": "Prefeitura Municipal de Santa Carmem",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "SISTEMA DE REGISTRO DE PREÇOS Nº 57/2026 Processo Administrativo Licitatório Nº 298/2026 O MUNICIPIO DE SANTA CARMEM - MT , por intermédio de sua Pregoeira, designada pela Portaria nº 253/2026, de 03 de agosto de 2026, torna público, para conhecimento dos interessados, a realização de licitação na modalidade PREGÃO, na forma ELETRÔNICA, do tipo MENOR PREÇO por ITEM, objetivando o REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE TUBOS DE CONCRETO ARMADO, DE DIFERENTES DIÂMETROS, DESTINADOS",
+   "info": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO Nº 41/2026",
+   "numero": "41/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "AVISO DE LICITAÇÃO PREGÃO ELETRÔNICO Nº 41/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1945857/",
+   "link_sistema": "",
+   "categorias": [
+    "Drenagem"
+   ],
+   "termos": [
+    "aguas pluviais",
+    "drenagem",
+    "tubos de concreto"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1946060",
+   "fonte": "Jornal AMM",
+   "municipio": "Arenápolis",
+   "orgao": "Prefeitura Municipal de Arenápolis",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O MUNICÍPIO DE ARENÁPOLIS , Estado de Mato Grosso, através da Agente de Contratação e Equipe de apoio, torna público aos interessados que fará realizar, no dia 08 DE DEZEMBRO DE 2026, às 09h00min (Horário Oficial de Mato Grosso), na sala de Licitações da Prefeitura Municipal, situada à Rua Presidente Costa e Silva nº 105/E, esquina com a Rua Castelo Branco, Vila Nova, neste Município de Arenápolis-MT, a CONCORRÊNCIA PUBLICA PRESENCIAL Nº 012/2026, Menor Preço global, com a finalidade de CONTRATA",
+   "info": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
+   "numero": "12/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA PUBLICA PRESENCIAL Nº 012/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1946060/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
+  },
+  {
+   "id": "AMM-1945371",
+   "fonte": "Jornal AMM",
+   "municipio": "Chapada dos Guimarães",
+   "orgao": "Prefeitura Municipal de Chapada dos Guimarães",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 019/2026 A Prefeitura Municipal de Chapada dos Guimarães-MT, através do Pregoeiro nomeado, torna público que realizará licitação na modalidade PREGÃO PRESENCIAL ao MENOR VALOR POR ITEM, tendo por objeto o “ Registro de Preços para a eventual contratação de empresa especializada na prestação de serviços de engenharia para a implantação de Sistemas de Geração de Energia Solar Fotovoltaica, nas modalidades ON-GRID e OFF-GRID no Município de Chapada dos Guimar",
+   "info": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 019/2026",
+   "numero": "19/2026",
+   "processo": "",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23",
+   "situacao": "AVISO DE LICITAÇÃO PREGÃO PRESENCIAL Nº 019/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1945371/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "servicos de engenharia"
+   ],
+   "visto_em": "2026-11-23T11:29:01"
   }
  ]
 }
