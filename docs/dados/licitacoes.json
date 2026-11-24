@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-23T20:26:09",
+ "atualizado_em": "2026-11-24T11:22:14",
  "fontes": {
-  "PNCP": 96,
-  "Jornal Oficial AMM": 48,
+  "PNCP": 95,
+  "Jornal Oficial AMM": 50,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 172,
+ "total": 177,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -1069,36 +1069,6 @@
    "visto_em": "2026-11-20T11:28:28"
   },
   {
-   "id": "03773942000109-1-000059/2026",
-   "fonte": "PNCP",
-   "municipio": "Pedra Preta",
-   "orgao": "MUNICIPIO DE PEDRA PRETA",
-   "unidade": "MUNICÍPIO DE PEDRA PRETA/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - Contratação de empresa especializada para execução de serviços de engenharia destinados à reforma e recuperação das piscinas do Clube Ichiro Okada, localizado na Rua André Passos Amorim, no Município de Pedra Preta MT.",
-   "info": "",
-   "numero": "20/2026",
-   "processo": "84",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 241247.59,
-   "abertura": "2026-11-09T17:02:03",
-   "encerramento": "2026-11-24T08:30:00",
-   "publicacao": "2026-11-09T17:02:15",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03773942000109/2026/59",
-   "link_sistema": "https://licitanet.com.br/sessao/207426",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "reforma",
-    "servicos de engenharia"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
    "id": "37465598000102-1-000046/2026",
    "fonte": "PNCP",
    "municipio": "Nova Guarita",
@@ -1189,6 +1159,35 @@
    "visto_em": "2026-11-17T14:38:50"
   },
   {
+   "id": "AMM-1937556",
+   "fonte": "Jornal AMM",
+   "municipio": "Confresa",
+   "orgao": "Prefeitura Municipal de Confresa",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Execução integral da obra de ampliação da Escola Municipal Central, compreendendo bloco educacional com 05 (cinco) salas de aula e sanitários (489,19 m²) e passarela coberta de interligação (15,56 m²), totalizando 504,75 m² de ampliação",
+   "info": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 011/2026",
+   "numero": "11/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-24T09:00",
+   "encerramento": "2026-11-24T09:00",
+   "publicacao": "2026-11-06",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRÊNCIA ELETRÔNICA Nº 011/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1937556/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
    "id": "03755477000175-1-000105/2026",
    "fonte": "PNCP",
    "municipio": "Mirassol d'Oeste",
@@ -1244,35 +1243,6 @@
    "termos": [
     "ampliacao",
     "reforma"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "37465002000166-1-000045/2026",
-   "fonte": "PNCP",
-   "municipio": "Querência",
-   "orgao": "PREFEITURA MUNICIPAL DE QUERENCIA",
-   "unidade": "PREFEITURA MUNICIPAL DE QUERÊNCIA/MT",
-   "esfera": "Municipal",
-   "objeto": "[LICITANET] - Contratação de empresa especializada em engenharia e/ou arquitetura para a execução da obra de construção do Centro de Atenção Psicossocial – CAPS, Portes I e II, com área construída de 564,56 m², no Município de Querência/MT, incluindo o fornecimento de materiais, mão de obra, equipamentos, ferramentas e demais recursos necessários, em conformidade com os projetos arquitetônico e complementares, especificações técnicas, planilha orçamentária, composição do BDI, cronograma físico-financeiro, memórias de cálculo, composições de custos unitários e demais peças técnicas integrantes da contratação, observadas as condições estabelecidas no Termo de Referência, sob o regime de execução de empreitada por preço global e nos termos da Lei Federal nº 14.133/2021.",
-   "info": "",
-   "numero": "10/2026",
-   "processo": "112",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Aberto",
-   "forma": "Eletrônica",
-   "valor": 2876234.62,
-   "abertura": "2026-11-09T10:51:40",
-   "encerramento": "2026-11-25T08:00:00",
-   "publicacao": "2026-11-09T10:51:44",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/37465002000166/2026/45",
-   "link_sistema": "https://licitanet.com.br/sessao/207318",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -1389,39 +1359,6 @@
    ],
    "termos": [
     "construcao"
-   ],
-   "visto_em": "2026-11-17T13:33:14"
-  },
-  {
-   "id": "03648532000128-1-000040/2026",
-   "fonte": "PNCP",
-   "municipio": "Alto Paraguai",
-   "orgao": "MUNICIPIO DE ALTO PARAGUAI",
-   "unidade": "PREFEITURA MUNICIPAL DE ALTO PARAGUAI - MT",
-   "esfera": "Municipal",
-   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE SERVIÇOS DE RECUPERAÇÃO E CONSERVAÇÃO DE VIAS URBANAS, COMPREENDENDO TAPA-BURACOS, MICRORREVESTIMENTO ASFÁLTICO A FRIO E SINALIZAÇÃO VIÁRIA, EM ÁREA TOTAL DE 49.111,11 M², NA SEDE DO MUNICÍPIO DE ALTO PARAGUAI E NO DISTRITO DE CAPÃO VERDE – MT, SOB O REGIME DE EMPREITADA POR PREÇO UNITÁRIO, EM LOTE ÚNICO, COM FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, FERRAMENTAS E DEMAIS INSUMOS NECESSÁRIOS À INTEGRAL EXECUÇÃO DO OBJETO, CONFORME ESPECIFICAÇÕES TÉCNICAS, PLANILHAS ORÇAMENTÁRIAS, CRONOGRAMA FÍSICO-FINANCEIRO E DEMAIS DOCUMENTOS TÉCNICOS INTEGRANTES DO PROCESSO, EM ATENDIMENTO AO TERMO DE CONVÊNIO SINFRA/MT Nº 0965/2026 E CONFORME ESPECIFICAÇÕES DO EDITAL E SEUS ANEXOS.",
-   "info": "",
-   "numero": "8/2026",
-   "processo": "031",
-   "modalidade": "Concorrência - Eletrônica",
-   "modo_disputa": "Fechado-Aberto",
-   "forma": "Eletrônica",
-   "valor": 1668852.64,
-   "abertura": "2026-11-11T08:30:00",
-   "encerramento": "2026-11-26T08:30:00",
-   "publicacao": "2026-11-10T20:00:48",
-   "situacao": "Divulgada no PNCP",
-   "link": "https://pncp.gov.br/app/editais/03648532000128/2026/40",
-   "link_sistema": "https://transparencia.agilicloud.com.br/altoparaguai/licitacoes/licitacao?id=1058",
-   "categorias": [
-    "Pavimentação",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "asfalt",
-    "microrrevestimento",
-    "sinalizacao viaria",
-    "tapa-buraco"
    ],
    "visto_em": "2026-11-17T13:33:14"
   },
@@ -2304,6 +2241,36 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "37464997000140-1-000077/2026",
+   "fonte": "PNCP",
+   "municipio": "Tabaporã",
+   "orgao": "MUNICIPIO DE TABAPORA",
+   "unidade": "Prefeitura Municipal de Tabaporã – MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA O FORNECIMENTO DE GRUPO GERADOR DE ENERGIA ELÉTRICA, A DIESEL, TIPO ESTACIONÁRIO, COM POTÊNCIA NOMINAL DE 40 KVA, DESTINADO AO SISTEMA DE ABASTECIMENTO DE ÁGUA DO DISTRITO DE NOVA FRONTEIRA, EM TABAPORÃ/MT.",
+   "info": "",
+   "numero": "0000047/2026",
+   "processo": "0000105/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 0.0,
+   "abertura": "2026-11-24T08:00:00",
+   "encerramento": "2026-12-04T08:00:00",
+   "publicacao": "2026-11-23T17:53:47",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37464997000140/2026/77",
+   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]AOSzdDJ6ebKdnFIXXRpyvmaFWSY2bg26jHazSW3WbK8ZrzchRrJ3HhUpd5BQ6qBfd0FYLCRRkILPi02XLAVwIm9FvXuh58C3kI9/Odurk38=",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "sistema de abastecimento"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
    "id": "03439239000150-1-000115/2026",
    "fonte": "PNCP",
    "municipio": "Barra do Garças",
@@ -2652,7 +2619,7 @@
    "abertura": "2026-10-27T08:50:24",
    "encerramento": "2026-12-07T09:00:00",
    "publicacao": "2026-10-27T08:50:29",
-   "situacao": "Divulgada no PNCP",
+   "situacao": "Suspensa",
    "link": "https://pncp.gov.br/app/editais/04219688000156/2026/43",
    "link_sistema": "https://licitanet.com.br/sessao/206116",
    "categorias": [
@@ -3020,6 +2987,69 @@
    "visto_em": "2026-11-19T11:24:54"
   },
   {
+   "id": "03773942000109-1-000059/2026",
+   "fonte": "PNCP",
+   "municipio": "Pedra Preta",
+   "orgao": "MUNICIPIO DE PEDRA PRETA",
+   "unidade": "MUNICÍPIO DE PEDRA PRETA/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - Contratação de empresa especializada para execução de serviços de engenharia destinados à reforma e recuperação das piscinas do Clube Ichiro Okada, localizado na Rua André Passos Amorim, no Município de Pedra Preta MT.",
+   "info": "",
+   "numero": "20/2026",
+   "processo": "84",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 241247.59,
+   "abertura": "2026-11-23T14:09:04",
+   "encerramento": "2026-12-09T08:30:00",
+   "publicacao": "2026-11-09T17:02:15",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03773942000109/2026/59",
+   "link_sistema": "https://licitanet.com.br/sessao/207426",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma",
+    "servicos de engenharia"
+   ],
+   "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "03648532000128-1-000040/2026",
+   "fonte": "PNCP",
+   "municipio": "Alto Paraguai",
+   "orgao": "MUNICIPIO DE ALTO PARAGUAI",
+   "unidade": "PREFEITURA MUNICIPAL DE ALTO PARAGUAI - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE SERVIÇOS DE RECUPERAÇÃO E CONSERVAÇÃO DE VIAS URBANAS, COMPREENDENDO TAPA-BURACOS, MICRORREVESTIMENTO ASFÁLTICO A FRIO E SINALIZAÇÃO VIÁRIA, EM ÁREA TOTAL DE 49.111,11 M², NA SEDE DO MUNICÍPIO DE ALTO PARAGUAI E NO DISTRITO DE CAPÃO VERDE – MT, SOB O REGIME DE EMPREITADA POR PREÇO UNITÁRIO, EM LOTE ÚNICO, COM FORNECIMENTO DE MATERIAIS, MÃO DE OBRA, EQUIPAMENTOS, FERRAMENTAS E DEMAIS INSUMOS NECESSÁRIOS À INTEGRAL EXECUÇÃO DO OBJETO, CONFORME ESPECIFICAÇÕES TÉCNICAS, PLANILHAS ORÇAMENTÁRIAS, CRONOGRAMA FÍSICO-FINANCEIRO E DEMAIS DOCUMENTOS TÉCNICOS INTEGRANTES DO PROCESSO, EM ATENDIMENTO AO TERMO DE CONVÊNIO SINFRA/MT Nº 0965/2026 E CONFORME ESPECIFICAÇÕES DO EDITAL E SEUS ANEXOS.",
+   "info": "",
+   "numero": "8/2026",
+   "processo": "031",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 1657415.1,
+   "abertura": "2026-11-24T08:30:00",
+   "encerramento": "2026-12-09T08:30:00",
+   "publicacao": "2026-11-10T20:00:48",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03648532000128/2026/40",
+   "link_sistema": "https://transparencia.agilicloud.com.br/altoparaguai/licitacoes/licitacao?id=1058",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "microrrevestimento",
+    "sinalizacao viaria",
+    "tapa-buraco"
+   ],
+   "visto_em": "2026-11-17T13:33:14"
+  },
+  {
    "id": "15024029000180-1-000119/2026",
    "fonte": "PNCP",
    "municipio": "São José dos Quatro Marcos",
@@ -3084,6 +3114,39 @@
    "visto_em": "2026-11-17T20:27:34"
   },
   {
+   "id": "01614088000102-1-000092/2026",
+   "fonte": "PNCP",
+   "municipio": "Feliz Natal",
+   "orgao": "MUNICIPIO DE FELIZ NATAL",
+   "unidade": "MUNICÍPIO DE FELIZ NATAL - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRAS DE IMPLANTAÇÃO DE PAVIMENTAÇÃO ASFÁLTICA NA ESTRADA VICINAL FN-44 “RIO FERRO”, CONFORME TERMO DE CONVÊNIO Nº. 2209-2026/SINFRA – QUE ENTRE SI CELEBRAM A SECRETARIA DE ESTADO DE INFRAESTRUTURA",
+   "info": "",
+   "numero": "0000009/2026",
+   "processo": "0000081/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 14346611.62,
+   "abertura": "2026-11-24T08:00:00",
+   "encerramento": "2026-12-09T13:00:00",
+   "publicacao": "2026-11-23T12:47:58",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01614088000102/2026/92",
+   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]e5JTz9jWyvn79WT1pmXqQddgjEKbX8Kj0L6gIgSVUrtmxDNxoR4_GNRF7fltSFIzvXxTirx2NpzWenayz7Fb_MrYQM2jBTj4FQx3bRKAyXg=",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "estrada",
+    "pavimentacao",
+    "vicinal"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
    "id": "AMM-1942507",
    "fonte": "Jornal AMM",
    "municipio": "Aripuanã",
@@ -3111,6 +3174,35 @@
     "ampliacao"
    ],
    "visto_em": "2026-11-17T14:48:10"
+  },
+  {
+   "id": "37465002000166-1-000045/2026",
+   "fonte": "PNCP",
+   "municipio": "Querência",
+   "orgao": "PREFEITURA MUNICIPAL DE QUERENCIA",
+   "unidade": "PREFEITURA MUNICIPAL DE QUERÊNCIA/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - Contratação de empresa especializada em engenharia e/ou arquitetura para a execução da obra de construção do Centro de Atenção Psicossocial – CAPS, Portes I e II, com área construída de 564,56 m², no Município de Querência/MT, incluindo o fornecimento de materiais, mão de obra, equipamentos, ferramentas e demais recursos necessários, em conformidade com os projetos arquitetônico e complementares, especificações técnicas, planilha orçamentária, composição do BDI, cronograma físico-financeiro, memórias de cálculo, composições de custos unitários e demais peças técnicas integrantes da contratação, observadas as condições estabelecidas no Termo de Referência, sob o regime de execução de empreitada por preço global e nos termos da Lei Federal nº 14.133/2021.",
+   "info": "",
+   "numero": "10/2026",
+   "processo": "112",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 2876234.62,
+   "abertura": "2026-11-23T15:44:32",
+   "encerramento": "2026-12-11T08:00:00",
+   "publicacao": "2026-11-09T10:51:44",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37465002000166/2026/45",
+   "link_sistema": "https://licitanet.com.br/sessao/207318",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-17T13:33:14"
   },
   {
    "id": "03507498000171-1-000126/2026",
@@ -3515,7 +3607,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -5004,6 +5096,35 @@
    "visto_em": "2026-11-23T11:29:01"
   },
   {
+   "id": "01377043000153-1-000056/2026",
+   "fonte": "PNCP",
+   "municipio": "Lucas do Rio Verde",
+   "orgao": "SERVICO AUTONOMO DE AGUA E ESGOTO",
+   "unidade": "SAAE - Lucas do Rio Verde - MT",
+   "esfera": "Municipal",
+   "objeto": "Locação de imóvel urbano destinado à ampliação da Sede Administrativa do SAAE - Serviço Autônomo de Água e Esgoto de Lucas do Rio Verde – MT.",
+   "info": "",
+   "numero": "DL 22/2026",
+   "processo": "58/2026",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 30399.92,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-23T11:41:10",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01377043000153/2026/56",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
    "id": "AMM-1936693",
    "fonte": "Jornal AMM",
    "municipio": "Arenápolis",
@@ -5030,7 +5151,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1937685",
@@ -5061,7 +5182,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1937826",
@@ -5091,7 +5212,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1938524",
@@ -5120,7 +5241,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1939380",
@@ -5149,7 +5270,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1940392",
@@ -5178,7 +5299,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1944972",
@@ -5207,7 +5328,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
   },
   {
    "id": "AMM-1946060",
@@ -5236,7 +5357,37 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-23T20:26:08"
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
+   "id": "AMM-1947185",
+   "fonte": "Jornal AMM",
+   "municipio": "Tabaporã",
+   "orgao": "Prefeitura Municipal de Tabaporã",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "PROCESSO ADMINISTRATIVO N° 105/2026 PREGÃO ELETRÔNICO Nº 047/2026 A PREFEITURA MUNICIPAL DE TABAPORÃ/MT, através de sua pregoeira, torna público que realizará, PREGÃO ELETRÔNICO Nº 047/2026, do tipo MENOR PREÇO POR ITEM , cujo o objeto consiste na CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA O FORNECIMENTO DE GRUPO GERADOR DE ENERGIA ELÉTRICA, A DIESEL, TIPO ESTACIONÁRIO, COM POTÊNCIA NOMINAL DE 40 KVA, DESTINADO AO SISTEMA DE ABASTECIMENTO DE ÁGUA DO DISTRITO DE NOVA FRONTEIRA, EM TABAPORÃ/MT. As",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-24",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1947185/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "sistema de abastecimento"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
   }
  ]
 }
