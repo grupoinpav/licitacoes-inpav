@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-24T11:22:14",
+ "atualizado_em": "2026-11-24T20:26:09",
  "fontes": {
-  "PNCP": 95,
-  "Jornal Oficial AMM": 50,
+  "PNCP": 93,
+  "Jornal Oficial AMM": 51,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 177,
+ "total": 179,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -1067,6 +1067,35 @@
     "pavimento"
    ],
    "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "AMM-1938488",
+   "fonte": "Jornal AMM",
+   "municipio": "Nova Guarita",
+   "orgao": "Prefeitura Municipal de Nova Guarita",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Aviso de Licitação Concorrência Presencial n.º 09/2026 Processo Administrativo nº: 1324/2026 Modo de disputa: Aberto – Menor Preço A PREFEITURA MUNICIPAL DE NOVA GUARITA – MT, através da sua Agente de Contratação torna público para conhecimento dos interessados, que realizará a licitação na modalidade Concorrência n.º 09/2026, TIPO: “MENOR PREÇO/GLOBAL”. Cujo objeto é: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DA OBRA SENDO A REFORMA E EXECUÇÃO DO PISO EM GRANILITE ESCOLA SANTA ISABEL D",
+   "info": "Aviso de Licitação Concorrência Presencial n.º 09/2026",
+   "numero": "9/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Presencial",
+   "modo_disputa": "",
+   "forma": "Presencial",
+   "valor": null,
+   "abertura": "2026-11-24T08:30",
+   "encerramento": "2026-11-24T08:30",
+   "publicacao": "2026-11-09",
+   "situacao": "Aviso de Licitação Concorrência Presencial n.º 09/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1938488/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "reforma"
+   ],
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "37465598000102-1-000046/2026",
@@ -2928,6 +2957,36 @@
    "visto_em": "2026-11-18T11:26:20"
   },
   {
+   "id": "01377043000153-1-000057/2026",
+   "fonte": "PNCP",
+   "municipio": "Lucas do Rio Verde",
+   "orgao": "SERVICO AUTONOMO DE AGUA E ESGOTO",
+   "unidade": "SAAE - Lucas do Rio Verde - MT",
+   "esfera": "Municipal",
+   "objeto": "Pregão Eletrônico com Registro de Preços para contratação de empresa especializada no fornecimento de materiais hidráulicos, destinados ao atendimento das necessidades dos setores de Abastecimento de Água, Administrativo, Arrecadação, Esgotamento Sanitário, e Resíduos Sólidos do Serviço Autônomo de Água e Esgoto – SAAE de Lucas do Rio Verde-MT.",
+   "info": "",
+   "numero": "020/2026",
+   "processo": "29.718/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 0.0,
+   "abertura": "2026-11-25T07:00:00",
+   "encerramento": "2026-12-08T08:50:00",
+   "publicacao": "2026-11-24T09:51:17",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01377043000153/2026/57",
+   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]eqUfk3pZm_FbCx2_eMJ7RG6N2vcnnwBaf79fF4PAuSAMPF7b68elJd2d/VAAGGAgy2CWxVOdnkWUeQa7qqNey8cFouJt9Sdwf2_7yiXrIko=",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "esgotamento sanitario"
+   ],
+   "visto_em": "2026-11-24T20:26:09"
+  },
+  {
    "id": "03507498000171-1-000133/2026",
    "fonte": "PNCP",
    "municipio": "Aripuanã",
@@ -3607,7 +3666,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -5125,6 +5184,36 @@
    "visto_em": "2026-11-24T11:22:14"
   },
   {
+   "id": "AMM-1947185",
+   "fonte": "Jornal AMM",
+   "municipio": "Tabaporã",
+   "orgao": "Prefeitura Municipal de Tabaporã",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "PROCESSO ADMINISTRATIVO N° 105/2026 PREGÃO ELETRÔNICO Nº 047/2026 A PREFEITURA MUNICIPAL DE TABAPORÃ/MT, através de sua pregoeira, torna público que realizará, PREGÃO ELETRÔNICO Nº 047/2026, do tipo MENOR PREÇO POR ITEM , cujo o objeto consiste na CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA O FORNECIMENTO DE GRUPO GERADOR DE ENERGIA ELÉTRICA, A DIESEL, TIPO ESTACIONÁRIO, COM POTÊNCIA NOMINAL DE 40 KVA, DESTINADO AO SISTEMA DE ABASTECIMENTO DE ÁGUA DO DISTRITO DE NOVA FRONTEIRA, EM TABAPORÃ/MT. As",
+   "info": "AVISO DE LICITAÇÃO",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-24",
+   "situacao": "AVISO DE LICITAÇÃO",
+   "link": "https://amm.diariomunicipal.org/publicacao/1947185/",
+   "link_sistema": "",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "sistema de abastecimento"
+   ],
+   "visto_em": "2026-11-24T11:22:14"
+  },
+  {
    "id": "AMM-1936693",
    "fonte": "Jornal AMM",
    "municipio": "Arenápolis",
@@ -5151,7 +5240,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1937685",
@@ -5182,7 +5271,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1937826",
@@ -5212,7 +5301,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1938524",
@@ -5241,7 +5330,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1939380",
@@ -5270,7 +5359,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1940392",
@@ -5299,7 +5388,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1944972",
@@ -5328,7 +5417,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   },
   {
    "id": "AMM-1946060",
@@ -5357,37 +5446,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T11:22:14"
-  },
-  {
-   "id": "AMM-1947185",
-   "fonte": "Jornal AMM",
-   "municipio": "Tabaporã",
-   "orgao": "Prefeitura Municipal de Tabaporã",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "PROCESSO ADMINISTRATIVO N° 105/2026 PREGÃO ELETRÔNICO Nº 047/2026 A PREFEITURA MUNICIPAL DE TABAPORÃ/MT, através de sua pregoeira, torna público que realizará, PREGÃO ELETRÔNICO Nº 047/2026, do tipo MENOR PREÇO POR ITEM , cujo o objeto consiste na CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA O FORNECIMENTO DE GRUPO GERADOR DE ENERGIA ELÉTRICA, A DIESEL, TIPO ESTACIONÁRIO, COM POTÊNCIA NOMINAL DE 40 KVA, DESTINADO AO SISTEMA DE ABASTECIMENTO DE ÁGUA DO DISTRITO DE NOVA FRONTEIRA, EM TABAPORÃ/MT. As",
-   "info": "AVISO DE LICITAÇÃO",
-   "numero": "",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-24",
-   "situacao": "AVISO DE LICITAÇÃO",
-   "link": "https://amm.diariomunicipal.org/publicacao/1947185/",
-   "link_sistema": "",
-   "categorias": [
-    "Saneamento e Água"
-   ],
-   "termos": [
-    "abastecimento de agua",
-    "sistema de abastecimento"
-   ],
-   "visto_em": "2026-11-24T11:22:14"
+   "visto_em": "2026-11-24T20:26:09"
   }
  ]
 }
