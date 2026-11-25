@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-24T20:26:09",
+ "atualizado_em": "2026-11-25T11:28:38",
  "fontes": {
-  "PNCP": 93,
-  "Jornal Oficial AMM": 51,
+  "PNCP": 85,
+  "Jornal Oficial AMM": 52,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 179,
+ "total": 189,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -2241,6 +2241,37 @@
    "visto_em": "2026-11-17T14:03:02"
   },
   {
+   "id": "15024045000173-1-000044/2026",
+   "fonte": "PNCP",
+   "municipio": "Nova Xavantina",
+   "orgao": "MUNICIPIO DE NOVA XAVANTINA",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVA XAVANTINA - MT",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE TUBOS E ADUELAS DE CONCRETO ARMADO PARA A MANUTENÇÃO E RECUPERAÇÃO DE SISTEMAS DE DRENAGEM, BUEIROS E TRAVESSIAS NO MUNICÍPIO DE NOVA XAVANTINA-MT.",
+   "info": "",
+   "numero": "PE 20/2026",
+   "processo": "55/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 2314404.0,
+   "abertura": "2026-12-03T13:30:00",
+   "encerramento": "2026-12-03T13:30:00",
+   "publicacao": "2026-11-24T14:33:30",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15024045000173/2026/44",
+   "link_sistema": "",
+   "categorias": [
+    "Drenagem"
+   ],
+   "termos": [
+    "aduela",
+    "bueiro",
+    "drenagem"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
    "id": "01614521000100-1-000138/2026",
    "fonte": "PNCP",
    "municipio": "Nova Ubiratã",
@@ -2987,6 +3018,68 @@
    "visto_em": "2026-11-24T20:26:09"
   },
   {
+   "id": "03347135000116-1-000088/2026",
+   "fonte": "PNCP",
+   "municipio": "Jaciara",
+   "orgao": "MUNICIPIO DE JACIARA",
+   "unidade": "PREFEITURA MUNICIPAL DE JACIARA-MT",
+   "esfera": "Municipal",
+   "objeto": "“Contratação de empresa especializada para execução de pavimentação asfáltica na Estrada Vicinal JC-11, no Município de Jaciara-MT”.",
+   "info": "“Contratação de empresa especializada para execução de pavimentação asfáltica na Estrada Vicinal JC-11, no Município de Jaciara-MT”.",
+   "numero": "13/2026",
+   "processo": "13",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 2030105.33,
+   "abertura": "2026-11-25T07:00:00",
+   "encerramento": "2026-12-08T09:00:00",
+   "publicacao": "2026-11-24T11:43:20",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03347135000116/2026/88",
+   "link_sistema": "",
+   "categorias": [
+    "Pavimentação",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "asfalt",
+    "estrada",
+    "pavimentacao",
+    "vicinal"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
+   "id": "03347101000121-1-000244/2026",
+   "fonte": "PNCP",
+   "municipio": "Rondonópolis",
+   "orgao": "MUNICIPIO DE RONDONOPOLIS",
+   "unidade": "PREFEITURA MUNICIPAL DE RONDONÓPOLIS - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA DE ENGENHARIA PARA EXECUÇÃO DE ADEQUAÇÃO E ALARGAMENTO DA AVENIDA DOS ESTUDANTES, COM IMPLANTAÇÃO DE CALÇADA E CICLOVIA, LOCALIZADA NA AVENIDA DOS ESTUDANTES, VILA AURORA – RONDONÓPOLIS – MT",
+   "info": "",
+   "numero": "29/2026",
+   "processo": "78807",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 2933365.79,
+   "abertura": "2026-11-18T17:00:00",
+   "encerramento": "2026-12-08T14:30:00",
+   "publicacao": "2026-11-24T14:15:34",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03347101000121/2026/244",
+   "link_sistema": "https://transparencia.rondonopolis.mt.gov.br/rondonopolis/licitacoes/licitacao?id=30278",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "calcada"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
    "id": "03507498000171-1-000133/2026",
    "fonte": "PNCP",
    "municipio": "Aripuanã",
@@ -3235,6 +3328,66 @@
    "visto_em": "2026-11-17T14:48:10"
   },
   {
+   "id": "03439239000150-1-000118/2026",
+   "fonte": "PNCP",
+   "municipio": "Barra do Garças",
+   "orgao": "MUNICIPIO DE BARRA DO GARCAS",
+   "unidade": "MUNICÍPIO DE BARRA DO GARÇAS/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE REFORMA E AMPLIAÇÃO DO C.M.E.B. WALDIZA RÊGO FLORES LOPES",
+   "info": "",
+   "numero": "018/2026",
+   "processo": "123/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1756358.62,
+   "abertura": "2026-11-24T12:36:43",
+   "encerramento": "2026-12-10T12:30:00",
+   "publicacao": "2026-11-24T13:56:19",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03439239000150/2026/118",
+   "link_sistema": "https://licitanet.com.br/sessao/209055",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
+   "id": "03439239000150-1-000119/2026",
+   "fonte": "PNCP",
+   "municipio": "Barra do Garças",
+   "orgao": "MUNICIPIO DE BARRA DO GARCAS",
+   "unidade": "MUNICÍPIO DE BARRA DO GARÇAS/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE REFORMA E AMPLIAÇÃO DO COLÉGIO MOREIRA CABRAL, COM 2.264,93 M² DE ÁREA TOTAL DE INTERVENÇÃO, SENDO 1.974,17 M² DE REFORMA E 290,75 M² DE AMPLIAÇÃO, SITUADO NA RUA 7, QUADRA 22, BAIRRO ANCHIETA",
+   "info": "",
+   "numero": "020/2026",
+   "processo": "123/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1631115.95,
+   "abertura": "2026-11-24T12:41:09",
+   "encerramento": "2026-12-10T13:30:00",
+   "publicacao": "2026-11-24T14:01:14",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03439239000150/2026/119",
+   "link_sistema": "https://licitanet.com.br/sessao/209058",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
    "id": "37465002000166-1-000045/2026",
    "fonte": "PNCP",
    "municipio": "Querência",
@@ -3291,6 +3444,35 @@
     "construcao"
    ],
    "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "AMM-1947639",
+   "fonte": "Jornal AMM",
+   "municipio": "Paranatinga",
+   "orgao": "Prefeitura Municipal de Paranatinga",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Constitui objeto da Presente Licitação a contratação de Empresa de engenharia sob o regime de empreitada por preço global para EXECUÇÃO FÍSICA DO OBJETO DE “CONSTRUÇÃO DE QUADRA COBERTA E AMPLICAÇÃO DE 06 SALAS - ESCOLA MUNICIPAL ALCIDES VISONI” localizado na Escola Municipal do Campo Alcides Visoni na comunidade de Santiago do Norte, a pedido da Secretaria Municipal de Educação",
+   "info": "AVISO DE LICITAÇÃO REABERTA CONCORRÊNCIA EDITAL Nº 05/2026",
+   "numero": "5/2026",
+   "processo": "",
+   "modalidade": "Concorrência",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-12-11T09:00",
+   "encerramento": "2026-12-11T09:00",
+   "publicacao": "2026-11-25",
+   "situacao": "AVISO DE LICITAÇÃO REABERTA CONCORRÊNCIA EDITAL Nº 05/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1947639/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "03702217000131-1-000047/2026",
@@ -3666,7 +3848,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -3919,6 +4101,35 @@
    "visto_em": "2026-11-19T11:24:54"
   },
   {
+   "id": "03239019000183-1-000091/2026",
+   "fonte": "PNCP",
+   "municipio": "Guarantã do Norte",
+   "orgao": "MUNICIPIO DE GUARANTA DO NORTE",
+   "unidade": "PREFEITURA MUNICIPAL DE GUARANTÃ DO NORTE - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA HABILITADA EM PRESTAÇÃO DE OBRAS E ENGENHARIA PARA “CONSTRUÇÃO DE UMA PISCINA SEMIOLÍMPICA COM VESTIÁRIO PARA A ESCOLA MUNICIPAL PROFESSORA SUELI OLMIRA PEREIRA NO MUNICÍPIO DE GUARANTÃ DO NORTE-MT”.",
+   "info": "",
+   "numero": "7/2026",
+   "processo": "221",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 2121235.03,
+   "abertura": "2026-11-19T09:00:00",
+   "encerramento": "2026-12-29T09:00:00",
+   "publicacao": "2026-11-24T14:20:58",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03239019000183/2026/91",
+   "link_sistema": "https://transparencia.agilicloud.com.br/prefguarantanorte-mt/licitacoes/licitacao?id=4674",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
    "id": "15024003000132-1-000215/2026",
    "fonte": "PNCP",
    "municipio": "Sinop",
@@ -3989,6 +4200,35 @@
     "sinalizacao viaria"
    ],
    "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "03162872000144-1-000062/2026",
+   "fonte": "PNCP",
+   "municipio": "Poconé",
+   "orgao": "MUNICIPIO DE POCONE",
+   "unidade": "MUNICÍPIO DE POCONÉ/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - ELABORAÇÃO DOS PROJETOS EXECUTIVOS E EXECUÇÃO DE OBRAS DESTINADAS À CONSTRUÇÃO DE 40 UNIDADES HABITACIONAIS NO MUNICIPIO DE POCONE MT",
+   "info": "",
+   "numero": "5/2026",
+   "processo": "5/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 0.0,
+   "abertura": "2026-11-24T12:53:45",
+   "encerramento": "2027-02-26T09:00:00",
+   "publicacao": "2026-08-14T13:45:09",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03162872000144/2026/62",
+   "link_sistema": "https://licitanet.com.br/sessao/197852",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "03347101000121-1-000240/2026",
@@ -5240,7 +5480,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1937685",
@@ -5271,7 +5511,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1937826",
@@ -5301,7 +5541,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1938524",
@@ -5330,7 +5570,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1939380",
@@ -5359,7 +5599,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1940392",
@@ -5388,7 +5628,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1944972",
@@ -5417,7 +5657,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
   },
   {
    "id": "AMM-1946060",
@@ -5446,7 +5686,68 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-24T20:26:09"
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
+   "id": "AMM-1947549",
+   "fonte": "Jornal AMM",
+   "municipio": "Barra do Garças",
+   "orgao": "Prefeitura Municipal de Barra do Garças",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA DE REFORMA E AMPLIAÇÃO DO COLÉGIO MOREIRA CABRAL, COM 2.264,93 M² DE ÁREA TOTAL DE INTERVENÇÃO, SENDO 1.974,17 M² DE REFORMA E 290,75 M² DE AMPLIAÇÃO, SITUADO NA RUA 7, QUADRA 22, BAIRRO ANCHIETA, BARRA DO GARÇAS-MT",
+   "info": "AVISO DE LICITAÇÃO/EDITAL",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-25",
+   "situacao": "AVISO DE LICITAÇÃO/EDITAL",
+   "link": "https://amm.diariomunicipal.org/publicacao/1947549/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
+  },
+  {
+   "id": "AMM-1947531",
+   "fonte": "Jornal AMM",
+   "municipio": "Barra do Garças",
+   "orgao": "Prefeitura Municipal de Barra do Garças",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada para execução de obra de Reforma e Ampliação do C.M.E.B",
+   "info": "AVISO DE LICITAÇÃO/EDITAL",
+   "numero": "",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-25",
+   "situacao": "AVISO DE LICITAÇÃO/EDITAL",
+   "link": "https://amm.diariomunicipal.org/publicacao/1947531/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "construcao",
+    "reforma"
+   ],
+   "visto_em": "2026-11-25T11:28:38"
   }
  ]
 }
