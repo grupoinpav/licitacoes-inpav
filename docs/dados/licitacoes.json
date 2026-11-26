@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-25T20:21:42",
+ "atualizado_em": "2026-11-26T11:29:28",
  "fontes": {
-  "PNCP": 83,
-  "Jornal Oficial AMM": 54,
+  "PNCP": 89,
+  "Jornal Oficial AMM": 52,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 191,
+ "total": 196,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -3260,6 +3260,35 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "22794608000178-1-000019/2026",
+   "fonte": "PNCP",
+   "municipio": "Cáceres",
+   "orgao": "SERVICO DE SANEAMENTO AMBIENTAL AGUAS DO PANTANAL",
+   "unidade": "SERVIÇO DE SANEA. AMBIENTAL ÁGUAS PANTANAL",
+   "esfera": "Municipal",
+   "objeto": "FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAL DE EXPEDIENTE, CONSUMO E LIMPEZA, utilizados pela autarquia SERVIÇO DE SANEAMENTO AMBIENTAL ÁGUAS DO PANTANAL, na sede administrativa e operacional conforme condições, quantidades, exigências e estimativas estabelecidas neste instrumento.",
+   "info": "Havendo qualquer divergência entre a especificação do CATMAT/CATSER e a deste Edital, prevalecerá a especificação deste Edital.",
+   "numero": "20/2026",
+   "processo": "PADM-30484/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 281584.98,
+   "abertura": "2026-11-26T08:00:00",
+   "encerramento": "2026-12-09T08:59:00",
+   "publicacao": "2026-11-25T17:27:54",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/22794608000178/2026/19",
+   "link_sistema": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92719005000202026",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "saneamento"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
    "id": "15024029000180-1-000119/2026",
    "fonte": "PNCP",
    "municipio": "São José dos Quatro Marcos",
@@ -3446,6 +3475,35 @@
    "visto_em": "2026-11-25T11:28:38"
   },
   {
+   "id": "22794608000178-1-000018/2026",
+   "fonte": "PNCP",
+   "municipio": "Cáceres",
+   "orgao": "SERVICO DE SANEAMENTO AMBIENTAL AGUAS DO PANTANAL",
+   "unidade": "SERVIÇO DE SANEA. AMBIENTAL ÁGUAS PANTANAL",
+   "esfera": "Municipal",
+   "objeto": "FUTURA E EVENTUAL AQUISIÇÃO DE MATERIAL GRÁFICO, utilizados pela autarquia SERVIÇO DE SANEAMENTO AMBIENTAL ÁGUAS DO PANTANAL, na sede administrativa e operacional conforme condições, quantidades, exigências e estimativas estabelecidas, no Termo de Referência e neste instrumento convocatório.",
+   "info": "Havendo qualquer divergência entre a especificação do CATMAT/CATSER e a deste Edital, prevalecerá a especificação deste Edital.",
+   "numero": "19/2026",
+   "processo": "PADM-30843",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 261872.2,
+   "abertura": "2026-11-26T08:00:00",
+   "encerramento": "2026-12-10T13:59:00",
+   "publicacao": "2026-11-25T16:05:49",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/22794608000178/2026/18",
+   "link_sistema": "https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92719005000192026",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "saneamento"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
    "id": "37465002000166-1-000045/2026",
    "fonte": "PNCP",
    "municipio": "Querência",
@@ -3502,6 +3560,64 @@
     "construcao"
    ],
    "visto_em": "2026-11-19T11:24:54"
+  },
+  {
+   "id": "01974088000105-1-000166/2026",
+   "fonte": "PNCP",
+   "municipio": "Primavera do Leste",
+   "orgao": "MUNICIPIO DE PRIMAVERA DO LESTE",
+   "unidade": "MUNICÍPIO DE PRIMAVERA DO LESTE/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - REGISTRO DE PREÇOS, PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE LIMPEZA MECANIZADA, DESOBSTRUÇÃO E REMOÇÃO DE SEDIMENTOS DA REDE PRINCIPAL DE DRENAGEM PLUVIAL DO MUNICÍPIO DE PRIMAVERA DO LESTE – MT, MEDIANTE UTILIZAÇÃO DE CAMINHÃO COMBINADO EQUIPADO COM SISTEMA DE HIDROJATEAMENTO DE ALTA PRESSÃO E SUCÇÃO A VÁCUO.",
+   "info": "",
+   "numero": "059/2026",
+   "processo": "186/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1328119.2,
+   "abertura": "2026-11-25T13:31:59",
+   "encerramento": "2026-12-11T08:30:00",
+   "publicacao": "2026-11-25T13:32:06",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01974088000105/2026/166",
+   "link_sistema": "https://licitanet.com.br/sessao/206185",
+   "categorias": [
+    "Drenagem"
+   ],
+   "termos": [
+    "drenagem"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
+   "id": "01377043000153-1-000059/2026",
+   "fonte": "PNCP",
+   "municipio": "Lucas do Rio Verde",
+   "orgao": "SERVICO AUTONOMO DE AGUA E ESGOTO",
+   "unidade": "SAAE - Lucas do Rio Verde - MT",
+   "esfera": "Municipal",
+   "objeto": "Contratação de empresa especializada para fornecimento de materiais e mão de obra destinados à fabricação, montagem e instalação de estruturas e coberturas metálicas na ampliação do Setor Operacional do SAAE e no Ecoponto, bem como execução de platibanda metálica frontal e instalação de calhas na edificação do Almoxarifado, no Município de Lucas do Rio Verde/MT, conforme projetos, memoriais descritivos, planilhas orçamentárias e demais documentos técnicos anexos ao processo licitatório.",
+   "info": "",
+   "numero": "021/2026",
+   "processo": "30.931/2026",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 133832.96,
+   "abertura": "2026-11-25T09:00:00",
+   "encerramento": "2026-12-11T08:50:00",
+   "publicacao": "2026-11-25T08:47:52",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01377043000153/2026/59",
+   "link_sistema": "https://bllcompras.com/Process/ProcessView?param1=[gkz]k01NvT826SifawodlsiBj2gGBr0Fl2lX5IHG9C5Uch421zrvSxHsODEIymTlEUpewhx0LwxXei/P3oePZ2AqKp41Pf7FXbPiWzpBX/LW5gk=",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1947639",
@@ -3817,6 +3933,35 @@
    "visto_em": "2026-11-17T13:33:14"
   },
   {
+   "id": "03702217000131-1-000060/2026",
+   "fonte": "PNCP",
+   "municipio": "Rondonópolis",
+   "orgao": "SANEAR - SERVICO DE SANEAMENTO AMBIENTAL DE RONDONOPOLIS TEREZINHA SILVA DE SOUZA",
+   "unidade": "SERVIÇO DE SANEAMENTO AMBIENTAL DE RONDONÓPOLIS - SANEAR - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA IMPLANTACAO DA CAIXA DE SUCCAO, BARRILETES DE SUCCAO E RECALQUE. INTERLIGACAO COM AS ADUTORAS EXISTENTES E SISTEMA DE DESCARGA DO DESARENADOR, COM FORNECIMENTO DE MATERIAIS HIDRAULICOS E ACESSORIOS P/ ADEQUACAO DA",
+   "info": "",
+   "numero": "61/2026",
+   "processo": "00000263/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 1650825.8,
+   "abertura": "2026-12-15T17:00:00",
+   "encerramento": "2026-12-16T08:00:00",
+   "publicacao": "2026-11-25T15:42:22",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03702217000131/2026/60",
+   "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "adutora"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
    "id": "37464716000150-1-000090/2026",
    "fonte": "PNCP",
    "municipio": "Confresa",
@@ -3906,7 +4051,38 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
+   "id": "03702217000131-1-000062/2026",
+   "fonte": "PNCP",
+   "municipio": "Rondonópolis",
+   "orgao": "SANEAR - SERVICO DE SANEAMENTO AMBIENTAL DE RONDONOPOLIS TEREZINHA SILVA DE SOUZA",
+   "unidade": "SERVIÇO DE SANEAMENTO AMBIENTAL DE RONDONÓPOLIS - SANEAR - MT",
+   "esfera": "Municipal",
+   "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA EM OBRAS DE INFRAESTRUTURA DE SANEAMENTO PARA EXECUCAO DE OBRAS DO SISTEMA DE ESGOTAMENTO SANITARIO, COMPREENDENDO O COLETOR DOM WUNIBALDO, O EMISSARIO CANIVETE E O EMISSARIO NOVA CANAA, NO MUNICIPIO DE RONDONOPOLIS/MT",
+   "info": "",
+   "numero": "63/2026",
+   "processo": "00000271/2026",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 5121871.53,
+   "abertura": "2026-12-17T17:00:00",
+   "encerramento": "2026-12-18T08:00:00",
+   "publicacao": "2026-11-25T15:44:07",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03702217000131/2026/62",
+   "link_sistema": "https://www.gp.srv.br/transparencia_sanear/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "emissario",
+    "esgotamento sanitario",
+    "saneamento"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "37464997000140-1-000067/2026",
@@ -4186,6 +4362,36 @@
     "construcao"
    ],
    "visto_em": "2026-11-25T11:28:38"
+  },
+  {
+   "id": "37465317000103-1-000008/2026",
+   "fonte": "PNCP",
+   "municipio": "São José do Xingu",
+   "orgao": "MUNICIPIO DE SAO JOSE DO XINGU",
+   "unidade": "MUNICIPIO SAO JOSE DO XINGU - MT ",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA PESSOA JURÍDICA PARA EXECUÇÃO DA OBRA DE CONSTRUÇÃO  DE PONTE DE CONCRETO SOBRE O RIBEIRÃO CAPIVARA NO MUNCÍPIO DE SÃO JOSÉ DO XINGU – MT, CONFORME CONDIÇÕES, QUANTIDADES E EXIGÊNCIAS ESTABELECIDAS NO EDITAL E SEUS ANEXOS.",
+   "info": "",
+   "numero": "08/2026",
+   "processo": "43",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto",
+   "forma": "Eletrônica",
+   "valor": 0.0,
+   "abertura": "2026-11-25T15:23:49",
+   "encerramento": "2027-01-05T09:00:00",
+   "publicacao": "2026-11-25T15:23:54",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37465317000103/2026/8",
+   "link_sistema": "https://licitanet.com.br/sessao/209252",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "ponte"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "15024003000132-1-000215/2026",
@@ -4508,40 +4714,6 @@
    "visto_em": "2026-11-17T14:48:10"
   },
   {
-   "id": "AMM-1931313",
-   "fonte": "Jornal AMM",
-   "municipio": "Nova Bandeirantes",
-   "orgao": "Prefeitura Municipal de Nova Bandeirantes",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE CIMENTO, AREIA, PEDRISCO, PEDRAS BRITADAS, PÓ DE BRITA, RACHÃO E REJEITO DE ROCHA, CONFORME A DEMANDA, DESTINADOS A ATENDER ÀS NECESSIDADES DAS SECRETARIAS MUNICIPAIS DE NOVA BANDEIRANTES/MT NA EXECUÇÃO DE OBRAS E SERVIÇOS DE INFRAESTRUTURA, DRENAGEM PLUVIAL, CONSTRUÇÃO E ADEQUAÇÃO DE CALÇADAS E PASSEIOS PÚBLICOS, BEM COMO NA MANUTENÇÃO, CONSERVAÇÃO E REFORMA DE BENS E ESPAÇOS PÚBLICOS MUNICIPAIS , conforme condições, quantidades e exigências estabelecidas neste Edital com as características descritas no (ANEXO I), Termo de Referência",
-   "info": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 078/2026",
-   "numero": "78/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-10-26",
-   "situacao": "AVISO DE LICITAÇÃO – PREGÃO ELETRÔNICO Nº. 078/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1931313/",
-   "link_sistema": "",
-   "categorias": [
-    "Drenagem",
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "calcada",
-    "calcadas",
-    "construcao",
-    "drenagem",
-    "reforma"
-   ],
-   "visto_em": "2026-11-17T14:48:10"
-  },
-  {
    "id": "AMM-1943561",
    "fonte": "Jornal AMM",
    "municipio": "Barra do Garças",
@@ -4745,35 +4917,6 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T14:38:50"
-  },
-  {
-   "id": "AMM-1930894",
-   "fonte": "Jornal AMM",
-   "municipio": "Santa Cruz do Xingu",
-   "orgao": "Prefeitura Municipal de Santa Cruz do Xingu",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇO DE PERFURAÇÃO DE POÇOS TUBULARES PROFUNDOS E TESTES DE BOMBEAMENTO, COM FORNECIMENTO DE MATERIAL E MÃO-DE-OBRA, NA ÁREA URBANA E RURAL DO MUNICÍPIO DE SANTA CRUZ DO XINGU - MT",
-   "info": "Aviso de Licitação Pregão Presencial n° 015/2026",
-   "numero": "15/2026",
-   "processo": "",
-   "modalidade": "Pregão - Presencial",
-   "modo_disputa": "",
-   "forma": "Presencial",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-10-26",
-   "situacao": "Aviso de Licitação Pregão Presencial n° 015/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1930894/",
-   "link_sistema": "",
-   "categorias": [
-    "Saneamento e Água"
-   ],
-   "termos": [
-    "pocos tubulares"
-   ],
-   "visto_em": "2026-11-17T14:56:51"
   },
   {
    "id": "AMM-1934889",
@@ -5013,36 +5156,6 @@
     "vicinais"
    ],
    "visto_em": "2026-11-18T11:26:20"
-  },
-  {
-   "id": "AMM-1931135",
-   "fonte": "Jornal AMM",
-   "municipio": "Canarana",
-   "orgao": "Prefeitura Municipal de Canarana",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "Registro de Preços para futura e eventual aquisição de equipamentos diversos e materiais de consumo para atender as necessidades das Secretarias Municipais Obras, Estradas e Rodagens e Desenvolvimento Socioeconômico e Turístico , com itens de participação exclusiva de microempresas (ME) e empresas de pequeno porte (EPP) e prioridade de contratação de ME/EPP sediadas",
-   "info": "AVISO DE LICITAÇÃO Pregão Eletrônico nº 021/2026",
-   "numero": "21/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-10-26",
-   "situacao": "AVISO DE LICITAÇÃO Pregão Eletrônico nº 021/2026",
-   "link": "https://amm.diariomunicipal.org/publicacao/1931135/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "estrada",
-    "estradas"
-   ],
-   "visto_em": "2026-11-18T20:22:53"
   },
   {
    "id": "AMM-1941997",
@@ -5599,7 +5712,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1937685",
@@ -5630,7 +5743,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1937826",
@@ -5660,7 +5773,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1938524",
@@ -5689,7 +5802,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1939380",
@@ -5718,7 +5831,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1940392",
@@ -5747,7 +5860,36 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
+   "id": "AMM-1941250",
+   "fonte": "Jornal AMM",
+   "municipio": "Marcelândia",
+   "orgao": "Prefeitura Municipal de Marcelândia",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Registro de preços para futura e eventual CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA CIVIL PARA EXECUÇÃO DA OBRA DE CONSTRUÇÃO DO MURO DO CEMITÉRIO MUNICIPAL DE MARCELÂNDIA – MT, COM FORNECIMENTO DE MATERIAIS E MÃO DE OBRA",
+   "info": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
+   "numero": "43/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-12",
+   "situacao": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
+   "link": "https://amm.diariomunicipal.org/publicacao/1941250/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1944972",
@@ -5776,7 +5918,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   },
   {
    "id": "AMM-1946060",
@@ -5805,7 +5947,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-25T20:21:41"
+   "visto_em": "2026-11-26T11:29:27"
   }
  ]
 }
