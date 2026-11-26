@@ -40,6 +40,11 @@
   .mun{font-weight:700;color:var(--ink);font-size:15px}
   .tag{font-size:11.5px;padding:2px 8px;border-radius:20px;background:#eef0ec;color:#38423e;white-space:nowrap}
   .tag.pres{background:#fdecd2;color:#8a4b00} .tag.elet{background:#dbe9f8;color:#174a80}
+  .estrela{border:1px solid var(--line);background:#fff;border-radius:20px;padding:3px 11px;font:inherit;font-size:13px;cursor:pointer;color:var(--muted)}
+  .estrela:hover{border-color:var(--accent)}
+  .estrela.on{background:#fff4d6;border-color:var(--accent);color:#8a5a00;font-weight:600}
+  .card.salva{box-shadow:0 0 0 2px #f3c45a inset}
+  .nota{grid-column:1/2;font-size:13px;background:#fffaf0;border:1px dashed #e8c77a;border-radius:7px;padding:6px 9px;color:#5b4410}
   .tag.novo{background:var(--accent);color:#1d2321;font-weight:700}
   .tag.cat{background:#e3efe7;color:#22593a}
   .obj{grid-column:1/2;line-height:1.4}
@@ -50,7 +55,7 @@
   .lado .prazo{margin-top:6px}
   .lado .dias{display:inline-block;margin-top:4px;font-weight:700}
   .urg .dias{color:var(--warn)} .ok .dias{color:var(--ok)}
-  .links{grid-column:1/2;display:flex;gap:12px;font-size:13px}
+  .links{grid-column:1/-1;display:flex;gap:12px;font-size:13px;align-items:center;flex-wrap:wrap}
   .links a{color:var(--info)}
   .vazio{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:30px;text-align:center;color:var(--muted)}
   footer{color:var(--muted);font-size:12px;text-align:center;padding:10px 20px 30px}
@@ -70,6 +75,7 @@
     <div class="stat"><b id="sAbertas">–</b><span>abertas</span></div>
     <div class="stat"><b id="sNovas">–</b><span>novas (48h)</span></div>
     <div class="stat"><b id="sUrg">–</b><span>encerram em 7 dias</span></div>
+    <div class="stat"><b id="sSalvas">–</b><span>★ salvas</span></div>
     <div class="stat"><b id="sValor">–</b><span>soma dos valores (abertas)</span></div>
   </div>
 </div></header>
@@ -87,6 +93,7 @@
   <div class="linha2">
     <label><input type="checkbox" id="fAbertas" checked> Só abertas</label>
     <label><input type="checkbox" id="fNovas"> Só novas (48h)</label>
+    <label><input type="checkbox" id="fSalvas"> ★ Só salvas</label>
     <label><input type="checkbox" id="fFracas" checked> Incluir obras civis gerais</label>
     <span class="esp"></span>
     <button class="btn" id="bCsv">Baixar filtradas (CSV)</button>
@@ -118,6 +125,24 @@ const norm = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowe
 function prazo(l){ return data(l.encerramento) || data(l.abertura); }
 const dia0 = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
 function diasAte(l){ const p = prazo(l); if(!p) return null; if(p < AGORA) return -1; return Math.round((dia0(p) - dia0(AGORA))/864e5); }
+// ---- licitações salvas (ficam guardadas neste navegador, mesmo depois que saírem do painel)
+const CHAVE = "inpav_salvas_v1";
+let SALVAS = {};
+try { SALVAS = JSON.parse(localStorage.getItem(CHAVE) || "{}") || {}; } catch(e) { SALVAS = {}; }
+function gravar(){ try { localStorage.setItem(CHAVE, JSON.stringify(SALVAS)); } catch(e) { alert("Não foi possível salvar neste navegador."); } }
+const salva = l => !!SALVAS[l.id];
+function alternar(id){
+  if (SALVAS[id]) { if (!confirm("Remover esta licitação das salvas?")) return; delete SALVAS[id]; }
+  else { const l = TODAS.find(x => x.id === id); if (!l) return; SALVAS[id] = {...l, salva_em: new Date().toISOString(), nota: ""}; }
+  gravar(); atualizarSalvas(); render();
+}
+function anotar(id){
+  if (!SALVAS[id]) return;
+  const t = prompt("Anotação (ex.: 'visita técnica dia 28', 'pedir orçamento de brita'):", SALVAS[id].nota || "");
+  if (t === null) return;
+  SALVAS[id].nota = t.trim(); gravar(); render();
+}
+function atualizarSalvas(){ $("sSalvas").textContent = Object.keys(SALVAS).length; }
 function aberta(l){ const p = prazo(l); return p ? p >= AGORA : true; }
 function nova(l){ const v = data(l.visto_em); return v && (AGORA - v) < 48*36e5; }
 const FRACA = "Obras civis e Estradas";
@@ -133,6 +158,13 @@ async function iniciar(){
   }catch(e){
     $("atualizado").textContent = "Ainda não há dados. A primeira coleta roda automaticamente (ou rode o coletor manualmente).";
   }
+  // salvas que já saíram da coleta continuam aparecendo; as que ainda estão, recebem dados atualizados
+  const ids = new Set(TODAS.map(l => l.id));
+  for (const [id, s] of Object.entries(SALVAS)) {
+    if (ids.has(id)) { const atual = TODAS.find(l => l.id === id); SALVAS[id] = {...atual, salva_em: s.salva_em, nota: s.nota}; }
+    else TODAS.push(s);
+  }
+  gravar(); atualizarSalvas();
   const muns = [...new Set(TODAS.map(l => l.municipio).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
   muns.forEach(m => $("fMun").add(new Option(m, m)));
   const cats = [...new Set(TODAS.flatMap(l => l.categorias||[]))].sort();
@@ -144,9 +176,17 @@ async function iniciar(){
   $("sUrg").textContent = abertas.filter(l => { const d = diasAte(l); return d !== null && d <= 7; }).length;
   $("sValor").textContent = curto(abertas.reduce((s,l) => s + (l.valor||0), 0));
 
-  ["fBusca","fMun","fForma","fCat","fOrdem","fAbertas","fNovas","fFracas"].forEach(id => $(id).addEventListener("input", render));
+  ["fBusca","fMun","fForma","fCat","fOrdem","fAbertas","fNovas","fFracas","fSalvas"].forEach(id => $(id).addEventListener("input", render));
   $("bCsv").addEventListener("click", baixarCsv);
-  if (new URLSearchParams(location.search).get("novas") === "1") $("fNovas").checked = true;
+  const qp = new URLSearchParams(location.search);
+  if (qp.get("novas") === "1") $("fNovas").checked = true;
+  if (qp.get("salvas") === "1") { $("fSalvas").checked = true; $("fAbertas").checked = false; }
+  $("fSalvas").addEventListener("change", () => { if ($("fSalvas").checked) { $("fAbertas").checked = false; render(); } });
+  $("lista").addEventListener("click", ev => {
+    const b = ev.target.closest("[data-acao]"); if (!b) return;
+    if (b.dataset.acao === "salvar") alternar(b.dataset.id);
+    if (b.dataset.acao === "nota") anotar(b.dataset.id);
+  });
   render();
 }
 
@@ -156,6 +196,7 @@ function filtradas(){
   let l = TODAS.filter(x =>
     (!$("fAbertas").checked || aberta(x)) &&
     (!$("fNovas").checked || nova(x)) &&
+    (!$("fSalvas").checked || salva(x)) &&
     ($("fFracas").checked || (x.categorias||[]).some(c => c !== FRACA)) &&
     (!mun || x.municipio === mun) && (!forma || x.forma === forma) &&
     (!cat || (x.categorias||[]).includes(cat)) &&
@@ -176,13 +217,15 @@ function render(){
     const cls = d === null ? "" : d < 0 ? "fim" : d <= 7 ? "urg" : "ok";
     const txtDias = d === null ? "" : d < 0 ? "encerrada" : d === 0 ? "encerra hoje" : d === 1 ? "falta 1 dia" : "faltam " + d + " dias";
     const fcls = x.forma === "Presencial" ? "pres" : x.forma === "Eletrônica" ? "elet" : "";
-    return `<article class="card ${cls}">
+    const sv = salva(x), nt = sv ? (SALVAS[x.id].nota || "") : "";
+    return `<article class="card ${cls}${sv ? " salva" : ""}">
       <div class="topo"><span class="mun">${esc(x.municipio || "—")}</span>
         <span class="tag ${fcls}">${esc(x.forma)}</span>
         <span class="tag">${esc(x.modalidade)}</span>
         ${(x.categorias||[]).map(c => `<span class="tag cat">${esc(c)}</span>`).join("")}
         ${nova(x) ? '<span class="tag novo">NOVA</span>' : ""}</div>
       <div class="obj">${esc(x.objeto)}</div>
+      ${nt ? `<div class="nota">📝 ${esc(nt)}</div>` : ""}
       <div class="org">${esc(x.orgao)}${x.numero ? " · Nº " + esc(x.numero) : ""}${x.situacao ? " · " + esc(x.situacao) : ""}</div>
       <div class="lado">
         <div class="valor">${x.valor ? brl(x.valor) : "<span style='color:var(--muted);font-weight:400'>valor não informado</span>"}</div>
@@ -194,6 +237,9 @@ function render(){
         ${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">${x.fonte === "PNCP" ? "Ver no PNCP" : x.fonte === "Jornal AMM" ? "Ver no Jornal da AMM" : "Abrir diário oficial"}</a>` : ""}
         ${x.link_sistema ? `<a href="${esc(x.link_sistema)}" target="_blank" rel="noopener">Sistema de disputa</a>` : ""}
         <span style="color:var(--muted)">Fonte: ${esc(x.fonte)}</span>
+        <span class="esp"></span>
+        ${sv ? `<button class="estrela" data-acao="nota" data-id="${esc(x.id)}">📝 ${nt ? "Editar anotação" : "Anotar"}</button>` : ""}
+        <button class="estrela ${sv ? "on" : ""}" data-acao="salvar" data-id="${esc(x.id)}">${sv ? "★ Salva" : "☆ Salvar"}</button>
       </div>
     </article>`;
   }).join("");
@@ -201,10 +247,10 @@ function render(){
 
 function baixarCsv(){
   const cols = [["Município","municipio"],["Órgão","orgao"],["Objeto","objeto"],["Modalidade","modalidade"],["Forma","forma"],
-    ["Valor estimado","valor"],["Abertura","abertura"],["Encerramento","encerramento"],["Áreas","categorias"],["Link","link"]];
+    ["Valor estimado","valor"],["Abertura","abertura"],["Encerramento","encerramento"],["Áreas","categorias"],["Anotação","nota"],["Link","link"]];
   const cel = v => '"' + String(Array.isArray(v) ? v.join(", ") : v ?? "").replace(/"/g,'""') + '"';
   const linhas = [cols.map(c=>c[0]).join(";")].concat(filtradas().map(x => cols.map(([,k]) =>
-    cel(k==="abertura"||k==="encerramento" ? (x[k] ? fmt(x[k]) : "") : k==="valor" && x[k] ? x[k].toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}) : x[k])).join(";")));
+    k==="nota" ? cel(salva(x) ? SALVAS[x.id].nota : "") : cel(k==="abertura"||k==="encerramento" ? (x[k] ? fmt(x[k]) : "") : k==="valor" && x[k] ? x[k].toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2}) : x[k])).join(";")));
   const blob = new Blob(["﻿" + linhas.join("\n")], {type:"text/csv;charset=utf-8"});
   const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
   a.download = "licitacoes-mt-" + new Date().toISOString().slice(0,10) + ".csv"; a.click();
