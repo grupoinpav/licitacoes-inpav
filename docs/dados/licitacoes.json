@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-26T11:29:28",
+ "atualizado_em": "2026-11-26T20:32:05",
  "fontes": {
-  "PNCP": 89,
-  "Jornal Oficial AMM": 52,
+  "PNCP": 90,
+  "Jornal Oficial AMM": 51,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 196,
+ "total": 199,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -310,6 +310,37 @@
     "pocos tubulares"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "03238961000127-1-000064/2026",
+   "fonte": "PNCP",
+   "municipio": "Itaúba",
+   "orgao": "MUNICIPIO DE ITAUBA",
+   "unidade": "MUNICIPIO DE ITAUBA",
+   "esfera": "Municipal",
+   "objeto": "Registro de preços para futura e eventual aquisição de placas de sinalização viária de regulamentação, advertência e indicação, placas de identificação de logradouros públicos e postes metálicos galvanizados, destinados à implantação, manutenção e adequação da sinalização viária urbana, para atender às necessidades da Secretaria Municipal de Infraestrutura, Obras, Urbanismo e Saneamento Básico do Município de Itaúba/MT.",
+   "info": "",
+   "numero": "25/2026",
+   "processo": "052",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "Fechado-Aberto",
+   "forma": "Eletrônica",
+   "valor": 180819.3,
+   "abertura": "2026-10-30T08:30:00",
+   "encerramento": "2026-11-13T14:29:00",
+   "publicacao": "2026-11-26T08:42:09",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/03238961000127/2026/64",
+   "link_sistema": "https://transparencia.agilicloud.com.br/itauba/licitacoes/licitacao?id=24924",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "saneamento",
+    "sinalizacao viaria"
+   ],
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1934289",
@@ -3562,6 +3593,38 @@
    "visto_em": "2026-11-19T11:24:54"
   },
   {
+   "id": "37464989000102-1-000068/2026",
+   "fonte": "PNCP",
+   "municipio": "Nova Marilândia",
+   "orgao": "MUNICIPIO DE NOVA MARILANDIA",
+   "unidade": "PREFEITURA MUNICIPAL DE NOVA MARILÂNDIA - MT",
+   "esfera": "Municipal",
+   "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL PRESTAÇÃO DE SERVIÇOS DE RESPONSABILIDADE TÉCNICA, CONSULTORIA E ASSESSORIA NA ÁREA DE SANEAMENTO, ABRANGENDO A ELABORAÇÃO DE LAUDOS, RELATÓRIOS E PROJETOS DE AMPLIAÇÃO OU REFORMA DE UNIDADES DE ABASTECIMENTO DE Á",
+   "info": "",
+   "numero": "75/2026",
+   "processo": "00003955/2026",
+   "modalidade": "Pregão - Presencial",
+   "modo_disputa": "Aberto",
+   "forma": "Presencial",
+   "valor": 115500.0,
+   "abertura": "2026-12-11T08:00:00",
+   "encerramento": "2026-12-11T08:00:00",
+   "publicacao": "2026-11-26T10:02:45",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/37464989000102/2026/68",
+   "link_sistema": "https://www.gp.srv.br/transparencia_novamarilandia/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "ampliacao",
+    "reforma",
+    "saneamento"
+   ],
+   "visto_em": "2026-11-26T20:32:05"
+  },
+  {
    "id": "01974088000105-1-000166/2026",
    "fonte": "PNCP",
    "municipio": "Primavera do Leste",
@@ -4051,7 +4114,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "03702217000131-1-000062/2026",
@@ -4464,6 +4527,36 @@
     "sinalizacao viaria"
    ],
    "visto_em": "2026-11-20T11:28:28"
+  },
+  {
+   "id": "15023948000130-1-000076/2026",
+   "fonte": "PNCP",
+   "municipio": "Jauru",
+   "orgao": "MUNICIPIO DE JAURU",
+   "unidade": "MUNICÍPIO DE JAURU/MT",
+   "esfera": "Municipal",
+   "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A EXECUÇÃO DAS OBRAS E SERVIÇOS DE ENGENHARIA VOLTADOS À CONSTRUÇÃO DA\nINFRAESTRUTURA PREDIAL DA ESCOLA NOVA JAURU.",
+   "info": "",
+   "numero": "06/2026",
+   "processo": "4059",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "Aberto-Fechado",
+   "forma": "Eletrônica",
+   "valor": 0.0,
+   "abertura": "2026-11-26T11:09:45",
+   "encerramento": "2027-01-14T09:00:00",
+   "publicacao": "2026-11-26T11:09:51",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15023948000130/2026/76",
+   "link_sistema": "https://licitanet.com.br/sessao/209215",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao",
+    "servicos de engenharia"
+   ],
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "03162872000144-1-000062/2026",
@@ -5686,6 +5779,35 @@
    "visto_em": "2026-11-25T11:28:38"
   },
   {
+   "id": "AMM-1941250",
+   "fonte": "Jornal AMM",
+   "municipio": "Marcelândia",
+   "orgao": "Prefeitura Municipal de Marcelândia",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "Registro de preços para futura e eventual CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA CIVIL PARA EXECUÇÃO DA OBRA DE CONSTRUÇÃO DO MURO DO CEMITÉRIO MUNICIPAL DE MARCELÂNDIA – MT, COM FORNECIMENTO DE MATERIAIS E MÃO DE OBRA",
+   "info": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
+   "numero": "43/2026",
+   "processo": "",
+   "modalidade": "Pregão - Eletrônico",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-12",
+   "situacao": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
+   "link": "https://amm.diariomunicipal.org/publicacao/1941250/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-26T11:29:27"
+  },
+  {
    "id": "AMM-1936693",
    "fonte": "Jornal AMM",
    "municipio": "Arenápolis",
@@ -5712,7 +5834,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1937685",
@@ -5743,7 +5865,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1937826",
@@ -5773,7 +5895,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1938524",
@@ -5802,7 +5924,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1939380",
@@ -5831,7 +5953,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1940392",
@@ -5860,36 +5982,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
-  },
-  {
-   "id": "AMM-1941250",
-   "fonte": "Jornal AMM",
-   "municipio": "Marcelândia",
-   "orgao": "Prefeitura Municipal de Marcelândia",
-   "unidade": "",
-   "esfera": "Municipal",
-   "objeto": "Registro de preços para futura e eventual CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM ENGENHARIA CIVIL PARA EXECUÇÃO DA OBRA DE CONSTRUÇÃO DO MURO DO CEMITÉRIO MUNICIPAL DE MARCELÂNDIA – MT, COM FORNECIMENTO DE MATERIAIS E MÃO DE OBRA",
-   "info": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
-   "numero": "43/2026",
-   "processo": "",
-   "modalidade": "Pregão - Eletrônico",
-   "modo_disputa": "",
-   "forma": "Eletrônica",
-   "valor": null,
-   "abertura": null,
-   "encerramento": null,
-   "publicacao": "2026-11-12",
-   "situacao": "AVISO DE LICITAÇÃO - PREGÃO ELETRÔNICO Nº 043/2026 – SRP",
-   "link": "https://amm.diariomunicipal.org/publicacao/1941250/",
-   "link_sistema": "",
-   "categorias": [
-    "Obras civis e Estradas"
-   ],
-   "termos": [
-    "construcao"
-   ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1944972",
@@ -5918,7 +6011,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   },
   {
    "id": "AMM-1946060",
@@ -5947,7 +6040,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-26T11:29:27"
+   "visto_em": "2026-11-26T20:32:05"
   }
  ]
 }
