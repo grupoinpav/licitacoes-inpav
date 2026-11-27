@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-27T11:26:10",
+ "atualizado_em": "2026-11-27T20:24:15",
  "fontes": {
-  "PNCP": 94,
-  "Jornal Oficial AMM": 50,
+  "PNCP": 91,
+  "Jornal Oficial AMM": 51,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 204,
+ "total": 205,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -1603,6 +1603,35 @@
     "reservatorio"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "AMM-1941026",
+   "fonte": "Jornal AMM",
+   "municipio": "Ribeirão Cascalheira",
+   "orgao": "Prefeitura Municipal de Ribeirão Cascalheira",
+   "unidade": "",
+   "esfera": "Municipal",
+   "objeto": "O Município de Ribeirão Cascalheira MT, por intermédio da Agente de Contratação, torna público, para conhecimento dos interessados, que realizará licitação na modalidade Concorrência Eletrônica cujo objeto é a C ontratação de Empresa Especializada em Engenharia para Construção da Unidade de Transbordo Municipal de Resíduos Sólidos Urbanos – 1° Etapa, nos moldes da Lei 14.133/2021, artigo 6º, inciso XXXVIII , conforme projeto, memorial descritivo, edital e seus anexos. Tipo: Menor Preço Global. S",
+   "info": "AVISO DE LICITAÇÃO CONCORRENCIA ELETRÔNICA N. 13/2026 PROCESSO LICITATÓRIO N. 74/2026",
+   "numero": "13/2026",
+   "processo": "",
+   "modalidade": "Concorrência - Eletrônica",
+   "modo_disputa": "",
+   "forma": "Eletrônica",
+   "valor": null,
+   "abertura": "2026-11-27T09:00",
+   "encerramento": "2026-11-27T09:00",
+   "publicacao": "2026-11-12",
+   "situacao": "AVISO DE LICITAÇÃO CONCORRENCIA ELETRÔNICA N. 13/2026 PROCESSO LICITATÓRIO N. 74/2026",
+   "link": "https://amm.diariomunicipal.org/publicacao/1941026/",
+   "link_sistema": "",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "construcao"
+   ],
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "03439239000150-1-000109/2026",
@@ -4264,7 +4293,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "03702217000131-1-000062/2026",
@@ -5955,7 +5984,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1937685",
@@ -5986,7 +6015,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1937826",
@@ -6016,7 +6045,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1938524",
@@ -6045,7 +6074,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1939380",
@@ -6074,7 +6103,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1940392",
@@ -6103,7 +6132,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1944972",
@@ -6132,7 +6161,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1946060",
@@ -6161,7 +6190,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   },
   {
    "id": "AMM-1949937",
@@ -6190,7 +6219,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-27T11:26:10"
+   "visto_em": "2026-11-27T20:24:15"
   }
  ]
 }
