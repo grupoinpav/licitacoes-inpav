@@ -1,11 +1,11 @@
 {
- "atualizado_em": "2026-11-27T20:24:15",
+ "atualizado_em": "2026-11-28T11:17:52",
  "fontes": {
-  "PNCP": 91,
-  "Jornal Oficial AMM": 51,
+  "PNCP": 95,
+  "Jornal Oficial AMM": 50,
   "Diário Oficial (Querido Diário)": 0
  },
- "total": 205,
+ "total": 208,
  "licitacoes": [
   {
    "id": "AMM-1928459",
@@ -856,6 +856,39 @@
     "reforma"
    ],
    "visto_em": "2026-11-17T13:33:14"
+  },
+  {
+   "id": "15023989000126-1-000071/2026",
+   "fonte": "PNCP",
+   "municipio": "Pontes e Lacerda",
+   "orgao": "MUNICIPIO DE PONTES E LACERDA",
+   "unidade": "PREFEITURA MUNICIPAL DE PONTES E LACERDA",
+   "esfera": "Municipal",
+   "objeto": "CONTRATAÇÃO DE PRESTAÇÃO DE SERVIÇOS TECNICOS DE ENGENHARIA PARA ANALISE, VALIDAÇÃO E EMISSÃO DE PARECEWR TÉCNICO SOBRE PROJETOS DE AMPLIAÇÃO DO SISTEMA DE ABASTECIMENTO DE AGUA E SISTEMA DE ESGOTAMENTO SANITÁRIO",
+   "info": "",
+   "numero": "224/2026",
+   "processo": "00006795/2026",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Dispensa Com Disputa",
+   "forma": "Não informado",
+   "valor": 58296.5,
+   "abertura": "2026-11-19T15:15:00",
+   "encerramento": "2026-11-19T15:15:00",
+   "publicacao": "2026-11-27T15:55:33",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15023989000126/2026/71",
+   "link_sistema": "https://www.gp.srv.br/transparencia_ponteselacerda/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água",
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "abastecimento de agua",
+    "ampliacao",
+    "esgotamento sanitario",
+    "sistema de abastecimento"
+   ],
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "01614538000159-1-000058/2026",
@@ -4293,7 +4326,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "03702217000131-1-000062/2026",
@@ -5958,6 +5991,64 @@
    "visto_em": "2026-11-26T11:29:27"
   },
   {
+   "id": "01515590000158-1-000029/2026",
+   "fonte": "PNCP",
+   "municipio": "Cuiabá",
+   "orgao": "FUNDO MUNICIPAL DE TRANSITO E TRANSPORTES URBANOS",
+   "unidade": "FUNDO MUNICIPAL DE TRANSITO E TRANSPORTES URBANOS",
+   "esfera": "Municipal",
+   "objeto": "Aquisição de tinta acrílica estirenada à base de solvente, na cor branca, em embalagens de 18 litros, destinada à execução, manutenção e revitalização da sinalização horizontal viária nas vias urbanas do Município de Cuiabá, conforme condições.",
+   "info": "",
+   "numero": "028/2026",
+   "processo": "172632.2026",
+   "modalidade": "Dispensa",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 63973.88,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-27T18:43:12",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/01515590000158/2026/29",
+   "link_sistema": "https://bllcompras.com/DirectBuy/DirectBuyView?param1=[gkz]GkBdod6VA9fdr9izAL3v85qVV7dUu/RGgVElQ2aiMC9zsYBCAUIKFVXRZzvo2JsdsvR1AihOQRwZY4WCDDCyrx9kB/QeHdgnlPR07cSVMFE=",
+   "categorias": [
+    "Obras civis e Estradas"
+   ],
+   "termos": [
+    "sinalizacao horizontal"
+   ],
+   "visto_em": "2026-11-28T11:17:51"
+  },
+  {
+   "id": "15024037000127-1-000082/2026",
+   "fonte": "PNCP",
+   "municipio": "São José do Rio Claro",
+   "orgao": "MUNICIPIO DE SAO JOSE DO RIO CLARO",
+   "unidade": "PREFEITURA MUNICIPAL DE SÃO JOSÉ DO RIO CLARO - MT",
+   "esfera": "Municipal",
+   "objeto": "SERVIÇOS DE PEQUENOS REPAROS E INSTALAÇÕES EM MOBILIÁRIO DA SECRETARIA MUNICIPAL DE SAÚDE E SANEAMENTO BÁSICO E DE SUAS UNIDADES DE SAÚDE, COMPREENDENDO A INSTALAÇÃO DE RODÍZIOS (RODINHAS) E PÉS EM MÓVEIS, A SUBSTITUIÇÃO DOS RODÍZIOS DE 10 (DEZ) CADEIRAS,",
+   "info": "",
+   "numero": "107/2026",
+   "processo": "00001423/2026",
+   "modalidade": "Inexigibilidade",
+   "modo_disputa": "Não se aplica",
+   "forma": "Não informado",
+   "valor": 9700.0,
+   "abertura": null,
+   "encerramento": null,
+   "publicacao": "2026-11-27T15:08:17",
+   "situacao": "Divulgada no PNCP",
+   "link": "https://pncp.gov.br/app/editais/15024037000127/2026/82",
+   "link_sistema": "https://www.gp.srv.br/transparencia_saojosedorioclaro/servlet/licitacoes_v2?1",
+   "categorias": [
+    "Saneamento e Água"
+   ],
+   "termos": [
+    "saneamento"
+   ],
+   "visto_em": "2026-11-28T11:17:51"
+  },
+  {
    "id": "AMM-1936693",
    "fonte": "Jornal AMM",
    "municipio": "Arenápolis",
@@ -5984,7 +6075,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1937685",
@@ -6015,7 +6106,7 @@
     "pavimentacao",
     "rodovia"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1937826",
@@ -6045,7 +6136,7 @@
     "ampliacao",
     "reforma"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1938524",
@@ -6074,7 +6165,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1939380",
@@ -6103,7 +6194,7 @@
    "termos": [
     "contencao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1940392",
@@ -6132,7 +6223,7 @@
    "termos": [
     "ampliacao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1944972",
@@ -6161,7 +6252,7 @@
    "termos": [
     "asfalt"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1946060",
@@ -6190,7 +6281,7 @@
    "termos": [
     "construcao"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   },
   {
    "id": "AMM-1949937",
@@ -6219,7 +6310,7 @@
    "termos": [
     "reforma"
    ],
-   "visto_em": "2026-11-27T20:24:15"
+   "visto_em": "2026-11-28T11:17:51"
   }
  ]
 }
